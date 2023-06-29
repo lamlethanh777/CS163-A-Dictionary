@@ -16,14 +16,19 @@ public:
 class Trie {
 private:
 	TrieNode* root;
+	std::string sourceFilePath; // Data structure file - Trie.txt
+
 public:
 	Trie();
-	~Trie();
+	Trie(const std::string& trieFilePath);
 	void insertWord(const std::string& word);
-	TrieNode* searchWord(const std::string& word);
+	bool searchWord(const std::string& word);
 	bool deleteWord(const std::string& word);
-	void serialize(const std::string& filePath);
-	void deserialize(const std::string& filePath);
+	void displayTrie(); // For testing
+	void serialize();
+	void deserialize();
+	void buildTrieFromOriginalSource(const std::string& originalFilePath); // original.txt
+	~Trie();
 };
 
 #endif // !TRIE_H
