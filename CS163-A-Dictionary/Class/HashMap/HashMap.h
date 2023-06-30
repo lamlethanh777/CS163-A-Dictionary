@@ -120,22 +120,22 @@ public:
 
     TreeNode<T>* remove(TreeNode<T>*& pRoot, int val, int lb = -1, int rb = -1);
 
-    TreeNode<T>* remove(int val);
+    pair<TreeNode<T>*, bool> remove(int val);
 
     /* -------------- CUSTOM FUNCTIONS --------------------- */
 
     //Search word
-    TreeNode<T>* searchWord(string word);
+    TreeNode<T>* searchWord(const string& word);
 
     //Get definitions
-    vector <string> getDefinitions(string word);
+    vector <string> getDefinitions(const string& word);
 
     //Insert word
-    TreeNode<T>* insertWord(string word);
+    TreeNode<T>* insertWord(const string& word);
 
     //Insert definition
-    TreeNode<T>* insertDefinition(string word, string definition);
+    TreeNode<T>* insertDefinition(const string& word, const string& definition);
 
     //Remove word
-    TreeNode<T>* removeWord(string word);
+    bool removeWord(const string& word);
 };

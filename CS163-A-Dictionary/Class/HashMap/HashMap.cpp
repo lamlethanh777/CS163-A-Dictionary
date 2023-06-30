@@ -26,7 +26,7 @@ TreeNode<T>* BinarySearchTree<T>::searchVal(TreeNode<T>* pRoot, int x) {
 template <typename T>
 TreeNode<T>* BinarySearchTree<T>::searchParent(TreeNode<T>* pRoot, int x) {
     if (!pRoot) return nullptr;
-    if (x == pRoot->pLeft->data.val || x == pRoot->pRight->data.val) return pRoot;
+    if ((pRoot->pLeft != nullptr && x == pRoot->pLeft->data.val) || (pRoot->pRight != nullptr && x == pRoot->pRight->data.val)) return pRoot;
     if (x < pRoot->data.val) return searchParent(pRoot->pLeft, x);
     return searchParent(pRoot->pRight, x);
 }
@@ -131,18 +131,18 @@ TreeNode<T>* BinarySearchTree<T>::remove(TreeNode<T>*& pRoot, int val, int lb, i
 }
 
 template <typename T>
-TreeNode<T>* BinarySearchTree<T>::remove(int val) {
+pair<TreeNode<T>*, bool> BinarySearchTree<T>::remove(int val) {
     TreeNode<T>* curNode = searchVal(root, val);
-    if (!curNode) return nullptr;
+    if (!curNode) return { root, false };
 
-    return remove(root, val);
+    return { remove(root, val), true };
 }
 
 /* -------------- CUSTOM FUNCTIONS --------------------- */
 
 //Search word
 template <typename T>
-TreeNode<T>* BinarySearchTree<T>::searchWord(string word) {
+TreeNode<T>* BinarySearchTree<T>::searchWord(const string& word) {
     if (word.empty()) return nullptr;
     hashMod curHash = hashMod(word);
 
@@ -151,7 +151,7 @@ TreeNode<T>* BinarySearchTree<T>::searchWord(string word) {
 
 //Get definitions
 template <typename T>
-vector <string> BinarySearchTree<T>::getDefinitions(string word) {
+vector <string> BinarySearchTree<T>::getDefinitions(const string& word) {
     hashMod curHash = hashMod(word);
 
     //Not found
@@ -163,7 +163,7 @@ vector <string> BinarySearchTree<T>::getDefinitions(string word) {
 
 //Insert word
 template <typename T>
-TreeNode<T>* BinarySearchTree<T>::insertWord(string word) {
+TreeNode<T>* BinarySearchTree<T>::insertWord(const string& word) {
     if (word.empty()) return nullptr;
     hashMod curHash = hashMod(word);
     return insert(root, Data(curHash.getHash(), 1));
@@ -171,8 +171,10 @@ TreeNode<T>* BinarySearchTree<T>::insertWord(string word) {
 
 //Insert definition
 template <typename T>
-TreeNode<T>* BinarySearchTree<T>::insertDefinition(string word, string definition) {
+TreeNode<T>* BinarySearchTree<T>::insertDefinition(const string &word, const string& definition) {
     if (word.empty()) return nullptr;
+    if (definition.empty()) return nullptr;
+
     hashMod curHash = hashMod(word);
 
     //Auto create TreeNode if word is not found
@@ -185,8 +187,12 @@ TreeNode<T>* BinarySearchTree<T>::insertDefinition(string word, string definitio
 
 //Remove word
 template <typename T>
-TreeNode<T>* BinarySearchTree<T>::removeWord(string word) {
-    if (word.empty()) return nullptr;
+bool BinarySearchTree<T>::removeWord(const string& word) {
+    if (word.empty()) return false;
     hashMod curHash = hashMod(word);
-    return root = remove(curHash.getHash());
+
+    pair <TreeNode<T>*, bool> res = remove(curHash.getHash());
+    root = res.first;
+
+    return res.second;
 }
