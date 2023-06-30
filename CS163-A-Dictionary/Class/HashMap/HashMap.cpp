@@ -16,7 +16,7 @@ void BinarySearchTree<T>::print(TreeNode<T>* pRoot) {
 }
 
 template <typename T>
-TreeNode<T>* BinarySearchTree<T>::searchVal(TreeNode<T>* pRoot, int x) {
+TreeNode<T>* BinarySearchTree<T>::searchVal(TreeNode<T>* pRoot, const long long& x) {
     if (!pRoot) return nullptr;
     if (x == pRoot->data.val) return pRoot;
     if (x < pRoot->data.val) return searchVal(pRoot->pLeft, x);
@@ -24,7 +24,7 @@ TreeNode<T>* BinarySearchTree<T>::searchVal(TreeNode<T>* pRoot, int x) {
 }
 
 template <typename T>
-TreeNode<T>* BinarySearchTree<T>::searchParent(TreeNode<T>* pRoot, int x) {
+TreeNode<T>* BinarySearchTree<T>::searchParent(TreeNode<T>* pRoot, const long long& x) {
     if (!pRoot) return nullptr;
     if ((pRoot->pLeft != nullptr && x == pRoot->pLeft->data.val) || (pRoot->pRight != nullptr && x == pRoot->pRight->data.val)) return pRoot;
     if (x < pRoot->data.val) return searchParent(pRoot->pLeft, x);
@@ -32,7 +32,7 @@ TreeNode<T>* BinarySearchTree<T>::searchParent(TreeNode<T>* pRoot, int x) {
 }
 
 template <typename T>
-void BinarySearchTree<T>::printInRange(TreeNode<T>* pRoot, int x, int y) {
+void BinarySearchTree<T>::printInRange(TreeNode<T>* pRoot, const long long& x, const long long& y) {
     // cout << pRoot << " " << x << " " << y << endl;
     if (!pRoot) return;
     if (!(pRoot->data.val <= x))
@@ -45,14 +45,14 @@ void BinarySearchTree<T>::printInRange(TreeNode<T>* pRoot, int x, int y) {
 }
 
 template <typename T>
-TreeNode<T>* BinarySearchTree<T>::getCCA(TreeNode<T>* pRoot, int x, int y) {
+TreeNode<T>* BinarySearchTree<T>::getCCA(TreeNode<T>* pRoot, const long long& x, const long long& y) {
     if (x <= pRoot->data.val && pRoot->data.val <= y) return pRoot;
     if (x > pRoot->data.val) return getCCA(pRoot->pRight, x, y);
     return getCCA(pRoot->pLeft, x, y);
 }
 
 template <typename T>
-TreeNode<T>* BinarySearchTree<T>::closestCommonAncestor(TreeNode<T>* pRoot, int x, int y) {
+TreeNode<T>* BinarySearchTree<T>::closestCommonAncestor(TreeNode<T>* pRoot, long long x, long long y) {
     //Assume x < y
     if (x > y) swap(x, y);
     if (!searchVal(pRoot, x) || !searchVal(pRoot, y)) return nullptr;
@@ -60,9 +60,9 @@ TreeNode<T>* BinarySearchTree<T>::closestCommonAncestor(TreeNode<T>* pRoot, int 
 }
 
 template <typename T>
-TreeNode<T>* BinarySearchTree<T>::insert(TreeNode<T>*& pRoot, Data x, int lb, int rb) {
+TreeNode<T>* BinarySearchTree<T>::insert(TreeNode<T>*& pRoot, const Data& x, long long lb, long long rb) {
     if (lb == -1 && rb == -1) lb = leftBound, rb = rightBound;
-    int mid = (lb + rb) >> 1;
+    long long mid = (lb + rb) >> 1LL;
     if (pRoot == nullptr) pRoot = new TreeNode<T>(mid, 0);
 
     if (mid == x.val) {
@@ -75,12 +75,12 @@ TreeNode<T>* BinarySearchTree<T>::insert(TreeNode<T>*& pRoot, Data x, int lb, in
 }
 
 template <typename T>
-TreeNode <T>* BinarySearchTree<T>::insert(Data x) {
+TreeNode <T>* BinarySearchTree<T>::insert(const Data& x) {
     return insert(root, x);
 }
 
 template <typename T>
-TreeNode<T>* BinarySearchTree<T>::insert(int x) {
+TreeNode<T>* BinarySearchTree<T>::insert(const long long& x) {
     return insert(root, Data(x, 1));
 }
 
@@ -90,7 +90,7 @@ void BinarySearchTree<T>::buildTree(vector <T>& a) {
 }
 
 template <typename T>
-void BinarySearchTree<T>::buildTree(vector <int>& a) {
+void BinarySearchTree<T>::buildTree(vector <long long>& a) {
     for (auto& it : a) insert(root, Data(it, 1));
 }
 
@@ -103,9 +103,9 @@ void BinarySearchTree<T>::buildTree(vector <string>& a) {
 }
 
 template <typename T>
-TreeNode<T>* BinarySearchTree<T>::remove(TreeNode<T>*& pRoot, int val, int lb, int rb) {
+TreeNode<T>* BinarySearchTree<T>::remove(TreeNode<T>*& pRoot, const long long& val, long long lb, long long rb) {
     if (lb == -1 && rb == -1) lb = leftBound, rb = rightBound;
-    int mid = (lb + rb) >> 1;
+    long long mid = (lb + rb) >> 1LL;
 
     if (mid == val) {
         pRoot->data.clear();
@@ -131,7 +131,7 @@ TreeNode<T>* BinarySearchTree<T>::remove(TreeNode<T>*& pRoot, int val, int lb, i
 }
 
 template <typename T>
-pair<TreeNode<T>*, bool> BinarySearchTree<T>::remove(int val) {
+pair<TreeNode<T>*, bool> BinarySearchTree<T>::remove(const long long& val) {
     TreeNode<T>* curNode = searchVal(root, val);
     if (!curNode) return { root, false };
 
@@ -171,7 +171,7 @@ TreeNode<T>* BinarySearchTree<T>::insertWord(const string& word) {
 
 //Insert definition
 template <typename T>
-TreeNode<T>* BinarySearchTree<T>::insertDefinition(const string &word, const string& definition) {
+TreeNode<T>* BinarySearchTree<T>::insertDefinition(const string& word, const string& definition) {
     if (word.empty()) return nullptr;
     if (definition.empty()) return nullptr;
 
