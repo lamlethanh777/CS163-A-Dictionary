@@ -163,7 +163,7 @@ vector <string> BinarySearchTree<T>::getDefinitions(string word) {
 
 //Insert word
 template <typename T>
-TreeNode<T>* BinarySearchTree<T>::insert(string word) {
+TreeNode<T>* BinarySearchTree<T>::insertWord(string word) {
     if (word.empty()) return nullptr;
     hashMod curHash = hashMod(word);
     return insert(root, Data(curHash.getHash(), 1));
@@ -171,7 +171,7 @@ TreeNode<T>* BinarySearchTree<T>::insert(string word) {
 
 //Insert definition
 template <typename T>
-TreeNode<T>* BinarySearchTree<T>::insert(string word, string definition) {
+TreeNode<T>* BinarySearchTree<T>::insertDefinition(string word, string definition) {
     if (word.empty()) return nullptr;
     hashMod curHash = hashMod(word);
 
@@ -185,7 +185,7 @@ TreeNode<T>* BinarySearchTree<T>::insert(string word, string definition) {
 
 //Remove word
 template <typename T>
-TreeNode<T>* BinarySearchTree<T>::remove(string word) {
+TreeNode<T>* BinarySearchTree<T>::removeWord(string word) {
     if (word.empty()) return nullptr;
     hashMod curHash = hashMod(word);
     return root = remove(curHash.getHash());

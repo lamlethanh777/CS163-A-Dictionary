@@ -131,11 +131,11 @@ public:
     vector <string> getDefinitions(string word);
 
     //Insert word
-    TreeNode<T>* insert(string word);
+    TreeNode<T>* insertWord(string word);
 
     //Insert definition
-    TreeNode<T>* insert(string word, string definition);
+    TreeNode<T>* insertDefinition(string word, string definition);
 
     //Remove word
-    TreeNode<T>* remove(string word);
+    TreeNode<T>* removeWord(string word);
 };
