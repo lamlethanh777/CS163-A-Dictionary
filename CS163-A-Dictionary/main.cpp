@@ -1,4 +1,5 @@
 #include <iostream>
+#include "Class_Struct/Trie/Trie.h"
 #include "Class/HashMap/HashMap.h"
 #include "Class/Trie/Trie.h"
 
@@ -18,13 +19,13 @@ int main() {
     cout << "Answer: " << testQuiz.answer << endl;
 	return 0;  
 	try {
-		// Trie myTrie("Data/Dict_Vie-Eng/Trie.txt") 
+		// Trie myTrie("Data/Dict_Emoji/Trie.txt");
 		// automatic deserialization
-
+		
 		Trie myTrie;
 		// Empty trie
 		myTrie.buildTrieFromOriginalSource("Data/Dict_Vie-Eng/Original.txt");
-		// Trie built directly from the source file
+		// Trie built directly from the original file
 
 		std::string tmp;
 		std::cout << "Search: ";
@@ -36,11 +37,11 @@ int main() {
 		}
 		std::cout << "Delete: ";
 		getline(std::cin, tmp);
-		std::cout << myTrie.deleteWord(tmp) ? 1 : 0 << '\n';
+		std::cout << myTrie.removeWord(tmp) ? 1 : 0 << '\n';
 		while (tmp != "0") {
 			std::cout << "Delete: ";
 			getline(std::cin, tmp);
-			std::cout << myTrie.deleteWord(tmp) ? 1 : 0 << '\n';
+			std::cout << myTrie.removeWord(tmp) ? 1 : 0 << '\n';
 		}
 		myTrie.serialize();
 	}

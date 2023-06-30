@@ -18,10 +18,10 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Class\HashMap\HashMap.cpp">
+    <ClCompile Include="Class_Struct\HashMap\HashMap.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Class\Trie\Trie.cpp">
+    <ClCompile Include="Class_Struct\Trie\Trie.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Functions\Utilities\OpenFile\OpenFile.cpp">
@@ -32,19 +32,19 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Class\HashMap\HashMap.h">
+    <ClInclude Include="Class_Struct\HashMap\HashMap.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Class\Trie\Trie.h">
+    <ClInclude Include="Class_Struct\Trie\Trie.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Functions\Utilities\OpenFile\OpenFile.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Struct\Word.h">
+    <ClInclude Include="Functions\Functions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Functions\Functions.h">
+    <ClInclude Include="Class_Struct\HashMod\HashMod.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -19,18 +19,18 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Class\HashMap\HashMap.cpp" />
-    <ClCompile Include="Class\Trie\Trie.cpp" />
+    <ClCompile Include="Class_Struct\HashMap\HashMap.cpp" />
+    <ClCompile Include="Class_Struct\Trie\Trie.cpp" />
     <ClCompile Include="Functions\Functions.cpp" />
     <ClCompile Include="Functions\Utilities\OpenFile\OpenFile.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Class\HashMap\HashMap.h" />
-    <ClInclude Include="Class\Trie\Trie.h" />
+    <ClInclude Include="Class_Struct\HashMap\HashMap.h" />
+    <ClInclude Include="Class_Struct\HashMod\HashMod.h" />
+    <ClInclude Include="Class_Struct\Trie\Trie.h" />
     <ClInclude Include="Functions\Functions.h" />
     <ClInclude Include="Functions\Utilities\OpenFile\OpenFile.h" />
-    <ClInclude Include="Struct\Word.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
