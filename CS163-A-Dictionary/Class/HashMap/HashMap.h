@@ -60,6 +60,11 @@ template <typename T> struct TreeNode {
         pLeft = nullptr;
         pRight = nullptr;
     }
+
+    ~TreeNode() {
+        delete pLeft;
+        delete pRight;
+    }
 };
 
 template <typename T> class BinarySearchTree {
@@ -81,6 +86,10 @@ public:
         pRoot->data.clear();
         delete pRoot;
         pRoot = nullptr;
+    }
+
+    ~BinarySearchTree() {
+        clear(root);
     }
 
     /*--------------------BST MAIN FUNCTIONS-------------------*/
