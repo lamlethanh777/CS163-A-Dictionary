@@ -6,7 +6,7 @@
 #include<string>
 
 struct TrieNode {
-	int hashIndex;
+	long long hashIndex;
 	TrieNode* next[NUMBER_OF_EDGES]; 
 
 	TrieNode() {
@@ -49,13 +49,14 @@ public:
 
 	/* -------------- CUSTOM FUNCTIONS --------------------- */
 
-	void insertWord(const std::string& word, int hashIndex);
+	void insertWord(const std::string& word, long long hashIndex);
 
-	bool searchWord(const std::string& word);
+	long long searchWord(const std::string& word);
+	// Return -1 if no word found, else return a hashIndex that is the index of a node in the balanced BST -> hashIndex is to find that node
 
 	bool removeWord(const std::string& word);
 
-	// void displayTrie();
+	void displayTrie();
 };
 
 #endif // !TRIE_H

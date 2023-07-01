@@ -24,7 +24,7 @@ int main() {
 		
 		Trie myTrie;
 		// Empty trie
-		myTrie.buildTrieFromOriginalSource("Data/Dict_Slang/Original.txt");
+		myTrie.buildTrieFromOriginalSource("Data/Dict_Emoji/Original.txt");
 		// Trie built directly from the original file
 
 		std::string tmp;
@@ -35,7 +35,7 @@ int main() {
 			std::cout << "Search: ";
 			getline(std::cin, tmp);
 		}
-		std::cout << "Delete: ";
+		std::cout << "Delete: ";	
 		getline(std::cin, tmp);
 		while (tmp != "0") {
 			std::cout << myTrie.removeWord(tmp) ? 1 : 0 << '\n';

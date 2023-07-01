@@ -50,9 +50,11 @@ void Trie::buildTrieFromOriginalSource(const std::string& originalFilePath) {
 		int delimiterPosition = word.find_last_of('`');
 		word = word.substr(0, delimiterPosition);
 		fout << word << '\n';
-		//std::cout << word << '\n';
+
 		hashMod curHash(word);
-		insertWord(word, curHash.getHash());
+		long long hashIndex = curHash.getHash();
+		insertWord(word, hashIndex);
+		//std::cout << word << ' ' << hashIndex << '\n';
 	}
 
 	fin.close();
@@ -93,7 +95,7 @@ void Trie::deserialize() {
 	readFile(fin, sourceFilePath);
 	while (getline(fin, word)) {
 		int spacePosition = word.find_last_of(' ');
-		int hashIndex = stoi(word.substr(spacePosition + 1));
+		long long hashIndex = stoll(word.substr(spacePosition + 1));
 		word = word.substr(0, spacePosition);
 		insertWord(word, hashIndex);
 		std::cout << word << ' ' << hashIndex << '\n';
@@ -121,7 +123,7 @@ Trie::~Trie() {
 
 /* -------------- CUSTOM FUNCTIONS --------------------- */
 
-void Trie::insertWord(const std::string& word, int hashIndex) {
+void Trie::insertWord(const std::string& word, long long hashIndex) {
 	TrieNode* current = root;
 	for (int i = 0; i < word.size(); ++i) {
 		char edge = charToEdge(word[i]);
@@ -133,7 +135,7 @@ void Trie::insertWord(const std::string& word, int hashIndex) {
 	current->hashIndex = hashIndex;
 }
 
-bool Trie::searchWord(const std::string& word) {
+long long Trie::searchWord(const std::string& word) {
 	TrieNode* current = root;
 	for (int i = 0; i < word.size(); ++i) {
 		char edge = charToEdge(word[i]);
@@ -142,7 +144,7 @@ bool Trie::searchWord(const std::string& word) {
 		}
 		current = current->next[edge];
 	}
-	return current->hashIndex != -1;
+	return current->hashIndex;
 }
 
 bool isEmptyTrie(TrieNode* root) {
@@ -183,4 +185,27 @@ bool Trie::removeWord(const std::string& word) {
 	if (!searchWord(word)) return false;
 	removeWordHelper(root, word);
 	return true;
+}
+
+void displayHelper(TrieNode* root, std::string& wordContainer) {
+	if (!root) {
+		return;
+	}
+
+	if (root->hashIndex != -1) {
+		std::cout << wordContainer << '\n';
+	}
+
+	for (char i = 0; i < NUMBER_OF_EDGES; ++i) {
+		if (root->next[i]) {
+			wordContainer.push_back(edgeToChar(i));
+			displayHelper(root->next[i], wordContainer);
+			wordContainer.pop_back();
+		}
+	}
+}
+
+void Trie::displayTrie() {
+	std::string wordContainer;
+	displayHelper(root, wordContainer);
 }
