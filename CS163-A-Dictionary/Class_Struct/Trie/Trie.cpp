@@ -44,15 +44,13 @@ void Trie::buildTrieFromOriginalSource(const std::string& originalFilePath) {
 	readFile(fin, originalFilePath);
 	std::ofstream fout;
 	writeFile(fout, sourceFilePath);
-	std::cout << sourceFilePath << ' ';
+	//std::cout << sourceFilePath << ' ';
 
-	while (fin.good()) {
-		getline(fin, word);
-		if (word == "") continue;
+	while (getline(fin, word)) {
 		int delimiterPosition = word.find_last_of('`');
 		word = word.substr(0, delimiterPosition);
 		fout << word << '\n';
-		std::cout << word << '\n';
+		//std::cout << word << '\n';
 		hashMod curHash(word);
 		insertWord(word, curHash.getHash());
 	}
@@ -61,7 +59,7 @@ void Trie::buildTrieFromOriginalSource(const std::string& originalFilePath) {
 	fout.close();
 }
 
-void serializeHelper(std::ofstream& fout, TrieNode* root, char* wordContainer, int& characterPosition) {
+void serializeHelper(std::ofstream& fout, TrieNode* root, std::string& wordContainer) {
 	if (!root) {
 		return;
 	}
@@ -72,20 +70,19 @@ void serializeHelper(std::ofstream& fout, TrieNode* root, char* wordContainer, i
 
 	for (char i = 0; i < NUMBER_OF_EDGES; ++i) {
 		if (root->next[i]) {
-			wordContainer[characterPosition++] = edgeToChar(i);
-			serializeHelper(fout, root->next[i], wordContainer, characterPosition);
-			wordContainer[--characterPosition] = '\0';
+			wordContainer.push_back(edgeToChar(i));
+			serializeHelper(fout, root->next[i], wordContainer);
+			wordContainer.pop_back();
 		}
 	}
 }
 
 void Trie::serialize() {
-	char* wordContainer = new char[100]();
-	int characterPosition = 0;
+	std::string wordContainer;
 
 	std::ofstream fout;
 	writeFile(fout, sourceFilePath);
-	serializeHelper(fout, root, wordContainer, characterPosition);
+	serializeHelper(fout, root, wordContainer);
 	fout.close();
 }
 
@@ -94,14 +91,8 @@ void Trie::deserialize() {
 
 	std::ifstream fin;
 	readFile(fin, sourceFilePath);
-	while (fin.good()) {
-
-		getline(fin, word);
-		if (word == "") {
-			continue;
-		}
-
-		int spacePosition = word.find(' ');
+	while (getline(fin, word)) {
+		int spacePosition = word.find_last_of(' ');
 		int hashIndex = stoi(word.substr(spacePosition + 1));
 		word = word.substr(0, spacePosition);
 		insertWord(word, hashIndex);
@@ -110,7 +101,7 @@ void Trie::deserialize() {
 	fin.close();
 }
 
-void deleteTrie(TrieNode* root) {
+void deleteTrie(TrieNode*& root) {
 	if (!root) {
 		return;
 	}
@@ -123,6 +114,7 @@ void deleteTrie(TrieNode* root) {
 }
 
 Trie::~Trie() {
+	serialize();
 	deleteTrie(root);
 	// std::cout << "Trie deleted!";
 }
@@ -150,7 +142,7 @@ bool Trie::searchWord(const std::string& word) {
 		}
 		current = current->next[edge];
 	}
-	return current->hashIndex == -1 ? false : true;
+	return current->hashIndex != -1;
 }
 
 bool isEmptyTrie(TrieNode* root) {
@@ -162,7 +154,7 @@ bool isEmptyTrie(TrieNode* root) {
 	return true;
 }
 
-TrieNode* removeWordInTrie(TrieNode* root, const std::string& word, int& depth) {
+TrieNode* removeWordHelper(TrieNode* root, const std::string& word, int depth = 0) {
 	if (!root) {
 		return nullptr;
 	}
@@ -177,8 +169,7 @@ TrieNode* removeWordInTrie(TrieNode* root, const std::string& word, int& depth) 
 	}
 
 	char edge = charToEdge(word[depth]);
-	root->next[edge] = removeWordInTrie(root->next[edge], word, ++depth);
-	--depth;
+	root->next[edge] = removeWordHelper(root->next[edge], word, depth + 1);
 
 	if (isEmptyTrie(root) && root->hashIndex == -1) {
 		delete root;
@@ -190,7 +181,6 @@ TrieNode* removeWordInTrie(TrieNode* root, const std::string& word, int& depth) 
 
 bool Trie::removeWord(const std::string& word) {
 	if (!searchWord(word)) return false;
-	int depth = 0;
-	removeWordInTrie(root, word, depth);
+	removeWordHelper(root, word);
 	return true;
 }

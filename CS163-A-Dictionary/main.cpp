@@ -19,12 +19,12 @@ int main() {
     cout << "Answer: " << testQuiz.answer << endl;
 	return 0;  
 	try {
-		// Trie myTrie("Data/Dict_Emoji/Trie.txt");
+		// Trie myTrie("Data/Dict_Eng-Eng/Trie.txt");
 		// automatic deserialization
 		
 		Trie myTrie;
 		// Empty trie
-		myTrie.buildTrieFromOriginalSource("Data/Dict_Vie-Eng/Original.txt");
+		myTrie.buildTrieFromOriginalSource("Data/Dict_Slang/Original.txt");
 		// Trie built directly from the original file
 
 		std::string tmp;
@@ -37,16 +37,16 @@ int main() {
 		}
 		std::cout << "Delete: ";
 		getline(std::cin, tmp);
-		std::cout << myTrie.removeWord(tmp) ? 1 : 0 << '\n';
 		while (tmp != "0") {
+			std::cout << myTrie.removeWord(tmp) ? 1 : 0 << '\n';
 			std::cout << "Delete: ";
 			getline(std::cin, tmp);
-			std::cout << myTrie.removeWord(tmp) ? 1 : 0 << '\n';
 		}
-		myTrie.serialize();
+		// myTrie.serialize();
+		// No need to call the serialize function as it will be called through the destructor when going out of scope
 	}
-	catch (...) {
-		std::cout << "Exception!";
+	catch (std::exception& error) {
+		std::cout << error.what();
 	}
 	return 0;
 }
