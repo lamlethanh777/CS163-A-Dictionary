@@ -1,10 +1,14 @@
 #pragma once
+#include <queue>
+#include <fstream>
+#include <iostream>
+#include <algorithm>
 #include <string>
 #include <vector>
 using namespace std;
 
 struct hashMod {
-    int mod1 = 1e9 + 7, mod2 = 998244353, len = 0;
+    int mod1 = (int)1e9 + 7, mod2 = 998244353, len = 0;
     vector <int> pw1, hash1, pw2, hash2;
 
     hashMod(string s, int baseHash = 331, int p1 = (int)1e9 + 7, int p2 = (int)998244353) : mod1(p1), mod2(p2) {
@@ -46,11 +50,13 @@ struct hashMod {
 struct Data {
     long long val;
     int num;
+    string word;
     vector <string> definitions;
 
     Data(long long val = 0, int num = 0) {
         this->val = val;
         this->num = num;
+        this->word = "";
     }
 
     void clear() {
@@ -83,30 +89,26 @@ template <typename T> struct TreeNode {
 
 template <typename T> class BinarySearchTree {
 public:
+    /*--------------------BST START AND ENDING FUNCTIONS-------------------*/
     TreeNode <T>* root;
     long long leftBound = 0, rightBound = 1e18;
+    string sourceFilePath;
 
-    BinarySearchTree(long long lb = 0, long long rb = 1e18) {
-        root = new TreeNode<T>((lb + rb) >> 1LL, 0);
-        this->leftBound = lb;
-        this->rightBound = rb;
-    }
+    BinarySearchTree(const string& hashMapFilePath, const long long& lb = 0, const long long& rb = 1e18);
+      
+    ~BinarySearchTree();
 
-    void clear(TreeNode<T>*& pRoot) {
-        if (!pRoot) return;
-        clear(pRoot->pLeft);
-        clear(pRoot->pRight);
+    void buildOriginal(const string& originalFilePath);
 
-        pRoot->data.clear();
-        delete pRoot;
-        pRoot = nullptr;
-    }
+    void serializeNode(std::ofstream& fout, TreeNode<T>* pRoot);
 
-    ~BinarySearchTree() {
-        clear(root);
-    }
+    void serialize();
+
+    void deserialize();
 
     /*--------------------BST MAIN FUNCTIONS-------------------*/
+
+    void clear(TreeNode<T>*& pRoot);
 
     void print(TreeNode<T>* pRoot);
 
@@ -120,9 +122,9 @@ public:
 
     TreeNode<T>* closestCommonAncestor(TreeNode<T>* pRoot, long long x, long long y);
 
-    TreeNode<T>* insert(TreeNode<T>*& pRoot, const Data& x, long long lb = -1, long long rb = -1);
+    TreeNode<T>* insert(TreeNode<T>*& pRoot, const T& x, long long lb = -1, long long rb = -1);
 
-    TreeNode<T>* insert(const Data& x);
+    TreeNode<T>* insert(const T& x);
 
     TreeNode<T>* insert(const long long& x);
 

@@ -1,6 +1,173 @@
 #include "HashMap.h"
 
+string llToStr(long long val) {
+    if (val == 0) return "0";
+    string ans = "";
+    bool isNeg = (val < 0);
+    val = abs(val);
+
+    while (val != 0) {
+        ans += (val % 10) + '0';
+        val /= 10;
+    }
+
+    if (isNeg) ans += '-';
+    reverse(ans.begin(), ans.end());
+
+    return ans;
+}
+
+/*--------------------BST START AND ENDING FUNCTIONS-------------------*/
+template <typename T>
+BinarySearchTree<T>::BinarySearchTree(const string& hashMapFilePath, const long long& lb, const long long& rb) {
+    root = new TreeNode<T>((lb + rb) >> 1LL, 0);
+    this->sourceFilePath = hashMapFilePath;
+    this->leftBound = lb;
+    this->rightBound = rb;
+
+    deserialize();
+}
+
+template <typename T>
+BinarySearchTree<T>::~BinarySearchTree() {
+    serialize();
+    clear(root);
+}
+
+template <typename T>
+void BinarySearchTree<T>::buildOriginal(const string& originalFilePath) {
+    std::string line;
+
+    std::ifstream fin;
+    cout << originalFilePath << endl;
+    fin.open(originalFilePath, ifstream::in);
+
+    if (!fin.is_open()) cout << "WTF, why cannot open!!" << endl;
+
+    vector <T> fullData;
+    while (getline(fin, line)) {
+        T data;
+        string currString = "";
+        for (int i = 0; i < (int)line.length(); ++i) {
+            currString += line[i];
+
+            //word
+            if (line[i] == '`') {
+                currString.pop_back();
+                data.word = currString;
+                currString.clear();
+            }
+
+            //definition
+            else if (line[i] == '#') {
+                currString.pop_back();
+                data.definitions.push_back(currString);
+                currString.clear();
+            }
+        }
+
+        //last definitions
+        if (!currString.empty()) {
+            data.definitions.push_back(currString);
+        }
+
+        hashMod curHash(data.word);
+        data.val = curHash.getHash();
+
+        fullData.push_back(data);
+    }
+
+    buildTree(fullData);
+    fin.close();
+}
+
+template <typename T>
+void BinarySearchTree<T>::serializeNode(std::ofstream& fout, TreeNode<T>* pRoot) {
+    if (pRoot == nullptr) return;
+
+    if (pRoot->data.num > 0) {
+        string line = "";
+        line += llToStr(pRoot->data.val) + ' ';
+        line += pRoot->data.word + '`';
+        for (const auto& it : pRoot->data.definitions) {
+            line += it + '#';
+        }
+
+        fout << line << '\n';
+    }
+
+    serializeNode(fout, pRoot->pLeft);
+    serializeNode(fout, pRoot->pRight);
+}
+
+template <typename T>
+void BinarySearchTree<T>::serialize() {
+    std::ofstream fout;
+    fout.open(sourceFilePath, ofstream::out);
+
+    serializeNode(fout, root);
+    fout.close();
+}
+
+template <typename T>
+void BinarySearchTree<T>::deserialize() {
+    std::string line;
+
+    std::ifstream fin;
+    fin.open(sourceFilePath, ifstream::in);
+
+    bool firstSpace = false;
+    while (getline(fin, line)) {
+        T data;
+        string currString = "";
+        for (int i = 0; i < (int)line.length(); ++i) {
+            currString += line[i];
+
+            //hashValue
+            if (line[i] == ' ' && !firstSpace) {
+                firstSpace = true;
+                currString.pop_back();
+                data.val = stoll(currString);
+                currString.clear();
+            }
+
+            //word
+            else if (line[i] == '`') {
+                currString.pop_back();
+                data.word = currString;
+                currString.clear();
+            }
+
+            //definition
+            else if (line[i] == '#') {
+                currString.pop_back();
+                data.definitions.push_back(currString);
+                currString.clear();
+            }
+        }
+
+        //last definitions
+        if (!currString.empty()) {
+            data.definitions.push_back(currString);
+        }
+
+        insert(data);
+    }
+    fin.close();
+}
+
 /*--------------------BST MAIN FUNCTIONS-------------------*/
+template <typename T>
+void BinarySearchTree<T>::clear(TreeNode<T>*& pRoot) {
+    if (!pRoot) return;
+    clear(pRoot->pLeft);
+    clear(pRoot->pRight);
+
+    pRoot->data.clear();
+    delete pRoot;
+    pRoot = nullptr;
+}
+
 template <typename T>
 void BinarySearchTree<T>::print(TreeNode<T>* pRoot) {
     queue<TreeNode<T>*> q;
@@ -60,13 +227,15 @@ TreeNode<T>* BinarySearchTree<T>::closestCommonAncestor(TreeNode<T>* pRoot, long
 }
 
 template <typename T>
-TreeNode<T>* BinarySearchTree<T>::insert(TreeNode<T>*& pRoot, const Data& x, long long lb, long long rb) {
+TreeNode<T>* BinarySearchTree<T>::insert(TreeNode<T>*& pRoot, const T& x, long long lb, long long rb) {
     if (lb == -1 && rb == -1) lb = leftBound, rb = rightBound;
     long long mid = (lb + rb) >> 1LL;
     if (pRoot == nullptr) pRoot = new TreeNode<T>(mid, 0);
 
     if (mid == x.val) {
         pRoot->data.num += x.num;
+        pRoot->data.word = x.word;
+        for (const auto& it : x.definitions) pRoot->data.definitions.push_back(it);
         return pRoot;
     }
 
@@ -75,13 +244,13 @@ TreeNode<T>* BinarySearchTree<T>::insert(TreeNode<T>*& pRoot, const Data& x, lon
 }
 
 template <typename T>
-TreeNode <T>* BinarySearchTree<T>::insert(const Data& x) {
+TreeNode <T>* BinarySearchTree<T>::insert(const T& x) {
     return insert(root, x);
 }
 
 template <typename T>
 TreeNode<T>* BinarySearchTree<T>::insert(const long long& x) {
-    return insert(root, Data(x, 1));
+    return insert(root, T(x, 1));
 }
 
 template <typename T>
@@ -91,14 +260,14 @@ void BinarySearchTree<T>::buildTree(vector <T>& a) {
 
 template <typename T>
 void BinarySearchTree<T>::buildTree(vector <long long>& a) {
-    for (auto& it : a) insert(root, Data(it, 1));
+    for (auto& it : a) insert(root, T(it, 1));
 }
 
 template <typename T>
 void BinarySearchTree<T>::buildTree(vector <string>& a) {
     for (auto& it : a) {
         hashMod curHash = hashMod(it);
-        insert(root, Data(curHash.getHash(), 1));
+        insert(root, T(curHash.getHash(), 1));
     }
 }
 
@@ -166,7 +335,7 @@ template <typename T>
 TreeNode<T>* BinarySearchTree<T>::insertWord(const string& word) {
     if (word.empty()) return nullptr;
     hashMod curHash = hashMod(word);
-    return insert(root, Data(curHash.getHash(), 1));
+    return insert(root, T(curHash.getHash(), 1));
 }
 
 //Insert definition
@@ -179,7 +348,7 @@ TreeNode<T>* BinarySearchTree<T>::insertDefinition(const string& word, const str
 
     //Auto create TreeNode if word is not found
     TreeNode<T>* curNode = searchVal(root, curHash.getHash());
-    if (!curNode) curNode = insert(root, Data(curHash.getHash(), 1));
+    if (!curNode) curNode = insert(root, T(curHash.getHash(), 1));
 
     curNode->data.definitions.push_back(definition);
     return curNode;
