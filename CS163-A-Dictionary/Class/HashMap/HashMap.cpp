@@ -30,6 +30,7 @@ BinarySearchTree<T>::BinarySearchTree(const string& hashMapFilePath, const long 
 
 template <typename T>
 BinarySearchTree<T>::~BinarySearchTree() {
+    //cout << "Destructor was called" << endl;
     serialize();
     clear(root);
 }
@@ -39,10 +40,7 @@ void BinarySearchTree<T>::buildOriginal(const string& originalFilePath) {
     std::string line;
 
     std::ifstream fin;
-    cout << originalFilePath << endl;
     fin.open(originalFilePath, ifstream::in);
-
-    if (!fin.is_open()) cout << "WTF, why cannot open!!" << endl;
 
     vector <T> fullData;
     while (getline(fin, line)) {
@@ -73,6 +71,7 @@ void BinarySearchTree<T>::buildOriginal(const string& originalFilePath) {
 
         hashMod curHash(data.word);
         data.val = curHash.getHash();
+        data.num = 1;
 
         fullData.push_back(data);
     }

@@ -1,4 +1,6 @@
-#pragma once
+#ifndef HASHMAP_H
+#define HASHMAP_H
+
 #include <queue>
 #include <fstream>
 #include <iostream>
@@ -6,6 +8,8 @@
 #include <string>
 #include <vector>
 using namespace std;
+
+string llToStr(long long val);
 
 struct hashMod {
     int mod1 = (int)1e9 + 7, mod2 = 998244353, len = 0;
@@ -90,11 +94,11 @@ template <typename T> struct TreeNode {
 template <typename T> class BinarySearchTree {
 public:
     /*--------------------BST START AND ENDING FUNCTIONS-------------------*/
-    TreeNode <T>* root;
+    TreeNode <T>* root = nullptr;
     long long leftBound = 0, rightBound = 1e18;
     string sourceFilePath;
 
-    BinarySearchTree(const string& hashMapFilePath, const long long& lb = 0, const long long& rb = 1e18);
+    BinarySearchTree(const string& hashMapFilePath, const long long& lb = 0, const long long& rb = (long long)1e18);
       
     ~BinarySearchTree();
 
@@ -155,3 +159,5 @@ public:
     //Remove word
     bool removeWord(const string& word);
 };
+
+#endif

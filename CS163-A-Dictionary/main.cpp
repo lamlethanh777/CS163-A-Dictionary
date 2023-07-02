@@ -3,7 +3,7 @@
 
 // Testing
 int main() {
-    BinarySearchTree<Data> hashMap("..//..//Data//Dict_Eng-Vie//HashMap.txt");
-    hashMap.buildOriginal("..//..//Data//Dict_Eng-Vie//Original.txt");
-	return 0;
+    string temp = "..//..//Data//Dict_Eng-Vie//HashMap.txt";
+    BinarySearchTree<Data> hashMap(temp);
+	return 0;  
 }
