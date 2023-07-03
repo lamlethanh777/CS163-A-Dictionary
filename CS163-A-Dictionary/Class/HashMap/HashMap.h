@@ -69,18 +69,18 @@ struct Data {
     }
 };
 
-template <typename T> struct TreeNode {
-    T data;
-    TreeNode<T>* pLeft, * pRight;
+struct TreeNode {
+    Data data;
+    TreeNode* pLeft, *pRight;
 
-    TreeNode(T x = T()) {
+    TreeNode(Data x = Data()) {
         data = x;
         pLeft = nullptr;
         pRight = nullptr;
     }
 
     TreeNode(long long x, int num = 0) {
-        data = T(x, num);
+        data = Data(x, num);
         pLeft = nullptr;
         pRight = nullptr;
     }
@@ -91,10 +91,10 @@ template <typename T> struct TreeNode {
     }
 };
 
-template <typename T> class BinarySearchTree {
+class BinarySearchTree {
 public:
     /*--------------------BST START AND ENDING FUNCTIONS-------------------*/
-    TreeNode <T>* root = nullptr;
+    TreeNode* root = nullptr;
     long long leftBound = 0, rightBound = 1e18;
     string sourceFilePath;
 
@@ -102,9 +102,9 @@ public:
       
     ~BinarySearchTree();
 
-    void buildOriginal(const string& originalFilePath);
+    void buildOriginal();
 
-    void serializeNode(std::ofstream& fout, TreeNode<T>* pRoot);
+    void serializeNode(std::ofstream& fout, TreeNode* pRoot);
 
     void serialize();
 
@@ -112,49 +112,49 @@ public:
 
     /*--------------------BST MAIN FUNCTIONS-------------------*/
 
-    void clear(TreeNode<T>*& pRoot);
+    void clear(TreeNode*& pRoot);
 
-    void print(TreeNode<T>* pRoot);
+    void print(TreeNode* pRoot);
 
-    void printInRange(TreeNode<T>* pRoot, const long long& x, const long long& y);
+    void printInRange(TreeNode* pRoot, const long long& x, const long long& y);
 
-    TreeNode<T>* searchVal(TreeNode<T>* pRoot, const long long& x);
+    TreeNode* searchVal(TreeNode* pRoot, const long long& x);
 
-    TreeNode<T>* searchParent(TreeNode<T>* pRoot, const long long& x);
+    TreeNode* searchParent(TreeNode* pRoot, const long long& x);
 
-    TreeNode<T>* getCCA(TreeNode<T>* pRoot, const long long& x, const long long& y);
+    TreeNode* getCCA(TreeNode* pRoot, const long long& x, const long long& y);
 
-    TreeNode<T>* closestCommonAncestor(TreeNode<T>* pRoot, long long x, long long y);
+    TreeNode* closestCommonAncestor(TreeNode* pRoot, long long x, long long y);
 
-    TreeNode<T>* insert(TreeNode<T>*& pRoot, const T& x, long long lb = -1, long long rb = -1);
+    TreeNode* insert(TreeNode*& pRoot, const Data& x, long long lb = -1, long long rb = -1);
 
-    TreeNode<T>* insert(const T& x);
+    TreeNode* insert(const Data& x);
 
-    TreeNode<T>* insert(const long long& x);
+    TreeNode* insert(const long long& x);
 
-    void buildTree(vector <T>& a);
+    void buildTree(vector<Data> & a);
 
     void buildTree(vector <long long>& a);
 
     void buildTree(vector <string>& a);
 
-    TreeNode<T>* remove(TreeNode<T>*& pRoot, const long long& val, long long lb = -1, long long rb = -1);
+    TreeNode* remove(TreeNode*& pRoot, const long long& val, long long lb = -1, long long rb = -1);
 
-    pair<TreeNode<T>*, bool> remove(const long long& val);
+    pair<TreeNode*, bool> remove(const long long& val);
 
     /* -------------- CUSTOM FUNCTIONS --------------------- */
 
     //Search word
-    TreeNode<T>* searchWord(const string& word);
+    TreeNode* searchWord(const string& word);
 
     //Get definitions
     vector <string> getDefinitions(const string& word);
 
     //Insert word
-    TreeNode<T>* insertWord(const string& word);
+    TreeNode* insertWord(const string& word);
 
     //Insert definition
-    TreeNode<T>* insertDefinition(const string& word, const string& definition);
+    TreeNode* insertDefinition(const string& word, const string& definition);
 
     //Remove word
     bool removeWord(const string& word);
