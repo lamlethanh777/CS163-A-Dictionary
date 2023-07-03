@@ -1,5 +1,6 @@
 #include "HashMap.h"
-#include <filesystem>
+#include <random>
+#include <chrono>
 
 string llToStr(long long val) {
     if (val == 0) return "0";
@@ -266,10 +267,12 @@ TreeNode* BinarySearchTree::remove(TreeNode*& pRoot, const long long& val, long 
     long long mid = (lb + rb) >> 1LL;
 
     if (mid == val) {
-        pRoot->data.clear();
+        pRoot->data.definitions.clear();
+        pRoot->data.word = "";
+        pRoot->data.val = 0;
+        pRoot->data.num = 0;
 
         if (pRoot->pLeft == nullptr && pRoot->pRight == nullptr) {
-            pRoot->data.clear();
             delete pRoot;
             pRoot = nullptr;
         }
@@ -348,3 +351,85 @@ bool BinarySearchTree::removeWord(const string& word) {
 
     return res.second;
 }
+
+/* -------------- GAME FUNCTIONS --------------------- */
+TreeNode* BinarySearchTree::randomNode() {
+    mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
+    TreeNode* cur = root;
+    
+    while (cur != nullptr) {
+        //CurrentNode is leaf
+        if (cur->pLeft == nullptr && cur->pRight == nullptr) return cur;
+
+        //Choose or not
+        if (cur->data.num > 0) {
+            bool isChosen = rng() % 2;
+            if (isChosen) return cur;
+        }
+
+        //Go next
+        bool goLeft = rng() % 2;
+        if (goLeft) {
+            if (cur->pLeft != nullptr) cur = cur->pLeft;
+            else cur = cur->pRight;
+        }
+
+        else {
+            if (cur->pRight != nullptr) cur = cur->pRight;
+            else cur = cur->pLeft;
+        }
+    }
+}
+
+Quiz BinarySearchTree::chooseRightDefinition() {
+    mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
+    
+    Data clonedData = randomNode()->data;
+    remove(clonedData.val);
+
+    Quiz currQuiz;
+    currQuiz.question = clonedData.word;
+    currQuiz.choices.push_back(*clonedData.definitions.begin());
+
+    for (int i = 0; i < 3; ++i) {
+        currQuiz.choices.push_back(*randomNode()->data.definitions.begin());
+    }
+
+    shuffle(currQuiz.choices.begin(), currQuiz.choices.end(), rng);
+    for (int i = 0; i < 4; ++i) {
+        if (currQuiz.choices[i] == *clonedData.definitions.begin()) {
+            currQuiz.answer = i;
+            break;
+        }
+    }
+
+    insert(clonedData);
+    return currQuiz;
+}
+
+Quiz BinarySearchTree::chooseRightWord() {
+    mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
+
+    Data clonedData = randomNode()->data;
+    remove(clonedData.val);
+
+    Quiz currQuiz;
+    currQuiz.question = *clonedData.definitions.begin();
+    currQuiz.choices.push_back(clonedData.word);
+
+    for (int i = 0; i < 3; ++i) {
+        currQuiz.choices.push_back(randomNode()->data.word);
+    }
+
+    shuffle(currQuiz.choices.begin(), currQuiz.choices.end(), rng);
+    for (int i = 0; i < 4; ++i) {
+        if (currQuiz.choices[i] == clonedData.word) {
+            currQuiz.answer = i;
+            break;
+        }
+    }
+
+    insert(clonedData);
+    return currQuiz;
+}
+

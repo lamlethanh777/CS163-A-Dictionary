@@ -11,6 +11,17 @@ using namespace std;
 
 string llToStr(long long val);
 
+struct Quiz {
+    string question;
+    vector<string>choices;
+    int answer;
+
+    Quiz() {
+        question = "";
+        answer = 0;
+    }
+};
+
 struct hashMod {
     int mod1 = (int)1e9 + 7, mod2 = 998244353, len = 0;
     vector <int> pw1, hash1, pw2, hash2;
@@ -158,6 +169,13 @@ public:
 
     //Remove word
     bool removeWord(const string& word);
+
+    /* -------------- GAME FUNCTIONS --------------------- */
+    TreeNode* randomNode();
+
+    Quiz chooseRightDefinition();
+
+    Quiz chooseRightWord();
 };
 
 #endif
