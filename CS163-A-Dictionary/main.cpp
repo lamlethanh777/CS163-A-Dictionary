@@ -1,37 +1,51 @@
 #include <iostream>
 #include "Class_Struct/Trie/Trie.h"
-#include "Class/HashMap/HashMap.h"
-#include "Class/Trie/Trie.h"
+#include "Class_Struct/HashMap/HashMap.h"
 
 // Testing
 int main() {
-    string temp = "Data//Dict_Eng-Vie//HashMap.txt";
+    // <---------------------------------Random function example----------------------------------->
+
+    /*std::string temp = "Data/Dict_Vie-Eng/HashMap.txt";
     BinarySearchTree hashMap(temp);
     hashMap.buildOriginal();
 
     Quiz testQuiz = hashMap.chooseRightWord();
-    cout << "Question: " << testQuiz.question << endl;
-    cout << "Choices:" << endl;
+    std::cout << "Question: " << testQuiz.question << '\n';
+    std::cout << "Choices:\n";
     for (int i = 0; i < 4; ++i) {
-        cout << testQuiz.choices[i] << endl;
+        std::cout << testQuiz.choices[i] << '\n';
     }
 
-    cout << "Answer: " << testQuiz.answer << endl;
-	return 0;  
+    std::cout << "Answer: " << testQuiz.answer << '\n';*/
+
+    // <------------------------------Random function example--------------------------------------->
+
+    // <-------------------------------------Trie + HashMap--------------------------------------->
+
 	try {
-		// Trie myTrie("Data/Dict_Eng-Eng/Trie.txt");
+        BinarySearchTree myTree("Data/Dict_Vie-Eng/HashMap.txt");
+		Trie myTrie("Data/Dict_Vie-Eng/Trie.txt");
 		// automatic deserialization
 		
-		Trie myTrie;
+		//Trie myTrie;
 		// Empty trie
-		myTrie.buildTrieFromOriginalSource("Data/Dict_Emoji/Original.txt");
+		//myTrie.buildTrieFromOriginalSource("Data/Dict_Eng-Eng/Original.txt");
 		// Trie built directly from the original file
 
 		std::string tmp;
 		std::cout << "Search: ";
 		getline(std::cin, tmp);
 		while (tmp != "0") {
-			std::cout << '\n' << myTrie.searchWord(tmp) ? 1 : 0 << '\n';
+            // hashIndex is long long
+            long long tmp2 = myTrie.searchWord(tmp);
+            if (tmp2 != -1) {
+                TreeNode* tmp3 = myTree.searchWord(tmp2);
+                if (tmp3) std::cout << tmp3->data.word << '\n';
+                else std::cout << tmp2 << '\n';
+            }
+            else
+                std::cout << "Not found in trie!\n";
 			std::cout << "Search: ";
 			getline(std::cin, tmp);
 		}
@@ -42,11 +56,12 @@ int main() {
 			std::cout << "Delete: ";
 			getline(std::cin, tmp);
 		}
-		// myTrie.serialize();
-		// No need to call the serialize function as it will be called through the destructor when going out of scope
+		// No need to call the serialize function of trie or hashmap as it will be called through the destructor when going out of scope
 	}
 	catch (std::exception& error) {
 		std::cout << error.what();
 	}
+
+    // <----------------------------------------------Trie + HashMap------------------------------------------->
 	return 0;
 }

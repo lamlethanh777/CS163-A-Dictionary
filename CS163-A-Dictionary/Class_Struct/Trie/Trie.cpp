@@ -44,7 +44,6 @@ void Trie::buildTrieFromOriginalSource(const std::string& originalFilePath) {
 	readFile(fin, originalFilePath);
 	std::ofstream fout;
 	writeFile(fout, sourceFilePath);
-	//std::cout << sourceFilePath << ' ';
 
 	while (getline(fin, word)) {
 		int delimiterPosition = word.find_last_of('`');
@@ -54,7 +53,6 @@ void Trie::buildTrieFromOriginalSource(const std::string& originalFilePath) {
 		hashMod curHash(word);
 		long long hashIndex = curHash.getHash();
 		insertWord(word, hashIndex);
-		//std::cout << word << ' ' << hashIndex << '\n';
 	}
 
 	fin.close();
@@ -98,7 +96,6 @@ void Trie::deserialize() {
 		long long hashIndex = stoll(word.substr(spacePosition + 1));
 		word = word.substr(0, spacePosition);
 		insertWord(word, hashIndex);
-		std::cout << word << ' ' << hashIndex << '\n';
 	}
 	fin.close();
 }
@@ -118,7 +115,6 @@ void deleteTrie(TrieNode*& root) {
 Trie::~Trie() {
 	serialize();
 	deleteTrie(root);
-	// std::cout << "Trie deleted!";
 }
 
 /* -------------- CUSTOM FUNCTIONS --------------------- */
