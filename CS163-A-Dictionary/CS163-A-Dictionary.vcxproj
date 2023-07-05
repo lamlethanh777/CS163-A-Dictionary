@@ -38,6 +38,8 @@
     <ClInclude Include="Class_Struct\Dictionary\Dictionary.h" />
     <ClInclude Include="Class_Struct\HashMap\HashMap.h" />
     <ClInclude Include="Class_Struct\HashMod\HashMod.h" />
+    <ClInclude Include="Class_Struct\KMP\KMP.h" />
+    <ClInclude Include="Class_Struct\Queue\Queue.h" />
     <ClInclude Include="Class_Struct\Trie\Trie.h" />
     <ClInclude Include="Functions\Features\AddNewWord\AddNewWord.h" />
     <ClInclude Include="Functions\Features\QuizFeature\Quiz.h" />
