@@ -1322,7 +1322,7 @@ CRIT`Critical hit (gaming)
 CRM`Customer Relationship Management
 CROAK`Die
 CROW`Marijuana
-CRS`Can’t remember shit
+CRS`Cant remember shit
 CRT`Cathode Ray Tube
 CRUNK`Crazy and drunk
 CRUSH`Infatuation| attraction
@@ -2772,7 +2772,7 @@ HICKY`Love bite
 HIG`How's It Going?
 HIH`Hope it helps
 HIIK`Hell If I Know
-HILIACACLO`Help I lapsed into a coma and can’t log off
+HILIACACLO`Help I lapsed into a coma and cant log off
 HIMYM`How I Met Your Mother (TV show)
 HINKEY`Strange| unusual
 HIP`Cool| stylish| contemporary
@@ -2800,7 +2800,7 @@ HMP`Help Me, Please
 HMPF`Sound made when irritated
 HMPH`apathy| disagreement
 HMS`Her Majesty's Ship (UK)#Home made smiley
-HMT`Here’s my try
+HMT`Heres my try
 HMU`Hit Me Up
 HMUL`Hit Me Up Later
 HMV`His Master's Voice
@@ -3107,7 +3107,7 @@ IHU`I Hate You#I hate you
 IHY`I Hate You#I hate you
 IHYDM`I Hope You Don't Mind
 IHYSM`I Hate You So Much
-II`I’m impressed
+II`Im impressed
 IIB`Ignorance Is Bliss
 IIFYM`If It Fits Your Macros
 IIGHT`Alright| OK
@@ -3117,7 +3117,7 @@ IINM`If I'm Not Mistaken
 IIR`Idiot In Room#If I recall
 IIRC`If I Remember Correctly#If I recall correctly
 IIS`Internet Information Services
-IIT`I’m impressed too
+IIT`Im impressed too
 IITUWUTMAS`If I Tell You Will You Tell Me A Secret?
 IITWI`In It To Win It
 IITYWIMIWHTKY`If I Tell You What It Means I Will Have to Kill You
