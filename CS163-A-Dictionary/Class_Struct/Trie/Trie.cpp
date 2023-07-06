@@ -134,7 +134,7 @@ Trie::~Trie() {
 /* -------------- CUSTOM FUNCTIONS --------------------- */
 
 // Return false if allocation failed, true if successfully inserted
-bool Trie::insertWord(const std::string& word, long long hashIndex = -1) {
+bool Trie::insertWord(const std::string& word, long long hashIndex) {
 	TrieNode* current = root;
 	for (int i = 0; i < word.size(); ++i) {
 		char edge = charToEdge(word[i]);
