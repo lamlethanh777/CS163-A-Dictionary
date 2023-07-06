@@ -64,17 +64,23 @@ public:
     long long leftBound = 0, rightBound = 1e18;
     std::string sourceFilePath;
 
+    // Automatically build map from the serialized file (HashMap.txt), sourceFilePath is set to HashMap.txt by default
     BinarySearchTree(const std::string& hashMapFilePath, const long long& lb = 0, const long long& rb = (long long)1e18);
-      
+    
+    // Automatically delete the map and serialize it to the sourceFilePath (decided at the deserialization/construction)
     ~BinarySearchTree();
 
+    // Build Map from the original file (Original.txt), sourceFilePath is set to HashMap.txt by default
     void buildOriginal();
 
+    // Helper
     void serializeNode(std::ofstream& fout, TreeNode* pRoot);
 
-    void serialize();
+    // Manually serialize Map to (set sourceFilePath to): 1. serialized file (HashMap.txt) by default or 2. inputedSourceFilePath
+    void serialize(const std::string inputedSourceFilePath = "");
 
-    void deserialize();
+    // Manually deserialize (build) Map from (set sourceFilePath to): 1. serialized file (HashMap.txt) by default or 2. inputedSourceFilePath
+    void deserialize(const std::string inputedSourceFilePath = "");
 
     /*--------------------BST MAIN FUNCTIONS-------------------*/
 
@@ -117,20 +123,23 @@ public:
     //Get definitions
     std::vector <std::string> getDefinitions(const std::string& word);
 
-    //Insert word
+    //Insert word (word only)
     TreeNode* insertWord(const std::string& word);
 
-    //Insert definition
+    //Insert definition (insert/edit both word and definitions)
     TreeNode* insertDefinition(const std::string& word, const std::string& definition);
 
-    //Remove word
+    //Remove word entirely
     bool removeWord(const std::string& word);
 
     /* -------------- GAME FUNCTIONS --------------------- */
+    // Return the node of a random word
     TreeNode* randomNode();
 
+    // Return a random quiz (see struct Quiz and read function definition) of 1 word and 4 definitions
     Quiz chooseRightDefinition();
 
+    // Return a random quiz (see struct Quiz and read function definition) or 1 definition and 4 words
     Quiz chooseRightWord();
 };
 
