@@ -35,13 +35,12 @@ bool AddNewWord(Trie& trie) {
         definitions.push_back(definition);
     }
 
+    hashMod hashInd(word);
     // Insert in Trie
-    //[waiting for response] the function should return sth to indicate success/failure
-    /*TrieNode* trieNode = trie.insertWord(word);
-    if (!trieNode) {
+    if (!trie.insertWord(word, )) {
         std::cout << "Failed to insert word in the Trie.\n";
         return false;
-    }*/
+    }
 
     // Insert in BSTMap
     
