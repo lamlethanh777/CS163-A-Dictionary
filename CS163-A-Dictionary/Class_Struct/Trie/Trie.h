@@ -29,33 +29,36 @@ private:
 public:
 	/* -------------- TRIE MAIN FUNCTIONS --------------------- */
 
+    // Create empty trie -> should be deserialized immediately from the suitable sourceFilePath 
 	Trie();
-	// Create empty trie -> NEVER USE
 
+    // Build trie from the Trie.txt file in dictionary folder, sourceFilePath is set to Trie.txt by default
 	Trie(const std::string& trieFilePath);
-	// Build trie from the Trie.txt file in dictionary folder -> SUGGESTED
 
+    // Build trie from the Original.txt file in dictionary folder, sourceFilePath is set to Trie.txt by default
 	void buildTrieFromOriginalSource(const std::string& originalFilePath);
-	// Build trie from the Original.txt file in dictionary folder -> ONLY WHEN RESET
 
-	void serialize();
-	// Save trie's information to Trie.txt file -> MUST USE WHEN DELETE TRIE
+    // Manually save trie's information to: 1. Trie.txt (by default) or 2. inputSourcefilePath
+	void serialize(const std::string inputedSourceFilePath = "");
 
-	void deserialize();
-	// Build trie from Trie.txt (already included in the second constructor) -> NOT SUGGESTED
+    // Manually build trie from: 1. Trie.txt (by default) or 2. inputSourcefilePath
+	void deserialize(const std::string inputedSourceFilePath = "");
 
+    // Automatically delete the map and serialize it to the sourceFilePath (decided at the deserialization/construction)
 	~Trie();
-	// Destructor (automatically destroy the object(trie) when going out of scope) -> NO NEED TO CALL
 
 	/* -------------- CUSTOM FUNCTIONS --------------------- */
 
-	void insertWord(const std::string& word, long long hashIndex);
+    // Return false if allocation failed, true if successfully inserted
+	bool insertWord(const std::string& word, long long hashIndex);
 
+    // Return -1 if no word found, else return a hashIndex that is the index of a node in the balanced BST -> hashIndex is to find that node
 	long long searchWord(const std::string& word);
-	// Return -1 if no word found, else return a hashIndex that is the index of a node in the balanced BST -> hashIndex is to find that node
 
+    // Return false if no word found, otherwise remove and return true
 	bool removeWord(const std::string& word);
 
+    // Display all words in sorted order
 	void displayTrie();
 };
 

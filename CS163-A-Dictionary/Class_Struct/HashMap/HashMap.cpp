@@ -21,6 +21,8 @@ std::string llToStr(long long val) {
 }
 
 /*--------------------BST START AND ENDING FUNCTIONS-------------------*/
+
+// Automatically build map from the serialized file (HashMap.txt), sourceFilePath is set to HashMap.txt by default
 BinarySearchTree::BinarySearchTree(const std::string& hashMapFilePath, const long long& lb, const long long& rb) {
     root = new TreeNode((lb + rb) >> 1LL, 0);
     this->sourceFilePath = hashMapFilePath;
@@ -30,12 +32,14 @@ BinarySearchTree::BinarySearchTree(const std::string& hashMapFilePath, const lon
     deserialize();
 }
 
+// Automatically delete the map and serialize it to the sourceFilePath (decided at the deserialization/construction)
 BinarySearchTree::~BinarySearchTree() {
     //cout << "Destructor was called" << endl;
     serialize();
     clear(root);
 }
 
+// Build Map from the original file (Original.txt), sourceFilePath is set to HashMap.txt by default
 void BinarySearchTree::buildOriginal() {
     std::string line;
 
@@ -83,6 +87,7 @@ void BinarySearchTree::buildOriginal() {
     fin.close();
 }
 
+// Helper
 void BinarySearchTree::serializeNode(std::ofstream& fout, TreeNode* pRoot) {
     if (pRoot == nullptr) return;
 
@@ -102,15 +107,25 @@ void BinarySearchTree::serializeNode(std::ofstream& fout, TreeNode* pRoot) {
     serializeNode(fout, pRoot->pRight);
 }
 
-void BinarySearchTree::serialize() {
+// Manually serialize Map to (set sourceFilePath to): 1. serialized file (HashMap.txt) by default or 2. inputedSourceFilePath
+void BinarySearchTree::serialize(const std::string inputedSourceFilePath) {
+    if (inputedSourceFilePath != "") {
+        sourceFilePath = inputedSourceFilePath;
+    }
+
     std::ofstream fout;
     writeFile(fout, sourceFilePath);
     serializeNode(fout, root);
     fout.close();
 }
 
-void BinarySearchTree::deserialize() {
+// Manually deserialize (build) Map from (set sourceFilePath to): 1. serialized file (HashMap.txt) by default or 2. inputedSourceFilePath
+void BinarySearchTree::deserialize(const std::string inputedSourceFilePath) {
     std::string line;
+
+    if (inputedSourceFilePath != "") {
+        sourceFilePath = inputedSourceFilePath;
+    }
 
     std::ifstream fin;
     readFile(fin, sourceFilePath);
@@ -336,6 +351,7 @@ bool BinarySearchTree::removeWord(const std::string& word) {
 }
 
 /* -------------- GAME FUNCTIONS --------------------- */
+// Return the node of a random word
 TreeNode* BinarySearchTree::randomNode() {
     std::mt19937 rng(std::chrono::steady_clock::now().time_since_epoch().count());
     TreeNode* cur = root;
@@ -364,6 +380,7 @@ TreeNode* BinarySearchTree::randomNode() {
     }
 }
 
+// Return a random quiz (see struct Quiz and read function definition) of 1 word and 4 definitions
 Quiz BinarySearchTree::chooseRightDefinition() {
     std::mt19937 rng(std::chrono::steady_clock::now().time_since_epoch().count());
     
@@ -390,6 +407,7 @@ Quiz BinarySearchTree::chooseRightDefinition() {
     return currQuiz;
 }
 
+// Return a random quiz (see struct Quiz and read function definition) or 1 definition and 4 words
 Quiz BinarySearchTree::chooseRightWord() {
     std::mt19937 rng(std::chrono::steady_clock::now().time_since_epoch().count());
 

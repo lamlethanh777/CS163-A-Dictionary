@@ -23,16 +23,19 @@ char edgeToChar(char edge) {
 
 /* -------------- TRIE MAIN FUNCTIONS --------------------- */
 
+// Create empty trie -> should be deserialized immediately from the suitable sourceFilePath
 Trie::Trie() {
 	root = new TrieNode();
 }
 
+// Automatically build trie from the Trie.txt file in dictionary folder, sourceFilePath is set to Trie.txt by default
 Trie::Trie(const std::string& trieFilePath) {
 	root = new TrieNode();
 	sourceFilePath = trieFilePath;
 	deserialize();
 }
 
+// Manually build trie from the Original.txt file in dictionary folder, sourceFilePath is set to Trie.txt by default
 void Trie::buildTrieFromOriginalSource(const std::string& originalFilePath) {
 	std::string word;
 
@@ -59,6 +62,7 @@ void Trie::buildTrieFromOriginalSource(const std::string& originalFilePath) {
 	fout.close();
 }
 
+// Helper
 void serializeHelper(std::ofstream& fout, TrieNode* root, std::string& wordContainer) {
 	if (!root) {
 		return;
@@ -77,19 +81,29 @@ void serializeHelper(std::ofstream& fout, TrieNode* root, std::string& wordConta
 	}
 }
 
-void Trie::serialize() {
+// Manually save trie's information to: 1. Trie.txt (by default) or 2. inputSourcefilePath
+void Trie::serialize(const std::string inputedSourceFilePath) {
 	std::string wordContainer;
 
-	std::ofstream fout;
+    if (inputedSourceFilePath != "") {
+        sourceFilePath = inputedSourceFilePath;
+    }
+
+    std::ofstream fout;
 	writeFile(fout, sourceFilePath);
 	serializeHelper(fout, root, wordContainer);
 	fout.close();
 }
 
-void Trie::deserialize() {
+// Manually build trie from: 1. Trie.txt (by default) or 2. inputSourcefilePath
+void Trie::deserialize(const std::string inputedSourceFilePath) {
 	std::string word;
 
-	std::ifstream fin;
+    if (inputedSourceFilePath != "") {
+        sourceFilePath = inputedSourceFilePath;
+    }
+
+    std::ifstream fin;
 	readFile(fin, sourceFilePath);
 	while (getline(fin, word)) {
 		int spacePosition = word.find_last_of(' ');
@@ -119,18 +133,26 @@ Trie::~Trie() {
 
 /* -------------- CUSTOM FUNCTIONS --------------------- */
 
-void Trie::insertWord(const std::string& word, long long hashIndex) {
+// Return false if allocation failed, true if successfully inserted
+bool Trie::insertWord(const std::string& word, long long hashIndex) {
 	TrieNode* current = root;
 	for (int i = 0; i < word.size(); ++i) {
 		char edge = charToEdge(word[i]);
 		if (!current->next[edge]) {
 			current->next[edge] = new TrieNode();
+            if (!current->next[edge]) {
+                // Failed to allocate memory for the new node
+                return false;
+            }
 		}
 		current = current->next[edge];
 	}
-	current->hashIndex = hashIndex;
+    current->hashIndex = hashIndex;
+
+    return true; // Insertion is successful
 }
 
+// Return -1 if no word found, else return a hashIndex that is the index of a node in the balanced BST -> hashIndex is to find that node
 long long Trie::searchWord(const std::string& word) {
 	TrieNode* current = root;
 	for (int i = 0; i < word.size(); ++i) {
@@ -143,6 +165,7 @@ long long Trie::searchWord(const std::string& word) {
 	return current->hashIndex;
 }
 
+// Helper
 bool isEmptyTrie(TrieNode* root) {
 	for (int i = 0; i < NUMBER_OF_EDGES; ++i) {
 		if (root->next[i]) {
@@ -152,6 +175,7 @@ bool isEmptyTrie(TrieNode* root) {
 	return true;
 }
 
+// Helper
 TrieNode* removeWordHelper(TrieNode* root, const std::string& word, int depth = 0) {
 	if (!root) {
 		return nullptr;
@@ -177,12 +201,14 @@ TrieNode* removeWordHelper(TrieNode* root, const std::string& word, int depth = 
 	return root;
 }
 
+// Return false if no word found, otherwise remove and return true
 bool Trie::removeWord(const std::string& word) {
 	if (!searchWord(word)) return false;
 	removeWordHelper(root, word);
 	return true;
 }
 
+// Helper
 void displayHelper(TrieNode* root, std::string& wordContainer) {
 	if (!root) {
 		return;
@@ -201,6 +227,7 @@ void displayHelper(TrieNode* root, std::string& wordContainer) {
 	}
 }
 
+// Display all words in sorted order
 void Trie::displayTrie() {
 	std::string wordContainer;
 	displayHelper(root, wordContainer);
