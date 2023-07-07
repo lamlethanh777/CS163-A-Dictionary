@@ -6,7 +6,7 @@ bool addNewWord(Trie& trie, BinarySearchTree& wordMap) {
     //std::vector<std::string> definitions;
 
     //Input validation
-    std::cout << "Enter the word: ";
+    std::cout << "Please enter the word you want to add: ";
     getline(std::cin, word);
 
     // Check for invalid characters in the word
@@ -30,7 +30,7 @@ bool addNewWord(Trie& trie, BinarySearchTree& wordMap) {
     //    definitions.push_back(definition);
     //}
 
-    std::cout << "Enter the definition: \n";
+    std::cout << "Please enter the definitions you want to add (press enter 2 times to stop): \n";
     std::string definition;
     getline(std::cin, definition);
     // Check for invalid characters in the definition
