@@ -50,7 +50,6 @@ int main() {
 			std::cout << "Search: ";
 			getline(std::cin, tmp);
 		}
-        std::cout << "Add: ";
         bool a = addNewWord(myTrie, myTree);
 
 		std::cout << "Delete: ";	
