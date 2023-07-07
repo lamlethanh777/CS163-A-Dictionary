@@ -33,6 +33,9 @@
     <ClCompile Include="Class_Struct\Queue\Queue.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Functions\Features\AddNewWord\AddNewWord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Class_Struct\HashMap\HashMap.h">
@@ -51,6 +54,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Class_Struct\Queue\Queue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions\Features\AddNewWord\AddNewWord.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
