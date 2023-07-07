@@ -17,7 +17,7 @@ bool addNewWord(Trie& trie, BinarySearchTree& wordMap) {
         return false;
     }
 
-    std::cout << "Enter the definitions: \n";
+    std::cout << "Please enter the definitions you want to add (press enter 2 times to stop): \n";
     std::string definition;
     while (getline(std::cin, definition)) {
         if (definition.empty())
