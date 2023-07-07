@@ -147,9 +147,10 @@ bool Trie::insertWord(const std::string& word, long long hashIndex) {
 		}
 		current = current->next[edge];
 	}
-        if (current->hashIndex != -1) {
-               return false;
-        }
+
+    if (current->hashIndex != -1) {
+           return false;
+    }
     if (hashIndex == -1) {
         hashMod curHash(word);
         current->hashIndex = curHash.getHash();
