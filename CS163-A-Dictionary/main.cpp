@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Class_Struct/Trie/Trie.h"
 #include "Class_Struct/HashMap/HashMap.h"
+#include "Functions/Functions.h"
 
 // Testing
 int main() {
@@ -49,6 +50,8 @@ int main() {
 			std::cout << "Search: ";
 			getline(std::cin, tmp);
 		}
+        bool a = addNewWord(myTrie, myTree);
+
 		std::cout << "Delete: ";	
 		getline(std::cin, tmp);
 		while (tmp != "0") {
