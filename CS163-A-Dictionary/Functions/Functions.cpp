@@ -8,7 +8,7 @@ bool addNewWord(Trie& trie, BinarySearchTree& wordMap) {
     std::vector<std::string> definitions;
 
     //Input validation
-    std::cout << "Enter the word: ";
+    std::cout << "Please type in the word you want to add: ";
     getline(std::cin, word);
 
     // Check for invalid characters in the word
