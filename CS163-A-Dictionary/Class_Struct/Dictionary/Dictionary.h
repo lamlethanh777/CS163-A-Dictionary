@@ -22,11 +22,8 @@ public:
     // Destructor ~ deleteDataset()
     ~Dictionary();
 
-    // 
+    // Manually serialize is better
     void serialize();
-
-    // Not realy need
-    //void deserialize();
 
     // Prepare to change dataset/leave the program
     void deleteDataset();

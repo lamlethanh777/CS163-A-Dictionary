@@ -8,4 +8,4 @@
 
 bool addNewWord(Trie& trie, BinarySearchTree& wordMap);
 
-#endif ADD_NEW_WORD_H
+#endif // !ADD_NEW_WORD_H

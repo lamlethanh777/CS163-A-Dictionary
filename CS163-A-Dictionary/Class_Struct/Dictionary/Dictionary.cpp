@@ -12,23 +12,17 @@ Dictionary::Dictionary(const std::string newDatasetName) {
 
 // Destructor ~ deleteDataset()
 Dictionary::~Dictionary() {
+    serialize();
     deleteDataset();
 }
 
+// Manually serialize is better
 void Dictionary::serialize() {
     wordsList->serialize(savePath(datasetName, "Trie.txt"));
     definitionsList->serialize(savePath(datasetName, "HashMap.txt"));
     saveVector(searchHistory, savePath(datasetName, "History.txt"));
     saveVector(favoriteList, savePath(datasetName, "Favorite.txt"));
 }
-
-// Not really need
-/*void Dictionary::deserialize() {
-    (*wordsList).deserialize(savePath(datasetName, "Trie.txt"));
-    (*definitionsList).deserialize(savePath(datasetName, "HashMap.txt"));
-    loadVector(searchHistory, savePath(datasetName, "History.txt"));
-    loadVector(favoriteList, savePath(datasetName, "Favorite.txt"));
-}*/
 
 // Prepare to change dataset/leave the program
 void Dictionary::deleteDataset() {
@@ -37,6 +31,7 @@ void Dictionary::deleteDataset() {
     delete definitionsList;
 }
 
+// deleteDataset() + move to new dataset
 void Dictionary::changeDataset(const std::string newDatasetName) {
     if (datasetName.compare(newDatasetName) == 0) {
         return;
