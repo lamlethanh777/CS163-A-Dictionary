@@ -22,6 +22,7 @@
     <ClCompile Include="Class_Struct\HashMap\HashMap.cpp" />
     <ClCompile Include="Class_Struct\Trie\Trie.cpp" />
     <ClCompile Include="Functions\Features\AddNewWord\AddNewWord.cpp" />
+    <ClCompile Include="Functions\Features\SearchWord\SearchWord.cpp" />
     <ClCompile Include="Functions\Functions.cpp" />
     <ClCompile Include="Functions\Utilities\OpenFile\OpenFile.cpp" />
     <ClCompile Include="main.cpp" />
@@ -31,6 +32,7 @@
     <ClInclude Include="Class_Struct\HashMod\HashMod.h" />
     <ClInclude Include="Class_Struct\Trie\Trie.h" />
     <ClInclude Include="Functions\Features\AddNewWord\AddNewWord.h" />
+    <ClInclude Include="Functions\Features\SearchWord\SearchWord.h" />
     <ClInclude Include="Functions\Functions.h" />
     <ClInclude Include="Functions\Utilities\OpenFile\OpenFile.h" />
   </ItemGroup>

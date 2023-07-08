@@ -100,6 +100,8 @@ void BinarySearchTree::serializeNode(std::ofstream& fout, TreeNode* pRoot) {
             line += it + '#';
         }
 
+        line.pop_back();
+
         fout << line << '\n';
     }
 
@@ -160,6 +162,8 @@ void BinarySearchTree::deserialize(const std::string inputedSourceFilePath) {
         if (!currString.empty()) {
             data.definitions.push_back(currString);
         }
+
+        data.num = 1;
 
         insert(data);
     }
