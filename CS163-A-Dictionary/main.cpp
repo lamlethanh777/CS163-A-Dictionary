@@ -27,6 +27,7 @@ int main() {
 	try {
         BinarySearchTree myTree("Data/Dict_Vie-Eng/HashMap.txt");
 		Trie myTrie("Data/Dict_Vie-Eng/Trie.txt");
+        std::vector<std::string> searchHistory;
 		// automatic deserialization
 		
 		//Trie myTrie;
@@ -34,31 +35,24 @@ int main() {
 		//myTrie.buildTrieFromOriginalSource("Data/Dict_Eng-Eng/Original.txt");
 		// Trie built directly from the original file
 
-		std::string tmp;
-		std::cout << "Search: ";
-		getline(std::cin, tmp);
-		while (tmp != "0") {
+		int tmp = 1;
+		
+		while (tmp) {
             // hashIndex is long long
-            long long tmp2 = myTrie.searchWord(tmp);
-            if (tmp2 != -1) {
-                TreeNode* tmp3 = myTree.searchWord(tmp2);
-                if (tmp3) std::cout << tmp3->data.word << '\n';
-                else std::cout << "Not found in map" << '\n';
-            }
-            else
-                std::cout << "Not found in trie!\n";
-			std::cout << "Search: ";
-			getline(std::cin, tmp);
+            searchWord(myTrie, myTree, searchHistory);
+            std::cout << "Stop? (0 to stop)";
+            std::cin >> tmp;
+            std::cin.ignore(1000, '\n');
 		}
-        bool a = addNewWord(myTrie, myTree);
+        //bool a = addNewWord(myTrie, myTree);
 
-		std::cout << "Delete: ";	
+		/*std::cout << "Delete: ";	
 		getline(std::cin, tmp);
 		while (tmp != "0") {
 			std::cout << myTrie.removeWord(tmp) ? 1 : 0 << '\n';
 			std::cout << "Delete: ";
 			getline(std::cin, tmp);
-		}
+		}*/
 		// No need to call the serialize function of trie or hashmap as it will be called through the destructor when going out of scope
 	}
 	catch (std::exception& error) {
