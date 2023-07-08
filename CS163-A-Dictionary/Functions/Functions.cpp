@@ -136,88 +136,73 @@ void chooseFeature(int& commandNumber, int& currentDatasetNumber, std::string& c
 
         case 2: {
             std::cout << "2. Search for a keyword\n";
-            // 2. Search for a keyword
-            std::cout << '\n';
+            searchWord(*(currentDictionary.wordsList), *(currentDictionary.definitionsList), currentDictionary.searchHistory);
             break;
         }
 
         case 3: {
             std::cout << "3. Search for a definition\n";
-            std::string tmp;
-            getline(std::cin, tmp);
-            std::cout << "success!\n";
             // 3. Search for a definition
-            std::cout << '\n';
             break;
         }
 
         case 4: {
             std::cout << "4. View your searching history\n";
-            // 4. View your searching history
-            std::cout << '\n';
+            viewSearchHistory(currentDictionary.searchHistory);
             break;
         }
 
         case 5: {
             std::cout << "5. Add new word/definition to dictionary\n";
             addNewWord(*(currentDictionary.wordsList), *(currentDictionary.definitionsList));
-            std::cout << '\n';
             break;
         }
 
         case 6: {
             std::cout << "6. Edit the definition of existing word\n";
             // 6. Edit the definition of existing word
-            std::cout << '\n';
             break;
         }
 		
 	    case 7: {
             std::cout << "7. Remove a word from the dictionary\n";
             // 7. Remove a word from the dictionary
-            std::cout << '\n';
             break;
         }
 		
         case 8: {
             std::cout << "8. Reset the current dictionary's dataset\n";
             // 8. Reset the current dictionary's dataset
-            std::cout << '\n';
             break;
         }
 
         case 9: {
             std::cout << "9. View a random word with definition\n";
             // 9. View a random word with definition
-            std::cout << '\n';
             break;
         }
 
         case 10: {
             std::cout << "10. View a random word with definition\n";
             // 10. View words in your favorite list
-            std::cout << '\n';
             break;
         }
 
         case 11: {
             std::cout << "11. Remove/add word from your favorite list\n";
             // 11. Remove/add word from your favorite list
-            std::cout << '\n';
             break;
         }
 
         case 12: {
             std::cout << "12. Game: choose the right definition of a word among 4 words\n";
             // 12. Game: choose the right definition of a word among 4 words
-            std::cout << '\n';
             break;
         }
 
         case 13: {
             std::cout << "13. Game: choose the right word which has a definition stated among 4 words\n";
             // 13. Game: choose the right word which has a definition stated among 4 words
-            std::cout << '\n';
             break;
         }
 
@@ -226,6 +211,7 @@ void chooseFeature(int& commandNumber, int& currentDatasetNumber, std::string& c
             break;
         }
 	}
+    std::cout << '\n';
 }
 
 void menu() {
