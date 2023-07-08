@@ -3,5 +3,6 @@
 
 #include "Features/AddNewWord/AddNewWord.h"
 #include "Features/SearchWord/SearchWord.h"
+#include"Features/QuizFeature/Quiz.h"
 
 #endif // !FUNCTIONS_H
