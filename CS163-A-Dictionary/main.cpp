@@ -35,24 +35,19 @@ int main() {
 		//myTrie.buildTrieFromOriginalSource("Data/Dict_Eng-Eng/Original.txt");
 		// Trie built directly from the original file
 
-		int tmp = 1;
-		
-		while (tmp) {
+		std::string tmp;
+		std::cout << "Search: ";
+		getline(std::cin, tmp);
+		while (tmp != "0") {
+            searchHistory.push_back(tmp);
             // hashIndex is long long
             searchWord(myTrie, myTree, searchHistory);
             std::cout << "Stop? (0 to stop)";
             std::cin >> tmp;
             std::cin.ignore(1000, '\n');
 		}
-        //bool a = addNewWord(myTrie, myTree);
 
-		/*std::cout << "Delete: ";	
-		getline(std::cin, tmp);
-		while (tmp != "0") {
-			std::cout << myTrie.removeWord(tmp) ? 1 : 0 << '\n';
-			std::cout << "Delete: ";
-			getline(std::cin, tmp);
-		}*/
+        viewSearchHistory(searchHistory);
 		// No need to call the serialize function of trie or hashmap as it will be called through the destructor when going out of scope
 	}
 	catch (std::exception& error) {
