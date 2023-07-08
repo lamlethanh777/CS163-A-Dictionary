@@ -55,9 +55,10 @@ bool inputAndValidateUserChoice(int& commandNumber) {
 
     try {
         commandNumber = std::stoi(buffer);
-    } catch (const std::exception& e) {
+    } catch (...) {
         return false; // Invalid number conversion
     }
+
     return true;
 }
 
@@ -159,7 +160,7 @@ void chooseFeature(int& commandNumber, int& currentDatasetNumber, std::string& c
 
         case 5: {
             std::cout << "5. Add new word/definition to dictionary\n";
-            // 5. Add new word/definition to dictionary
+            addNewWord(*(currentDictionary.wordsList), *(currentDictionary.definitionsList));
             std::cout << '\n';
             break;
         }

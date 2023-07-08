@@ -145,4 +145,4 @@ public:
     Quiz chooseRightWord();
 };
 
-#endif
+#endif // !HASHMAP_H

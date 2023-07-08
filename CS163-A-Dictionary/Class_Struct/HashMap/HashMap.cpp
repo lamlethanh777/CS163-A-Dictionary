@@ -1,4 +1,5 @@
 #include "HashMap.h"
+
 #include <random>
 #include <chrono>
 #include <iostream>
@@ -94,6 +95,7 @@ void BinarySearchTree::serializeNode(std::ofstream& fout, TreeNode* pRoot) {
     if (pRoot == nullptr) return;
 
     if (pRoot->data.num > 0) {
+        callLog("serialized");
         std::string line = "";
         //line += llToStr(pRoot->data.val) + ' ';
         line += std::to_string(pRoot->data.val) + ' ';
@@ -102,8 +104,7 @@ void BinarySearchTree::serializeNode(std::ofstream& fout, TreeNode* pRoot) {
             line += it + '#';
         }
 
-        line.pop_back();
-
+        line.pop_back(); // Putting '#' at the end of a line causing the data to store unnecessary string -> see line 155->163
         fout << line << '\n';
     }
 

@@ -20,7 +20,7 @@ void saveVector(std::vector<std::string>& container, const std::string sourceFil
     std::ofstream fout;
     writeFile(fout, sourceFilePath);
 
-    for (int i = 0; i < container.size(); ++i) {
+    for (unsigned int i = 0; i < container.size(); ++i) {
         fout << container[i] << '\n';
     }
     

@@ -1,6 +1,5 @@
 #include "Trie.h"
 
-#include <fstream>
 #include <iostream>
 
 #include "../../Functions/Utilities/OpenFile/OpenFile.h"
