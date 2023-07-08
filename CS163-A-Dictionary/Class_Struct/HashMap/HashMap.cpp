@@ -3,6 +3,8 @@
 #include <chrono>
 #include <iostream>
 
+#include "../../Functions/Utilities/LogFunctions/LogFunctions.h"
+
 std::string llToStr(long long val) {
     if (val == 0) return "0";
     std::string ans = "";
@@ -34,9 +36,9 @@ BinarySearchTree::BinarySearchTree(const std::string& hashMapFilePath, const lon
 
 // Automatically delete the map and serialize it to the sourceFilePath (decided at the deserialization/construction)
 BinarySearchTree::~BinarySearchTree() {
-    //cout << "Destructor was called" << endl;
-    serialize();
+    //serialize();
     clear(root);
+    std::cout << "Map destructor called!\n";
 }
 
 // Build Map from the original file (Original.txt), sourceFilePath is set to HashMap.txt by default
@@ -111,7 +113,7 @@ void BinarySearchTree::serializeNode(std::ofstream& fout, TreeNode* pRoot) {
 
 // Manually serialize Map to (set sourceFilePath to): 1. serialized file (HashMap.txt) by default or 2. inputedSourceFilePath
 void BinarySearchTree::serialize(const std::string inputedSourceFilePath) {
-    if (inputedSourceFilePath != "") {
+    if (inputedSourceFilePath.compare("") != 0) {
         sourceFilePath = inputedSourceFilePath;
     }
 
@@ -119,13 +121,14 @@ void BinarySearchTree::serialize(const std::string inputedSourceFilePath) {
     writeFile(fout, sourceFilePath);
     serializeNode(fout, root);
     fout.close();
+    callLog("Map serialization");
 }
 
 // Manually deserialize (build) Map from (set sourceFilePath to): 1. serialized file (HashMap.txt) by default or 2. inputedSourceFilePath
 void BinarySearchTree::deserialize(const std::string inputedSourceFilePath) {
     std::string line;
 
-    if (inputedSourceFilePath != "") {
+    if (inputedSourceFilePath.compare("") != 0) {
         sourceFilePath = inputedSourceFilePath;
     }
 
@@ -168,6 +171,7 @@ void BinarySearchTree::deserialize(const std::string inputedSourceFilePath) {
         insert(data);
     }
     fin.close();
+    callLog("Map derialization");
 }
 
 /*--------------------BST MAIN FUNCTIONS-------------------*/
