@@ -3,7 +3,6 @@
 #include <iostream>
 
 #include "../../Functions/Utilities/OpenFile/OpenFile.h"
-#include "../../Functions/Utilities/LogFunctions/LogFunctions.h"
 #include "../HashMod/HashMod.h"
 
 char charToEdge(char character) {
@@ -43,20 +42,20 @@ void Trie::buildTrieFromOriginalSource(const std::string originalFilePath) {
 		sourceFilePath = getFolderPath(originalFilePath) + "Trie.txt";
 	}
 
+    if (!root) {
+        root = new TrieNode();
+    }
+
 	std::ifstream fin;
 	readFile(fin, originalFilePath);
-	std::ofstream fout;
-	writeFile(fout, sourceFilePath);
 
 	while (getline(fin, word)) {
 		int delimiterPosition = word.find_last_of('`');
 		word = word.substr(0, delimiterPosition);
-		fout << word << '\n';
 		insertWord(word);
 	}
 
 	fin.close();
-	fout.close();
 }
 
 // Helper
@@ -90,7 +89,6 @@ void Trie::serialize(const std::string inputedSourceFilePath) {
 	writeFile(fout, sourceFilePath);
 	serializeHelper(fout, root, wordContainer);
 	fout.close();
-    callLog("Trie serialization");
 }
 
 // Manually build trie from: 1. Trie.txt (by default) or 2. inputSourcefilePath
@@ -114,7 +112,6 @@ void Trie::deserialize(const std::string inputedSourceFilePath) {
 		insertWord(word, hashIndex);
 	}
 	fin.close();
-    callLog("Trie derialization");
 }
 
 void Trie::deleteTrie(TrieNode*& root) {
@@ -130,7 +127,6 @@ void Trie::deleteTrie(TrieNode*& root) {
 }
 
 Trie::~Trie() {
-	//serialize();
 	deleteTrie(root);
     std::cout << "Trie destructor called!\n";
 }
@@ -138,7 +134,7 @@ Trie::~Trie() {
 /* ------------------------- CUSTOM FUNCTIONS ------------------------------ */
 
 // Return false if allocation failed, true if successfully inserted
-bool Trie::insertWord(const std::string& word, long long hashIndex) {
+int Trie::insertWord(const std::string& word, long long hashIndex) {
 	TrieNode* current = root;
 	for (unsigned int i = 0; i < word.size(); ++i) {
 		char edge = charToEdge(word[i]);
@@ -147,7 +143,7 @@ bool Trie::insertWord(const std::string& word, long long hashIndex) {
 
             // Failed to allocate memory for the new node
             if (!current->next[edge]) {
-                return false;
+                return -1;
             }
 		}
 		current = current->next[edge];
@@ -155,7 +151,7 @@ bool Trie::insertWord(const std::string& word, long long hashIndex) {
 
     // Word is already there
     if (current->hashIndex != -1) {
-        return false;
+        return 0;
     }
 
     // hashIndex provided / not provided
@@ -167,7 +163,8 @@ bool Trie::insertWord(const std::string& word, long long hashIndex) {
         current->hashIndex = hashIndex;
     }
 
-    return true;  // Insertion is successful
+    // Insertion is successful
+    return 1;  
 }
 
 // Return -1 if no word found, else return a hashIndex that is the index of a node in the balanced BST -> hashIndex is to find that node

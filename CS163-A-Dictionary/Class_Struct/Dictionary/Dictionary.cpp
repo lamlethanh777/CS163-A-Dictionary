@@ -26,7 +26,6 @@ void Dictionary::serialize() {
 
 // Prepare to change dataset/leave the program
 void Dictionary::deleteDataset() {
-    // delete and automatically destroy/serialize information
     delete wordsList;
     delete definitionsList;
 }
@@ -48,4 +47,21 @@ void Dictionary::changeDataset(const std::string newDatasetName) {
     definitionsList = new BinarySearchTree(savePath(datasetName, "HashMap.txt"));
     loadVector(searchHistory, savePath(datasetName, "History.txt"));
     loadVector(favoriteList, savePath(datasetName, "Favorite.txt"));
+}
+
+// Reset to original state
+void Dictionary::resetToOriginal() {
+    // Delete everything
+    delete wordsList;
+    delete definitionsList;
+    searchHistory.clear();
+    favoriteList.clear();
+    
+    std::string originalFilePath = savePath(datasetName, "Original.txt");
+
+    // Build everything from original
+    wordsList = new Trie();
+    wordsList->buildTrieFromOriginalSource(originalFilePath);
+    definitionsList = new BinarySearchTree();
+    definitionsList->buildOriginal(originalFilePath);
 }
