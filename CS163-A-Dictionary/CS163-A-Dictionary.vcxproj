@@ -20,7 +20,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Class_Struct\HashMap\HashMap.cpp" />
-    <ClCompile Include="Class_Struct\Queue\Queue.cpp" />
     <ClCompile Include="Class_Struct\Trie\Trie.cpp" />
     <ClCompile Include="Functions\Features\AddNewWord\AddNewWord.cpp" />
     <ClCompile Include="Functions\Functions.cpp" />
@@ -30,7 +29,6 @@
   <ItemGroup>
     <ClInclude Include="Class_Struct\HashMap\HashMap.h" />
     <ClInclude Include="Class_Struct\HashMod\HashMod.h" />
-    <ClInclude Include="Class_Struct\Queue\Queue.h" />
     <ClInclude Include="Class_Struct\Trie\Trie.h" />
     <ClInclude Include="Functions\Features\AddNewWord\AddNewWord.h" />
     <ClInclude Include="Functions\Functions.h" />
