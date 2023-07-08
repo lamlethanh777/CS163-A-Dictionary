@@ -43,7 +43,7 @@ int main() {
             if (tmp2 != -1) {
                 TreeNode* tmp3 = myTree.searchWord(tmp2);
                 if (tmp3) std::cout << tmp3->data.word << '\n';
-                else std::cout << tmp2 << '\n';
+                else std::cout << "Not found in map" << '\n';
             }
             else
                 std::cout << "Not found in trie!\n";
