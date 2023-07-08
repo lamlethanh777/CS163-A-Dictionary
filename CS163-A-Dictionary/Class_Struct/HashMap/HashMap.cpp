@@ -50,7 +50,7 @@ void BinarySearchTree::buildOriginal() {
     std::ifstream fin;
     readFile(fin, originalFilePath);
 
-    std::vector<Data>  fullData;
+    std::vector<Data> fullData;
     while (getline(fin, line)) {
         Data data;
         std::string currString = "";

@@ -33,6 +33,7 @@
     <ClCompile Include="Functions\Features\AddNewWord\AddNewWord.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Functions\Features\ViewSearchHistory\ViewSearchHistory.cpp">
     <ClCompile Include="Functions\Features\SearchWord\SearchWord.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -56,6 +57,7 @@
     <ClInclude Include="Functions\Features\AddNewWord\AddNewWord.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Functions\Features\ViewSearchHistory\ViewSearchHistory.h">
     <ClInclude Include="Functions\Features\SearchWord\SearchWord.h">
       <Filter>Header Files</Filter>
     </ClInclude>
