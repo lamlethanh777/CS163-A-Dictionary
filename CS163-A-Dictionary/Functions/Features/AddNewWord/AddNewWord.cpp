@@ -45,12 +45,14 @@ bool addNewWord(Trie& trie, BinarySearchTree& wordMap) {
     }
 
     // Insert in BSTMap
-    if (!wordMap.insertDefinition(word, definition)) {
+    TreeNode* currentWord = wordMap.insertWord(word);
+    if (!currentWord) {
         std::cout << "Failed to insert the definition in the dictionary.\n";
         // Rollback the insertion in Trie
         trie.removeWord(word);
         return false;
     }
+    currentWord->data.definitions.push_back(definition);
 
     std::cout << "Word and definition added successfully!\n";
     return true;

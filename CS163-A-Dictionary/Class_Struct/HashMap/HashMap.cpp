@@ -325,7 +325,7 @@ std::vector <std::string> BinarySearchTree::getDefinitions(const std::string& wo
 TreeNode* BinarySearchTree::insertWord(const std::string& word) {
     if (word.empty()) return nullptr;
     hashMod curHash = hashMod(word);
-    return insert(root, Data(curHash.getHash(), 1));
+    return insert(root, Data(curHash.getHash(), 1, word));
 }
 
 //Insert definition
