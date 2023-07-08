@@ -5,7 +5,6 @@
 
 std::string getFolderPath(const std::string& filePath) {
 	int found = filePath.find_last_of("/\\");
-	std::cout << found;
 	return filePath.substr(0, found + 1);
 }
 

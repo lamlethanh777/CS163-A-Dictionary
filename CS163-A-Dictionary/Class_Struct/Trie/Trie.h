@@ -53,7 +53,7 @@ public:
 	/* -------------- CUSTOM FUNCTIONS --------------------- */
 
     // Return false if allocation failed, true if successfully inserted
-	bool insertWord(const std::string& word, long long hashIndex = -1);
+    int insertWord(const std::string& word, long long hashIndex = -1);
 
     // Return -1 if no word found, else return a hashIndex that is the index of a node in the balanced BST -> hashIndex is to find that node
 	long long searchWord(const std::string& word);

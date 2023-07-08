@@ -4,26 +4,30 @@
 #include <chrono>
 #include <iostream>
 
-#include "../../Functions/Utilities/LogFunctions/LogFunctions.h"
-
-std::string llToStr(long long val) {
-    if (val == 0) return "0";
-    std::string ans = "";
-    bool isNeg = (val < 0);
-    val = abs(val);
-
-    while (val != 0) {
-        ans += (val % 10) + '0';
-        val /= 10;
-    }
-
-    if (isNeg) ans += '-';
-    reverse(ans.begin(), ans.end());
-
-    return ans;
-}
+//std::string llToStr(long long val) {
+//    if (val == 0) return "0";
+//    std::string ans = "";
+//    bool isNeg = (val < 0);
+//    val = abs(val);
+//
+//    while (val != 0) {
+//        ans += (val % 10) + '0';
+//        val /= 10;
+//    }
+//
+//    if (isNeg) ans += '-';
+//    reverse(ans.begin(), ans.end());
+//
+//    return ans;
+//}
 
 /*--------------------BST START AND ENDING FUNCTIONS-------------------*/
+
+BinarySearchTree::BinarySearchTree() {
+    root = nullptr;
+    leftBound = 0; rightBound = 1e18;
+    sourceFilePath = "";
+}
 
 // Automatically build map from the serialized file (HashMap.txt), sourceFilePath is set to HashMap.txt by default
 BinarySearchTree::BinarySearchTree(const std::string& hashMapFilePath, const long long& lb, const long long& rb) {
@@ -43,12 +47,17 @@ BinarySearchTree::~BinarySearchTree() {
 }
 
 // Build Map from the original file (Original.txt), sourceFilePath is set to HashMap.txt by default
-void BinarySearchTree::buildOriginal() {
+void BinarySearchTree::buildOriginal(const std::string inputedSourceFilePath) {
     std::string line;
+    std::string originalFilePath;
 
-    int lastPos = sourceFilePath.find_last_of("//");
-    std::string originalFilePath = sourceFilePath.substr(0, lastPos + 1);
-    originalFilePath += "Original.txt";
+    if (inputedSourceFilePath.compare("") == 0) {
+        int lastPos = sourceFilePath.find_last_of("//");
+        originalFilePath = sourceFilePath.substr(0, lastPos + 1) + "Original.txt";
+    }
+    else {
+        originalFilePath = inputedSourceFilePath;
+    }
 
     std::ifstream fin;
     readFile(fin, originalFilePath);
@@ -95,9 +104,7 @@ void BinarySearchTree::serializeNode(std::ofstream& fout, TreeNode* pRoot) {
     if (pRoot == nullptr) return;
 
     if (pRoot->data.num > 0) {
-        callLog("serialized");
         std::string line = "";
-        //line += llToStr(pRoot->data.val) + ' ';
         line += std::to_string(pRoot->data.val) + ' ';
         line += pRoot->data.word + '`';
         for (const auto& it : pRoot->data.definitions) {
@@ -122,7 +129,6 @@ void BinarySearchTree::serialize(const std::string inputedSourceFilePath) {
     writeFile(fout, sourceFilePath);
     serializeNode(fout, root);
     fout.close();
-    callLog("Map serialization");
 }
 
 // Manually deserialize (build) Map from (set sourceFilePath to): 1. serialized file (HashMap.txt) by default or 2. inputedSourceFilePath
@@ -167,12 +173,11 @@ void BinarySearchTree::deserialize(const std::string inputedSourceFilePath) {
             data.definitions.push_back(currString);
         }
 
-        data.num = 1;
+        data.num = 1; // forgot this
 
         insert(data);
     }
     fin.close();
-    callLog("Map derialization");
 }
 
 /*--------------------BST MAIN FUNCTIONS-------------------*/

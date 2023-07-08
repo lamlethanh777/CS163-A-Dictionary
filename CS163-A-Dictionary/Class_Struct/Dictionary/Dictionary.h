@@ -30,6 +30,9 @@ public:
 
     // deleteDataset() + move to new dataset
     void changeDataset(const std::string newDatasetName);
+
+    // Reset to original state
+    void resetToOriginal();
 };
 
 #endif // !DICTIONARY_H

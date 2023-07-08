@@ -25,9 +25,13 @@ bool addNewWord(Trie& trie, BinarySearchTree& wordMap) {
     }
 
     // Insert in Trie
-    if (!trie.insertWord(word)) {
+    int flag = trie.insertWord(word);
+    if (flag == -1) {
         std::cout << "Failed to insert the word in the dictionary.\n";
         return false;
+    }
+    else if (flag == 0) {
+        std::cout << "The word has been in the dictionary already!\n";
     }
 
     // Insert in BSTMap

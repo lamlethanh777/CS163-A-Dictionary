@@ -172,7 +172,8 @@ void chooseFeature(int& commandNumber, int& currentDatasetNumber, std::string& c
 		
         case 8: {
             std::cout << "8. Reset the current dictionary's dataset\n";
-            // 8. Reset the current dictionary's dataset
+            currentDictionary.resetToOriginal();
+            std::cout << "Dictionary reset to original state successfully!\n";
             break;
         }
 
