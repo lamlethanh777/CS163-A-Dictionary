@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Class_Struct\Dictionary\Dictionary.cpp" />
     <ClCompile Include="Class_Struct\HashMap\HashMap.cpp" />
     <ClCompile Include="Class_Struct\Trie\Trie.cpp" />
     <ClCompile Include="Functions\Features\AddNewWord\AddNewWord.cpp" />
@@ -28,10 +29,13 @@
     <ClCompile Include="Functions\Features\SearchWord\SearchWord.cpp" />
     <ClCompile Include="Functions\Features\ViewSearchHistory\ViewSearchHistory.cpp" />
     <ClCompile Include="Functions\Functions.cpp" />
+    <ClCompile Include="Functions\Utilities\LogFunctions\LogFunctions.cpp" />
     <ClCompile Include="Functions\Utilities\OpenFile\OpenFile.cpp" />
+    <ClCompile Include="Functions\Utilities\VectorFunctions\VectorFunctions.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Class_Struct\Dictionary\Dictionary.h" />
     <ClInclude Include="Class_Struct\HashMap\HashMap.h" />
     <ClInclude Include="Class_Struct\HashMod\HashMod.h" />
     <ClInclude Include="Class_Struct\Trie\Trie.h" />
@@ -41,7 +45,12 @@
     <ClInclude Include="Functions\Features\ViewRandomWord\ViewRandomWord.h" />
     <ClInclude Include="Functions\Features\ViewSearchHistory\ViewSearchHistory.h" />
     <ClInclude Include="Functions\Functions.h" />
+    <ClInclude Include="Functions\Utilities\LogFunctions\LogFunctions.h" />
     <ClInclude Include="Functions\Utilities\OpenFile\OpenFile.h" />
+    <ClInclude Include="Functions\Utilities\VectorFunctions\VectorFunctions.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Functions\Utilities\LogFunctions\Log.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

@@ -41,6 +41,39 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Class_Struct\HashMap\HashMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Class_Struct\Trie\Trie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions\Utilities\OpenFile\OpenFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions\Functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Class_Struct\Dictionary\Dictionary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions\Utilities\VectorFunctions\VectorFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions\Utilities\LogFunctions\LogFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions\Features\AddNewWord\AddNewWord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions\Features\ViewSearchHistory\ViewSearchHistory.cpp">
+    <ClCompile Include="Functions\Features\SearchWord\SearchWord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
     <ClInclude Include="Class_Struct\HashMap\HashMap.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -56,16 +89,23 @@
     <ClInclude Include="Class_Struct\HashMod\HashMod.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Class_Struct\Dictionary\Dictionary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions\Utilities\VectorFunctions\VectorFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions\Utilities\LogFunctions\LogFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Functions\Utilities\LogFunctions\Log.txt" />
     <ClInclude Include="Functions\Features\AddNewWord\AddNewWord.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Functions\Features\SearchWord\SearchWord.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Functions\Features\QuizFeature\Quiz.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Functions\Features\ViewSearchHistory\ViewSearchHistory.h">
+    <ClInclude Include="Functions\Features\SearchWord\SearchWord.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Class_Struct\HashMap\HashMap.h" />

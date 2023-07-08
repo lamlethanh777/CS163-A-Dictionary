@@ -33,16 +33,19 @@ public:
 	Trie();
 
     // Build trie from the Trie.txt file in dictionary folder, sourceFilePath is set to Trie.txt by default
-	Trie(const std::string& trieFilePath);
+	Trie(const std::string trieFilePath);
 
     // Build trie from the Original.txt file in dictionary folder, sourceFilePath is set to Trie.txt by default
-	void buildTrieFromOriginalSource(const std::string& originalFilePath);
+	void buildTrieFromOriginalSource(const std::string originalFilePath);
 
     // Manually save trie's information to: 1. Trie.txt (by default) or 2. inputSourcefilePath
 	void serialize(const std::string inputedSourceFilePath = "");
 
     // Manually build trie from: 1. Trie.txt (by default) or 2. inputSourcefilePath
 	void deserialize(const std::string inputedSourceFilePath = "");
+
+    // Delete whole trie
+    void deleteTrie(TrieNode*& root);
 
     // Automatically delete the map and serialize it to the sourceFilePath (decided at the deserialization/construction)
 	~Trie();

@@ -21,6 +21,7 @@ void writeFile(std::ofstream& fout, const std::string& filePath, std::ios::openm
 	fout.open(filePath, openmode);
 
 	if (!fout.good()) {
+        std::cout << "Cannot open file!\n";
 		throw std::invalid_argument("Dictionary source is inaccessible, please try again later!\n");
 	}
 }

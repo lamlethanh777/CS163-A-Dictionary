@@ -64,6 +64,8 @@ public:
     long long leftBound = 0, rightBound = 1e18;
     std::string sourceFilePath;
 
+    BinarySearchTree() = default;
+
     // Automatically build map from the serialized file (HashMap.txt), sourceFilePath is set to HashMap.txt by default
     BinarySearchTree(const std::string& hashMapFilePath, const long long& lb = 0, const long long& rb = (long long)1e18);
     
