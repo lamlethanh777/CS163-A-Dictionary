@@ -34,23 +34,14 @@ int main() {
 		// Empty trie
 		//myTrie.buildTrieFromOriginalSource("Data/Dict_Eng-Eng/Original.txt");
 		// Trie built directly from the original file
-
-		std::string tmp;
-		std::cout << "Search: ";
-		getline(std::cin, tmp);
-		while (tmp != "0") {
-            searchHistory.push_back(tmp);
+		int tmp = 1;
+		
+		while (tmp) {
             // hashIndex is long long
-            long long tmp2 = myTrie.searchWord(tmp);
-            if (tmp2 != -1) {
-                TreeNode* tmp3 = myTree.searchWord(tmp2);
-                if (tmp3) std::cout << tmp3->data.word << '\n';
-                else std::cout << "Not found in map" << '\n';
-            }
-            else
-                std::cout << "Not found in trie!\n";
-			std::cout << "Search: ";
-			getline(std::cin, tmp);
+            searchWord(myTrie, myTree, searchHistory);
+            std::cout << "Stop? (0 to stop)";
+            std::cin >> tmp;
+            std::cin.ignore(1000, '\n');
 		}
 
         viewSearchHistory(searchHistory);
