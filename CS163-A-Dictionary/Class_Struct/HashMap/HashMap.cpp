@@ -50,7 +50,7 @@ void BinarySearchTree::buildOriginal() {
     std::ifstream fin;
     readFile(fin, originalFilePath);
 
-    std::vector<Data>  fullData;
+    std::vector<Data> fullData;
     while (getline(fin, line)) {
         Data data;
         std::string currString = "";
@@ -99,6 +99,8 @@ void BinarySearchTree::serializeNode(std::ofstream& fout, TreeNode* pRoot) {
         for (const auto& it : pRoot->data.definitions) {
             line += it + '#';
         }
+
+        line.pop_back();
 
         fout << line << '\n';
     }
@@ -160,6 +162,8 @@ void BinarySearchTree::deserialize(const std::string inputedSourceFilePath) {
         if (!currString.empty()) {
             data.definitions.push_back(currString);
         }
+
+        data.num = 1;
 
         insert(data);
     }
