@@ -1,7 +1,7 @@
 #include<iostream>
 #include"ViewRandomWord.h"
 
-void viewRandomWord(BinarySearchTree wordMap) { 
+void viewRandomWord(BinarySearchTree &wordMap) { 
     TreeNode* randomWord = wordMap.randomNode();
 
     std::cout << "You have generated a random word \n";
