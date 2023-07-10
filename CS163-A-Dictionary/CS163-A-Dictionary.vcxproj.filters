@@ -10,6 +10,7 @@
     <ClCompile Include="Functions\Utilities\OpenFile\OpenFile.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Functions\Features\ViewRandomWord\ViewRandomWord.cpp" />
+    <ClCompile Include="Functions\Features\QuizFeature\Quiz.cpp">
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Class_Struct\HashMap\HashMap.h" />
@@ -21,5 +22,6 @@
     <ClInclude Include="Functions\Functions.h" />
     <ClInclude Include="Functions\Utilities\OpenFile\OpenFile.h" />
     <ClInclude Include="Functions\Features\ViewRandomWord\ViewRandomWord.h" />
+    <ClInclude Include="Functions\Features\QuizFeature\Quiz.h">
   </ItemGroup>
 </Project>

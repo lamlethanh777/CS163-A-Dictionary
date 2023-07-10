@@ -22,6 +22,7 @@
     <ClCompile Include="Class_Struct\HashMap\HashMap.cpp" />
     <ClCompile Include="Class_Struct\Trie\Trie.cpp" />
     <ClCompile Include="Functions\Features\AddNewWord\AddNewWord.cpp" />
+    <ClCompile Include="Functions\Features\QuizFeature\Quiz.cpp" />
     <ClCompile Include="Functions\Features\ViewRandomWord\ViewRandomWord.cpp" />
     <ClCompile Include="Functions\Features\ViewSearchHistory\ViewSearchHistory.cpp" />
     <ClCompile Include="Functions\Features\SearchWord\SearchWord.cpp" />
@@ -34,6 +35,7 @@
     <ClInclude Include="Class_Struct\HashMod\HashMod.h" />
     <ClInclude Include="Class_Struct\Trie\Trie.h" />
     <ClInclude Include="Functions\Features\AddNewWord\AddNewWord.h" />
+    <ClInclude Include="Functions\Features\QuizFeature\Quiz.h" />
     <ClInclude Include="Functions\Features\ViewRandomWord\ViewRandomWord.h" />
     <ClInclude Include="Functions\Features\ViewSearchHistory\ViewSearchHistory.h" />
     <ClInclude Include="Functions\Features\SearchWord\SearchWord.h" />
