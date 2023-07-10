@@ -7,7 +7,8 @@
 #include"Features/QuizFeature/Quiz.h"
 #include "Features/ViewSearchHistory/ViewSearchHistory.h"
 #include "Features/SearchWord/SearchWord.h"
-#include"Features/ViewRandomWord/ViewRandomWord.h"
+#include "Features/QuizFeature/Quiz.h"
+#include "Features/ViewRandomWord/ViewRandomWord.h"
 
 void menu();
 
