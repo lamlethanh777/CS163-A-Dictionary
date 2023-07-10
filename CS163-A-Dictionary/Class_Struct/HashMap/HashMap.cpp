@@ -50,7 +50,7 @@ void BinarySearchTree::buildOriginal() {
     std::ifstream fin;
     readFile(fin, originalFilePath);
 
-    std::vector<Data>  fullData;
+    std::vector<Data> fullData;
     while (getline(fin, line)) {
         Data data;
         std::string currString = "";
@@ -325,7 +325,7 @@ std::vector <std::string> BinarySearchTree::getDefinitions(const std::string& wo
 TreeNode* BinarySearchTree::insertWord(const std::string& word) {
     if (word.empty()) return nullptr;
     hashMod curHash = hashMod(word);
-    return insert(root, Data(curHash.getHash(), 1));
+    return insert(root, Data(curHash.getHash(), 1, word));
 }
 
 //Insert definition

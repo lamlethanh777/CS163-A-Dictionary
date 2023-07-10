@@ -23,10 +23,10 @@ struct Data {
     std::string word;
     std::vector <std::string> definitions;
 
-    Data(long long val = 0, int num = 0) {
+    Data(long long val = 0, int num = 0, const std::string word = "") {
         this->val = val;
         this->num = num;
-        this->word = "";
+        this->word = word;
     }
 
     void clear() {
