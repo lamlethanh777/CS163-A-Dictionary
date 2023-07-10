@@ -3,7 +3,7 @@
 
 // Testing
 int main() {
-    clearLog();
+    //clearLog();
     menu();
 	return 0;
 }

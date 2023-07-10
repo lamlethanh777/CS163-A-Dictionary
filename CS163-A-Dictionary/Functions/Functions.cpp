@@ -33,7 +33,7 @@ void displayMenu() {
               << "9. View a random word with definition\n"
               << "10. View words in your favorite list\n"
               << "11. Remove/add word from your favorite list\n"
-              << "12. Game: choose the right definition of a word among 4 words\n"
+              << "12. Game: choose the right definition of a word among 4 definitions\n"
               << "13. Game: choose the right word which has a definition stated among 4 words\n"
               << "0. Leave the dictionary :`(\n";
 }
@@ -179,13 +179,13 @@ void chooseFeature(int& commandNumber, int& currentDatasetNumber, std::string& c
 
         case 9: {
             std::cout << "9. View a random word with definition\n";
-            // 9. View a random word with definition
+            viewRandomWord(*(currentDictionary.definitionsList));
             break;
         }
 
         case 10: {
-            std::cout << "10. View a random word with definition\n";
-            // 10. View words in your favorite list
+            std::cout << "10. View your favorite list\n";
+            // 10. View your favorite list
             break;
         }
 
@@ -196,14 +196,14 @@ void chooseFeature(int& commandNumber, int& currentDatasetNumber, std::string& c
         }
 
         case 12: {
-            std::cout << "12. Game: choose the right definition of a word among 4 words\n";
-            // 12. Game: choose the right definition of a word among 4 words
+            std::cout << "12. Game: choose the right definition of a word among 4 definitions\n";
+            quizChooseRightDef(*(currentDictionary.definitionsList));
             break;
         }
 
         case 13: {
             std::cout << "13. Game: choose the right word which has a definition stated among 4 words\n";
-            // 13. Game: choose the right word which has a definition stated among 4 words
+            quizChooseRightWord(*(currentDictionary.definitionsList));
             break;
         }
 
