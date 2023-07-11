@@ -1,10 +1,9 @@
 #include "Trie.h"
 
-#include <fstream>
 #include <iostream>
 
-#include "..\..\Functions\Utilities\OpenFile\OpenFile.h"
-#include "..\HashMod\HashMod.h"
+#include "../../Functions/Utilities/OpenFile/OpenFile.h"
+#include "../HashMod/HashMod.h"
 
 char charToEdge(char character) {
 	if (character >= 'A' && character <= 'Z') {
@@ -21,7 +20,7 @@ char edgeToChar(char edge) {
 // from space ' ' (32) to '@' (64) and from '[' (91) to '~' (126)
 // So that they use the least number of pointers
 
-/* -------------- TRIE MAIN FUNCTIONS --------------------- */
+/* ----------------------------TRIE MAIN FUNCTIONS ------------------------------- */
 
 // Create empty trie -> should be deserialized immediately from the suitable sourceFilePath
 Trie::Trie() {
@@ -29,37 +28,34 @@ Trie::Trie() {
 }
 
 // Automatically build trie from the Trie.txt file in dictionary folder, sourceFilePath is set to Trie.txt by default
-Trie::Trie(const std::string& trieFilePath) {
+Trie::Trie(const std::string trieFilePath) {
 	root = new TrieNode();
 	sourceFilePath = trieFilePath;
 	deserialize();
 }
 
 // Manually build trie from the Original.txt file in dictionary folder, sourceFilePath is set to Trie.txt by default
-void Trie::buildTrieFromOriginalSource(const std::string& originalFilePath) {
+void Trie::buildTrieFromOriginalSource(const std::string originalFilePath) {
 	std::string word;
 
 	if (sourceFilePath == "") {
 		sourceFilePath = getFolderPath(originalFilePath) + "Trie.txt";
 	}
 
+    if (!root) {
+        root = new TrieNode();
+    }
+
 	std::ifstream fin;
 	readFile(fin, originalFilePath);
-	std::ofstream fout;
-	writeFile(fout, sourceFilePath);
 
 	while (getline(fin, word)) {
 		int delimiterPosition = word.find_last_of('`');
 		word = word.substr(0, delimiterPosition);
-		fout << word << '\n';
-
-		hashMod curHash(word);
-		long long hashIndex = curHash.getHash();
-		insertWord(word, hashIndex);
+		insertWord(word);
 	}
 
 	fin.close();
-	fout.close();
 }
 
 // Helper
@@ -85,7 +81,7 @@ void serializeHelper(std::ofstream& fout, TrieNode* root, std::string& wordConta
 void Trie::serialize(const std::string inputedSourceFilePath) {
 	std::string wordContainer;
 
-    if (inputedSourceFilePath != "") {
+    if (inputedSourceFilePath.compare("") != 0) {
         sourceFilePath = inputedSourceFilePath;
     }
 
@@ -97,9 +93,13 @@ void Trie::serialize(const std::string inputedSourceFilePath) {
 
 // Manually build trie from: 1. Trie.txt (by default) or 2. inputSourcefilePath
 void Trie::deserialize(const std::string inputedSourceFilePath) {
+    if (!root) {
+        root = new TrieNode();
+    }
+
 	std::string word;
 
-    if (inputedSourceFilePath != "") {
+    if (inputedSourceFilePath.compare("") != 0) {
         sourceFilePath = inputedSourceFilePath;
     }
 
@@ -114,7 +114,7 @@ void Trie::deserialize(const std::string inputedSourceFilePath) {
 	fin.close();
 }
 
-void deleteTrie(TrieNode*& root) {
+void Trie::deleteTrie(TrieNode*& root) {
 	if (!root) {
 		return;
 	}
@@ -127,23 +127,23 @@ void deleteTrie(TrieNode*& root) {
 }
 
 Trie::~Trie() {
-	serialize();
 	deleteTrie(root);
+    std::cout << "Trie destructor called!\n";
 }
 
-/* -------------- CUSTOM FUNCTIONS --------------------- */
+/* ------------------------- CUSTOM FUNCTIONS ------------------------------ */
 
 // Return false if allocation failed, true if successfully inserted
-bool Trie::insertWord(const std::string& word, long long hashIndex) {
+int Trie::insertWord(const std::string& word, long long hashIndex) {
 	TrieNode* current = root;
-	for (int i = 0; i < word.size(); ++i) {
+	for (unsigned int i = 0; i < word.size(); ++i) {
 		char edge = charToEdge(word[i]);
 		if (!current->next[edge]) {
 			current->next[edge] = new TrieNode();
 
             // Failed to allocate memory for the new node
             if (!current->next[edge]) {
-                return false;
+                return -1;
             }
 		}
 		current = current->next[edge];
@@ -151,7 +151,7 @@ bool Trie::insertWord(const std::string& word, long long hashIndex) {
 
     // Word is already there
     if (current->hashIndex != -1) {
-        return false;
+        return 0;
     }
 
     // hashIndex provided / not provided
@@ -163,13 +163,14 @@ bool Trie::insertWord(const std::string& word, long long hashIndex) {
         current->hashIndex = hashIndex;
     }
 
-    return true;  // Insertion is successful
+    // Insertion is successful
+    return 1;  
 }
 
 // Return -1 if no word found, else return a hashIndex that is the index of a node in the balanced BST -> hashIndex is to find that node
 long long Trie::searchWord(const std::string& word) {
 	TrieNode* current = root;
-	for (int i = 0; i < word.size(); ++i) {
+	for (unsigned int i = 0; i < word.size(); ++i) {
 		char edge = charToEdge(word[i]);
 		if (!current->next[edge]) {
 			return -1;

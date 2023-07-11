@@ -64,6 +64,8 @@ public:
     long long leftBound = 0, rightBound = 1e18;
     std::string sourceFilePath;
 
+    BinarySearchTree();
+
     // Automatically build map from the serialized file (HashMap.txt), sourceFilePath is set to HashMap.txt by default
     BinarySearchTree(const std::string& hashMapFilePath, const long long& lb = 0, const long long& rb = (long long)1e18);
     
@@ -71,7 +73,7 @@ public:
     ~BinarySearchTree();
 
     // Build Map from the original file (Original.txt), sourceFilePath is set to HashMap.txt by default
-    void buildOriginal();
+    void buildOriginal(const std::string inputedSourceFilePath = "");
 
     // Helper
     void serializeNode(std::ofstream& fout, TreeNode* pRoot);
@@ -143,4 +145,4 @@ public:
     Quiz chooseRightWord();
 };
 
-#endif
+#endif // !HASHMAP_H

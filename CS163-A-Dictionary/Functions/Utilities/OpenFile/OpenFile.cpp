@@ -5,7 +5,6 @@
 
 std::string getFolderPath(const std::string& filePath) {
 	int found = filePath.find_last_of("/\\");
-	std::cout << found;
 	return filePath.substr(0, found + 1);
 }
 
@@ -21,6 +20,7 @@ void writeFile(std::ofstream& fout, const std::string& filePath, std::ios::openm
 	fout.open(filePath, openmode);
 
 	if (!fout.good()) {
+        std::cout << "Cannot open file!\n";
 		throw std::invalid_argument("Dictionary source is inaccessible, please try again later!\n");
 	}
 }

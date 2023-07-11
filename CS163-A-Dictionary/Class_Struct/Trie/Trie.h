@@ -33,10 +33,10 @@ public:
 	Trie();
 
     // Build trie from the Trie.txt file in dictionary folder, sourceFilePath is set to Trie.txt by default
-	Trie(const std::string& trieFilePath);
+	Trie(const std::string trieFilePath);
 
     // Build trie from the Original.txt file in dictionary folder, sourceFilePath is set to Trie.txt by default
-	void buildTrieFromOriginalSource(const std::string& originalFilePath);
+	void buildTrieFromOriginalSource(const std::string originalFilePath);
 
     // Manually save trie's information to: 1. Trie.txt (by default) or 2. inputSourcefilePath
 	void serialize(const std::string inputedSourceFilePath = "");
@@ -44,13 +44,16 @@ public:
     // Manually build trie from: 1. Trie.txt (by default) or 2. inputSourcefilePath
 	void deserialize(const std::string inputedSourceFilePath = "");
 
+    // Delete whole trie
+    void deleteTrie(TrieNode*& root);
+
     // Automatically delete the map and serialize it to the sourceFilePath (decided at the deserialization/construction)
 	~Trie();
 
 	/* -------------- CUSTOM FUNCTIONS --------------------- */
 
     // Return false if allocation failed, true if successfully inserted
-	bool insertWord(const std::string& word, long long hashIndex = -1);
+    int insertWord(const std::string& word, long long hashIndex = -1);
 
     // Return -1 if no word found, else return a hashIndex that is the index of a node in the balanced BST -> hashIndex is to find that node
 	long long searchWord(const std::string& word);

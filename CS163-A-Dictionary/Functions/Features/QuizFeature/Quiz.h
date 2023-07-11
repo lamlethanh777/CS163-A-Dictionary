@@ -3,8 +3,8 @@
 
 #include "../../../Class_Struct/HashMap/HashMap.h"
 
-void quizChooseRightWord(BinarySearchTree wordMap);
+void quizChooseRightWord(BinarySearchTree& wordMap);
 
-void quizChooseRightDef(BinarySearchTree wordMap);
+void quizChooseRightDef(BinarySearchTree& wordMap);
 
-#endif
+#endif // !QUIZ_H
