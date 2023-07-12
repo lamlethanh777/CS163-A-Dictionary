@@ -185,7 +185,7 @@ void chooseFeature(int& commandNumber, int& currentDatasetNumber, std::string& c
 
         case 10: {
             std::cout << "10. View your favorite list\n";
-            // 10. View your favorite list
+            viewFavoriteList(currentDictionary.favoriteList);
             break;
         }
 
