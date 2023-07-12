@@ -9,7 +9,5 @@ void viewFavoriteList(std::vector<std::string>& favoriteList) {
     }
 
     std::cout << "This is the list of your favorite word(s):\n";
-    for (int i = favoriteList.size() - 1; i >= 0; i--) {
-        std::cout << favoriteList[i] << '\n';
-    }
+    displayVector(favoriteList);
 }
