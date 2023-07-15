@@ -4,45 +4,20 @@
 
 #include<string>
 #include<vector>
-#include<algorithm>
 
 using namespace std;
 
-// watchout 'A' and 'a'
 struct KMP {
-    // lsp[i]: longest proper suffix of s[0..i]
-    // nextState[i][c]: next state if go from i through char c
-    // state i: longest proper prefix = i
-    
-    int MAXC = 26;
     int n;
     string s;
- 
-    vector<int> compressedValue;
+
     vector<int> prefix;
-    vector<vector<int>> nextState;
 
-    void compress();
-    void calcPrefix(); 
-    void calcNextState();
-
-    KMP(string s) : s(s) {
+    KMP(const string& s) : s(s) {
         n = s.size();
         prefix.resize(n);
 
-        compress();
         calcPrefix();
-        calcNextState();
-    }
-
-    void compress() {
-        for (auto it : s) compressedValue.push_back(it);
-        sort(compressedValue.begin(), compressedValue.end());
-        
-        compressedValue.erase(unique(compressedValue.begin(), compressedValue.end()), compressedValue.end());
-        MAXC = (int)compressedValue.size();
-
-        nextState.resize(n, vector<int>(MAXC));
     }
 
     void calcPrefix() {
@@ -59,32 +34,19 @@ struct KMP {
         }
     }
 
-    void calcNextState() {
-        for (int i = 0; i <= n; i++) {
-            int currentVal = lower_bound(compressedValue.begin(), compressedValue.end(), (int)s[i]) - compressedValue.begin();
-            for (int j = 0; j < MAXC; j++) {
-                if (i == n || (i && j != currentVal)) {
-                    nextState[i][j] = nextState[prefix[i - 1]][j];
-                }
-                else {
-                    nextState[i][j] = i + (j == currentVal);
-                }
+    bool isSubstring(const string& bigString) {
+        int j = 0;
+        for (int i = 0; i < bigString.size(); ++i) {
+            while (j > 0 && bigString[i] != s[j]) j = prefix[j - 1];
+            if (bigString[i] == s[j]) ++j;
+
+            if (j == (int)s.length()) {
+                return true;
             }
         }
+
+        return false;
     }
-
-    bool isSubstring(string pattern) {
-        int state = 0;
-        for (auto it : pattern) {
-            int currentVal = lower_bound(compressedValue.begin(), compressedValue.end(), (int)it) - compressedValue.begin();
-            if (currentVal == (int)compressedValue.size() || compressedValue[currentVal] != (int)it) return false;
-
-            state = nextState[state][currentVal];
-        }
-        
-        return state == (int)pattern.size();    
-    }
-
 };
 
 #endif
