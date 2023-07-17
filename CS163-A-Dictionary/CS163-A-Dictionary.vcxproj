@@ -28,7 +28,6 @@
     <ClCompile Include="Functions\Features\ViewRandomWord\ViewRandomWord.cpp" />
     <ClCompile Include="Functions\Features\ViewSearchHistory\ViewSearchHistory.cpp" />
     <ClCompile Include="Functions\Features\SearchWord\SearchWord.cpp" />
-    <ClCompile Include="Functions\Features\ViewSearchHistory\ViewSearchHistory.cpp" />
     <ClCompile Include="Functions\Functions.cpp" />
     <ClCompile Include="Functions\Utilities\LogFunctions\LogFunctions.cpp" />
     <ClCompile Include="Functions\Utilities\OpenFile\OpenFile.cpp" />
@@ -45,6 +44,7 @@
     <ClInclude Include="Functions\Features\ViewFavoriteList\ViewFavoriteList.h" />
     <ClInclude Include="Functions\Features\ViewRandomWord\ViewRandomWord.h" />
     <ClInclude Include="Functions\Features\ViewSearchHistory\ViewSearchHistory.h" />
+    <ClInclude Include="Functions\Features\SearchWord\SearchWord.h" />
     <ClInclude Include="Functions\Functions.h" />
     <ClInclude Include="Functions\Utilities\LogFunctions\LogFunctions.h" />
     <ClInclude Include="Functions\Utilities\OpenFile\OpenFile.h" />
