@@ -17,4 +17,9 @@ void editDefinition(Trie& trie, BinarySearchTree& wordMap) {
         std::cout << "Error: Word not found in the hash map.\n";
         return;
     }
+
+    std::cout << "Current definitions:\n";
+    for (const std::string& definition : hashMapNode->definitions) {
+        std::cout << "- " << definition << '\n';
+    }
 }
