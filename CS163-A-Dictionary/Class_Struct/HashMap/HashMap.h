@@ -2,6 +2,7 @@
 #define HASHMAP_H
 
 #include "../HashMod/HashMod.h"
+#include "../KMP/KMP.h"
 #include "../../Functions/Utilities/OpenFile/OpenFile.h"
 
 std::string llToStr(long long val);
