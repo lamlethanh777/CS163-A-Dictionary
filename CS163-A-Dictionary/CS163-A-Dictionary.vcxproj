@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="Class_Struct\Dictionary\Dictionary.cpp" />
     <ClCompile Include="Class_Struct\HashMap\HashMap.cpp" />
+    <ClCompile Include="Class_Struct\KMP\KMP.cpp" />
     <ClCompile Include="Class_Struct\Trie\Trie.cpp" />
     <ClCompile Include="Functions\Features\AddNewWord\AddNewWord.cpp" />
     <ClCompile Include="Functions\Features\QuizFeature\Quiz.cpp" />

@@ -114,6 +114,8 @@ public:
 
     std::pair<TreeNode*, bool> remove(const long long& val);
 
+    void searchForDefinition(TreeNode* root, KMP& kmp, vector<TreeNode*>& answer);
+
     /* -------------- CUSTOM FUNCTIONS --------------------- */
 
     //Search word (not suggested, as the trie already stores all the hashIndex)
@@ -121,6 +123,9 @@ public:
 
     //Search word by index (traversing through the trie and collecting hashIndex to search)
     TreeNode* searchWord(const long long& hashIndex);
+
+    //Search words using definition pattern
+    vector<TreeNode*> searchForDefinition(const string& definition);
 
     //Get definitions
     std::vector <std::string> getDefinitions(const std::string& word);
