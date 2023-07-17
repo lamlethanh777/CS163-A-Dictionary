@@ -17,6 +17,4 @@ void editDefinition(Trie& trie, BinarySearchTree& wordMap) {
         std::cout << "Error: Word not found in the hash map.\n";
         return;
     }
-
-    
 }
