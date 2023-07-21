@@ -19,8 +19,10 @@ void editDefinition(Trie& trie, BinarySearchTree& wordMap) {
     }
 
     std::cout << "Current definitions:\n";
+    int i = 0
     for (const std::string& definition : hashMapNode->definitions) {
-        std::cout << "- " << definition << '\n';
+        ++i;
+        std::cout << i << ". " << definition << '\n';
     }
 
     std::cout << "Select an action:\n";
@@ -41,6 +43,7 @@ void editDefinition(Trie& trie, BinarySearchTree& wordMap) {
         std::cout << "Definition added successfully.\n";
         break;
     }
+
     case 2: {
         int index;
         std::cout << "Enter the index of the definition to remove: ";
@@ -55,6 +58,7 @@ void editDefinition(Trie& trie, BinarySearchTree& wordMap) {
         }
         break;
     }
+
     case 3: {
         int index;
         std::cout << "Enter the index of the definition to modify: ";
@@ -77,3 +81,4 @@ void editDefinition(Trie& trie, BinarySearchTree& wordMap) {
         break;
     }
 }
+
