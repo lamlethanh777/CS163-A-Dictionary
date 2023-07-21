@@ -1,4 +1,5 @@
 #include "HashMap.h"
+#include "../KMP/KMP.h"
 
 #include <random>
 #include <chrono>
@@ -305,6 +306,23 @@ std::pair<TreeNode*, bool> BinarySearchTree::remove(const long long& val) {
     return { remove(root, val), true };
 }
 
+void BinarySearchTree::searchForDefinition(TreeNode* root, KMP& kmp, vector<TreeNode*>& answer) {
+    if (root == nullptr) return;
+    if ((int)answer.size() == 5) return;
+
+    if (root->data.num > 0) {
+        for (auto& it : root->data.definitions) {
+            if (kmp.isSubstring(it)) {
+                answer.push_back(root);
+                break;
+            }
+        }
+    }
+
+    searchForDefinition(root->pLeft, kmp, answer);
+    searchForDefinition(root->pRight, kmp, answer);
+}
+
 /* -------------- CUSTOM FUNCTIONS --------------------- */
 
 //Search word directyly (not suggested, as the trie already stores all the hashIndex)
@@ -318,6 +336,16 @@ TreeNode* BinarySearchTree::searchWord(const std::string& word) {
 //Search word by index (traversing through the trie and collecting hashIndex to search)
 TreeNode* BinarySearchTree::searchWord(const long long& hashIndex) {
     return searchVal(root, hashIndex);
+}
+
+//Search words using definition pattern (get at most 5 words)
+vector<TreeNode*> BinarySearchTree::searchForDefinition(const string& definition) {
+    KMP kmp(definition);
+    
+    vector<TreeNode*> answer;
+    searchForDefinition(root, kmp, answer);
+
+    return answer;
 }
 
 //Get definitions
