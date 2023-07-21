@@ -3,6 +3,6 @@
 
 #include "../../../Class_Struct/HashMap/HashMap.h"
 
-void searchForDefinition(BinarySearchTree& definitionsList, std::vector<std::string>& searchHistory);
+void searchForDefinition(BinarySearchTree& definitionsList);
 
 #endif // !SEARCH_FOR_DEFINITION_H

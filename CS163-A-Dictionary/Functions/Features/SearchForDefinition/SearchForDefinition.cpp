@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-void searchForDefinition(BinarySearchTree& definitionsList, std::vector<std::string>& searchHistory) {
+void searchForDefinition(BinarySearchTree& definitionsList) {
     // User's input
     std::string definitionPattern;
     std::cout << "Please type in definition pattern you want to search for: ";
@@ -15,10 +15,9 @@ void searchForDefinition(BinarySearchTree& definitionsList, std::vector<std::str
             cout << i + 1 << ": " << words[i]->data.word << "\n";
         }
 
-        int num = 0;
-        cout << "Choose word you want to search for (input 0 to break): "; cin >> num;
-
-        while (num) {
+        while (1) {
+            int num = 0;
+            cout << "Choose word you want to search for (input 0 to break): "; cin >> num;
             if (num == 0) break;
 
             if (num > (int)words.size() || num < 0) {
@@ -30,8 +29,6 @@ void searchForDefinition(BinarySearchTree& definitionsList, std::vector<std::str
             for (const auto& it : words[num - 1]->data.definitions) {
                 std::cout << "- " << it << '\n';
             }
-
-            cout << "Choose word you want to search for (input 0 to break): "; cin >> num;
         }
     }
     else {
