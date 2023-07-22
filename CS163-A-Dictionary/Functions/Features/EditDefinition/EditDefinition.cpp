@@ -62,6 +62,7 @@ void editDefinition(Trie& trie, BinarySearchTree& wordMap) {
         int index;
         std::cout << "Enter the index of the definition to modify: ";
         std::cin >> index;
+        --index;
         std::cin.ignore();  // Ignore the newline character
         if (index >= 0 && index < hashMapNode->data.definitions.size()) {
             std::string newDefinition;

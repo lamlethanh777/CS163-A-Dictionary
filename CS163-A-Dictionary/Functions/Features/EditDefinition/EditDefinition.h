@@ -1,5 +1,6 @@
 #ifndef EDIT_DEFINITION
 #define EDIT_DEFINITION
+
 #include <iostream>
 
 #include "../../../Class_Struct/Trie/Trie.h"
