@@ -67,7 +67,8 @@ void chooseDataset(int& currentDatasetNumber, std::string& currentDatasetName) {
 		displayAllDatasets();
 
         if (!inputAndValidateUserChoice(currentDatasetNumber)) {
-            clearScreen();
+            //clearScreen();
+            system("CLS");
             std::cout << "Invalid option! Please try again!\n\n";
             currentDatasetNumber = 0;
             continue;
