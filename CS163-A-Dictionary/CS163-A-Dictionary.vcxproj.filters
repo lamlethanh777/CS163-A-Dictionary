@@ -15,6 +15,7 @@
     <ClCompile Include="Functions\Utilities\VectorFunctions\VectorFunctions.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Functions\Features\ViewFavoriteList\ViewFavoriteList.cpp" />
+    <ClCompile Include="Functions\Features\DeleteWord\DeleteWord.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Class_Struct\Dictionary\Dictionary.h" />
@@ -31,6 +32,7 @@
     <ClInclude Include="Functions\Utilities\OpenFile\OpenFile.h" />
     <ClInclude Include="Functions\Utilities\VectorFunctions\VectorFunctions.h" />
     <ClInclude Include="Functions\Features\ViewFavoriteList\ViewFavoriteList.h" />
+    <ClInclude Include="Functions\Features\DeleteWord\DeleteWord.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Functions\Utilities\LogFunctions\Log.txt" />
