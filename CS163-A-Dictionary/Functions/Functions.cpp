@@ -160,7 +160,7 @@ void chooseFeature(int& commandNumber, int& currentDatasetNumber, std::string& c
 
         case 6: {
             std::cout << "6. Edit the definition of existing word\n";
-            // 6. Edit the definition of existing word
+            editDefinition(*(currentDictionary.wordsList), *(currentDictionary.definitionsList));
             break;
         }
 		
