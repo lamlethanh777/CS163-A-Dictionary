@@ -1,6 +1,5 @@
 #include"AddRemoveFavoriteWord.h"
 #include<iostream>
-#include<algorithm>
 
 void AddFavoriteWord(Trie& wordsList, std::vector<std::string>& favoriteList) {
     std::string word;
