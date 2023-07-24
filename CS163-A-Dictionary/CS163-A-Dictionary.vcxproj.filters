@@ -17,6 +17,7 @@
     <ClCompile Include="Functions\Features\ViewFavoriteList\ViewFavoriteList.cpp" />
     <ClCompile Include="Class_Struct\KMP\KMP.cpp" />
     <ClCompile Include="Functions\Features\SearchForDefinition\SearchForDefinition.cpp" />
+    <ClCompile Include="Functions\Features\Add-RemoveFavoriteWord\AddRemoveFavoriteWord.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Class_Struct\Dictionary\Dictionary.h" />
@@ -36,6 +37,7 @@
     <ClInclude Include="Class_Struct\KMP\KMP.h" />
     <ClInclude Include="Class_Struct\Queue\Queue.h" />
     <ClInclude Include="Functions\Features\SearchForDefinition\SearchForDefinition.h" />
+    <ClInclude Include="Functions\Features\Add-RemoveFavoriteWord\AddRemoveFavoriteWord.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Functions\Utilities\LogFunctions\Log.txt" />
