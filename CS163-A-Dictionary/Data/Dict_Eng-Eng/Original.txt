@@ -18,7 +18,7 @@
 -sporangia`of Zoosporangium
 -tre`The point of intersection of a vertical line through the center of gravity of the fluid displaced by a floating body which is tipped through a small angle from its position of equilibrium,
 -vetted`of Curvet
-A 1`A registry mark given by underwriters (as at Lloyd'
+A 1`A registry mark given by underwriters (as at Lloyd's)
 A-mornings`In the morning; every morning.
 Aaronical`Pertaining to Aaron, the first high priest of the Jews.
 Abacist`One who uses an abacus in casting accounts; a calculator.
@@ -94,7 +94,7 @@ Acanthocephala`A group of intestinal worms,
 Acanthopterygious`Having fins in which the rays are hard and spinelike;
 Acarine`Of or caused by acari or mites; as, acarine diseases.
 Acater`See Caterer.
-Accede`To approach; to come forward; -- opposed to recede.#To enter upon an office or dignity; to attain.#To become a party by associating one'
+Accede`To approach; to come forward; -- opposed to recede.#To enter upon an office or dignity; to attain.#To become a party by associating one's self with others;
 Accelerating`of Accelerate
 Accendibility`Capacity of being kindled,
 Accentor`One who sings the leading part; the director or leader.#A genus of European birds (so named from their sweet notes)
@@ -243,7 +243,7 @@ Advised`of Advise
 Advisory`Having power to advise;
 Advoke`To summon; to call.
 Advoyer`See Avoyer.
-Adze`A carpenter'
+Adze`A carpenter's or cooper's tool,
 Aegilops`An ulcer or fistula in the inner corner of the eye.#The great wild-oat grass or other cornfield weed.#A genus of plants, called also hardgrass.
 Aeolic`Aeolian, 1; as, the Aeolic dialect; the Aeolic mode.
 Aepyornis`A gigantic bird found fossil in Madagascar.
@@ -667,7 +667,7 @@ Aphyllous`Destitute of leaves,
 Apician`Belonging to Apicius,
 Aping`of Ape
 Aplacental`Belonging to the Aplacentata; without placenta.
-Aplustre`An ornamental appendage of wood at the ship'
+Aplustre`An ornamental appendage of wood at the ship's stern,
 Apocalyptically`By revelation; in an apocalyptic manner.
 Apocrisiary`Alt. of Apocrisiarius
 Apocynaceous`Alt. of Apocyneous
@@ -697,7 +697,7 @@ Appellate`Pertaining to, or taking cognizance of, appeals.#A person or prosecute
 Appenage`See Appanage.
 Appendency`State of being appendant; appendance.
 Appendicularia`A genus of small free-
-Apperception`The mind'
+Apperception`The mind's perception of itself as the subject or actor in its own states;
 Appertinent`Belonging; appertaining.#That which belongs to something else; an appurtenant.
 Appetite`The desire for some personal gratification,#Desire for, or relish of, food or drink; hunger.#Any strong desire; an eagerness or longing.
 Applauded`of Applaud
@@ -726,7 +726,7 @@ Apsis`One of the two points of an orbit,#In a curve referred to polar coordinate
 Apterous`Destitute of wings; apteral; as, apterous insects.#Destitute of winglike membranous expansions,
 Aptotic`Pertaining to,
 Aqua`Water;
-Aquarian`Of or pertaining to an aquarium.#One of a sect of Christian in the primitive church who used water instead of wine in the Lord'
+Aquarian`Of or pertaining to an aquarium.#One of a sect of Christian in the primitive church who used water instead of wine in the Lord's Supper.
 Aquatinta`A kind of etching in which spaces are bitten by the use of aqua fortis,
 Aquilae`of Aquila
 Ar`Ere; before.
@@ -958,11 +958,11 @@ Autobiographist`One who writes his own life; an autobiographer.
 Autochthones`of Autochthon
 Autocratic`Alt. of Autocratical
 Autofecundation`Self-impregnation.
-Autograph`That which is written with one'#In one'
+Autograph`That which is written with one's own hand;#In one's own handwriting;
 Automatic`Alt. of Automatical
 Automorphism`Automorphic characterization.
 Autophony`An auscultatory process,
-Autoptical`Seen with one'
+Autoptical`Seen with one's own eyes;
 Autotheist`One given to self-worship.
 Auxetic`Pertaining to, or containing, auxesis; amplifying.
 Avaiably`In an available manner;
@@ -1240,7 +1240,7 @@ Bergh`A hill.
 Berhyming`of Berhyme
 Berna fly`A Brazilian dipterous insect of the genus Trypeta,
 Berretta`A square cap worn by ecclesiastics of the Roman Catholic Church.
-Berth`Convenient sea room.#A room in which a number of the officers or ship'#The place where a ship lies when she is at anchor,
+Berth`Convenient sea room.#A room in which a number of the officers or ship's company mess and reside.#The place where a ship lies when she is at anchor,
 Beryl`A mineral of great hardness,
 Besant`See Bezant.
 Bescumber`Alt. of Bescummer
@@ -1534,7 +1534,7 @@ Brachypinacoid`A plane of an orthorhombic crystal which is parallel both to the 
 Brachyuran`One of the Brachyura.
 Brackish`Saltish,
 Bracteolate`Furnished with bracteoles or bractlets.
-Brag`To talk about one'#To boast of.#A boast or boasting;
+Brag`To talk about one's self,#To boast of.#A boast or boasting;
 Braggingly`Boastingly.
 Brahmanism`Alt. of Brahminism
 Brahmo-somaj`A modern reforming theistic sect among the Hindoos.
@@ -1692,7 +1692,7 @@ Busk`A thin,#To prepare; to make ready; to array; to dress.#To go; to direct one
 Bussing`of Buss
 Busto`A bust; a statue.
 Butane`An inflammable gaseous hydrocarbon,
-Butler`An officer in a king'
+Butler`An officer in a king's or a nobleman's household,
 Butt weld`See Butt weld, under Butt.
 Butterbump`The European bittern.
 Butterine`A substance prepared from animal fat with some other ingredients intermixed,
@@ -1858,7 +1858,7 @@ Carburized`of Carburize
 Carcel lamp`A French mechanical lamp,
 Card`A piece of pasteboard,#A published note,#A paper on which the points of the compass are marked;
 Cardia`The heart.#The anterior or cardiac orifice of the stomach,
-Cardinal`Of fundamental importance;#One of the ecclesiastical princes who constitute the pope'#A woman's short cloak with a hood.
+Cardinal`Of fundamental importance;#One of the ecclesiastical princes who constitute the pope's council,#A woman's short cloak with a hood.
 Cardioid`An algebraic curve,
 Cardoon`A large herbaceous plant (Cynara Cardunculus)
 Careered`of Career
@@ -2185,7 +2185,7 @@ Ciclatoun`A costly cloth,
 Ciderkin`A kind of weak cider made by steeping the refuse pomace in water.
 Ciliated`Provided with,
 Cill`See Sill., n. a foundation.
-Cimeliarch`A superintendent or keeper of a church'
+Cimeliarch`A superintendent or keeper of a church's valuables;
 Cinch`A strong saddle girth, as of canvas.#A tight grip.
 Cincinnati epoch`An epoch at the close of the American lower Silurian system.
 Cinematics`See Kinematics.
@@ -2290,7 +2290,7 @@ Clouting`of Clout
 Clown`A man of coarse nature and manners;#One who works upon the soil; a rustic; a churl.#The fool or buffoon in a play, circus, etc.
 Cloyless`That does not cloy.
 Clubbing`of Club
-Clubhaul`To put on the other tack by dropping the lee anchor as soon as the wind is out of the sails (which brings the vessel'
+Clubhaul`To put on the other tack by dropping the lee anchor as soon as the wind is out of the sails (which brings the vessel's head to the wind)
 Clumber`A kind of field spaniel,
 Clunch`Indurated clay. See Bind, n., 3.#One of the hard beds of the lower chalk.
 Clusteringly`In clusters.
@@ -2347,7 +2347,7 @@ Cogitate`To engage in continuous thought; to think.#To think over; to plan.
 Cognateness`The state of being cognate.
 Cognizable`Capable of being known or apprehended;#Fitted to be a subject of judicial investigation;
 Cognominal`Of or pertaining to a cognomen; of the nature of a surname.#One bearing the same name; a namesake.
-Cognovit`An instrument in writing whereby a defendant in an action acknowledges a plaintiff'
+Cognovit`An instrument in writing whereby a defendant in an action acknowledges a plaintiff's demand to be just.
 Cohabited`of Cohabit
 Cohered`of Cohere
 Cohesion`The act or state of sticking together; close union.#That from of attraction by which the particles of a body are united throughout the mass,#Logical agreement and dependence; as, the cohesion of ideas.
@@ -2356,7 +2356,7 @@ Coigne`A quoin.#Alt. of Coigny
 Coincibency`Coincidence.
 Coinciding`of Coincide
 Coining`of Coin
-Coistril`An inferior groom or lad employed by an esquire to carry the knight'#A mean, paltry fellow; a coward.
+Coistril`An inferior groom or lad employed by an esquire to carry the knight's arms and other necessaries.#A mean, paltry fellow; a coward.
 Cokes`A simpleton; a gull; a dupe.
 Colature`The process of straining; the matter strained; a strainer.
 Cold-short`Brittle when cold; as, cold-short iron.
@@ -2731,7 +2731,7 @@ Corvetto`A curvet.
 Corymb`A flat-#Any flattish flower cluster,
 Coryphene`A fish of the genus Coryphaena. See Dolphin. (2)
 Cosecant`The secant of the complement of an arc or angle.
-Coshering`A feudal prerogative of the lord of the soil entitling him to lodging and food at his tenant'
+Coshering`A feudal prerogative of the lord of the soil entitling him to lodging and food at his tenant's house.
 Cosmetic`Alt. of Cosmetical#Any external application intended to beautify and improve the complexion.
 Cosmogonies`of Cosmogony
 Cosmography`A description of the world or of the universe;
@@ -3069,7 +3069,7 @@ Dealbation`Act of bleaching; a whitening.
 Deambulatory`Going about from place to place;#A covered place in which to walk; an ambulatory.
 Dearborn`A four-wheeled carriage, with curtained sides.
 Dearticulate`To disjoint.
-Deathbird`Tengmalm'
+Deathbird`Tengmalm's or Richardson's owl (Nyctale Tengmalmi)
 Deathsman`An executioner; a headsman or hangman.
 Debacle`A breaking or bursting forth;
 Debarrass`To disembarrass; to relieve.
@@ -3138,7 +3138,7 @@ Deepened`of Deepen
 Deergrass`An American genus (Rhexia)
 Deess`A goddess.
 Defailance`Failure; miscarriage.
-Defamation`Act of injuring another'
+Defamation`Act of injuring another's reputation by any slanderous communication,
 Defatigable`Capable of being wearied or tired out.
 Defeasanced`Liable to defeasance;
 Defecated`of Defecate
@@ -3162,7 +3162,7 @@ Deformities`of Deformity
 Defrauding`of Defraud
 Deft`Apt; fit; dexterous; clever; handy; spruce; neat.
 Defying`of Defy
-Degenerate`Having become worse than one'#To be or grow worse than one'#To fall off from the normal quality or the healthy structure of its kind;
+Degenerate`Having become worse than one's kind,#To be or grow worse than one's kind,#To fall off from the normal quality or the healthy structure of its kind;
 Degenerous`Degenerate; base.
 Deglutition`The act or process of swallowing food;
 Degradingly`In a degrading manner.
@@ -3333,7 +3333,7 @@ Determinism`The doctrine that the will is not free,
 Detersive`Cleansing; detergent.#A cleansing agent; a detergent.
 Detestation`The act of detesting;
 Dethroner`One who dethrones.
-Detonation`An explosion or sudden report made by the instantaneous decomposition or combustion of unstable substances'
+Detonation`An explosion or sudden report made by the instantaneous decomposition or combustion of unstable substances' as,
 Detorted`of Detort
 Detracting`of Detract
 Detrain`To alight, or to cause to alight, from a railway train.
@@ -3687,7 +3687,7 @@ Do`A syllable attached to the first tone of the major diatonic scale for the pur
 Doab`A tongue or tract of land included between two rivers;
 Dobule`The European dace.
 Docible`Easily taught or managed; teachable.
-Dock`A genus of plants (Rumex)#The solid part of an animal'#A case of leather to cover the clipped or cut tail of a horse.
+Dock`A genus of plants (Rumex)#The solid part of an animal's tail,#A case of leather to cover the clipped or cut tail of a horse.
 Dockyard`A yard or storage place for all sorts of naval stores and timber for shipbuilding.
 Doctoress`A female doctor.
 Doctrinally`In a doctrinal manner or for;
@@ -3713,7 +3713,7 @@ Dolly`A contrivance,#A tool with an indented head for shaping the head of a rive
 Doloriferous`Producing pain.
 Doltish`Doltlike;
 Domal`Pertaining to a house.
-Domestic`Of or pertaining to one'#Of or pertaining to a nation considered as a family or home,#Remaining much at home;
+Domestic`Of or pertaining to one's house or home,#Of or pertaining to a nation considered as a family or home,#Remaining much at home;
 Domesticator`One who domesticates.
 Domiciliate`To establish in a permanent residence; to domicile.#To domesticate.
 Domina`Lady;
@@ -4032,7 +4032,7 @@ Embassador`A minister of the highest rank sent to a foreign court to represent t
 Embathe`To bathe; to imbathe.
 Embaying`of Embay
 Embellished`of Embellish
-Embezzle`To appropriate fraudulently to one'#To misappropriate; to waste; to dissipate in extravagance.
+Embezzle`To appropriate fraudulently to one's own use,#To misappropriate; to waste; to dissipate in extravagance.
 Embitterment`The act of embittering; also, that which embitters.
 Emblazoning`of Emblazon#The act or art of heraldic decoration;
 Emblematist`A writer or inventor of emblems.
@@ -4495,7 +4495,7 @@ Expositor`One who,
 Exposture`Exposure.
 Expressed`of Express
 Expressman`A person employed in the express business;
-Expropriate`To put out of one'
+Expropriate`To put out of one's possession;
 Expulsion`The act of expelling;#The state of being expelled or driven out.
 Expurgating`of Expurgate
 Exquisite`Carefully selected or sought out;#Exceeding;#Of delicate perception or close and accurate discrimination;
@@ -5192,7 +5192,7 @@ Gentry`Birth; condition; rank by birth.#People of education and good breeding;#C
 Genuine`Belonging to,
 Geode`A nodule of stone,#The cavity in such a nodule.
 Geodetically`In a geodetic manner; according to geodesy.
-Geognosy`That part of geology which treats of the materials of the earth'
+Geognosy`That part of geology which treats of the materials of the earth's structure,
 Geographies`of Geography
 Geologies`of Geology
 Geomancy`A kind of divination by means of figures or lines,
@@ -5474,7 +5474,7 @@ Guna`In Sanskrit grammar,
 Gunnage`The number of guns carried by a ship of war.
 Gunocracy`See Gyneocracy.
 Gunstick`A stick to ram down the charge of a musket,
-Gunwale`The upper edge of a vessel'
+Gunwale`The upper edge of a vessel's or boat's side;
 Gurgling-ly`In a gurgling manner.
 Gurniad`See Gwiniad.
 Gushing`of Gush#Rushing forth with violence,#Emitting copiously,
@@ -5539,7 +5539,7 @@ Half-strained`Half-bred; imperfect.
 Halfcock`To set the cock of (a firearm) at the first notch.
 Halfway`In the middle;#Equally distant from the extremes;
 Haliography`Description of the sea; the science that treats of the sea.
-Hall-mark`The official stamp of the Goldsmiths'
+Hall-mark`The official stamp of the Goldsmiths' Company and other assay offices,
 Hallier`A kind of net for catching birds.
 Hallowing`of Hallow
 Hallux`The first,
@@ -5585,7 +5585,7 @@ Harlotize`To harlot.
 Harmine`An alkaloid accompanying harmaline (in the Peganum harmala)
 Harmonies`of Harmony
 Harmonized`of Harmonize
-Harness cask`A tub lashed to a vessel'
+Harness cask`A tub lashed to a vessel's deck and containing salted provisions for daily use;
 Harped`of Harp
 Harpooned`of Harpoon
 Harquebus`Alt. of Harquebuse
@@ -5826,7 +5826,7 @@ Holostomate`Same as Holostomatous.
 Holour`A whoremonger.
 Holy`Set apart to the service or worship of God;#Spiritually whole or sound;
 Homager`One who does homage,
-Home`See Homelyn.#One'#One'
+Home`See Homelyn.#One's own dwelling place;#One's native land;
 Home-speaking`Direct, forcible, and effective speaking.
 Homely`Belonging to,#Plain;#Of plain or coarse features;
 Homer`A carrier pigeon remarkable for its ability to return home from a distance.#See Hoemother.#A Hebrew measure containing,
@@ -5915,7 +5915,7 @@ Humbird`Humming bird.
 Humblesse`Humbleness; abasement; low obeisance.
 Humdrum`Monotonous; dull; commonplace.#A dull fellow; a bore.#Monotonous and tedious routine.
 Humerus`The bone of the brachium,#The part of the limb containing the humerus; the brachium.
-Humiliate`To reduce to a lower position in one'
+Humiliate`To reduce to a lower position in one's own eyes,
 Humite`A mineral of a transparent vitreous brown color,
 Hummocky`Abounding in hummocks.
 Humorism`The theory founded on the influence which the humors were supposed to have in the production of disease;#The manner or disposition of a humorist; humorousness.
@@ -6000,7 +6000,7 @@ Hypochondriasm`Hypochondriasis.
 Hypocoristic`Endearing; diminutive; as, the hypocoristic form of a name.
 Hypocritical`Of or pertaining to a hypocrite,
 Hypodermis`Same as Hypoblast.#Same as Hypoderma, 2.
-Hypogene`Formed or crystallized at depths the earth'
+Hypogene`Formed or crystallized at depths the earth's surface;
 Hyponastic`Exhibiting a downward convexity caused by unequal growth.
 Hypophosphorous`Pertaining to,
 Hypoptilums`of Hypoptilum
@@ -6693,7 +6693,7 @@ Isonandra`A genus of sapotaceous trees of India.
 Isopepsin`Pepsin modified by exposure to a temperature of from 40 to 60 C.
 Isopodous`Same as Isopod.
 Isospondylous`Of or pertaining to the Isospondyli;
-Isotherm`A line connecting or marking points on the earth'
+Isotherm`A line connecting or marking points on the earth's surface having the same temperature.
 Isotrimorphous`Having the quality of isotrimorphism; isotrimorphic.
 Israelitish`Of or pertaining to Israel,
 Issuer`One who issues, emits, or publishes.
@@ -7656,7 +7656,7 @@ Merl`Alt. of Merle
 Mermen`of Merman
 Meros`The plain surface between the channels of a triglyph.#The proximal segment of the hind limb; the thigh.
 Merriness`The quality or state of being merry;
-Merrythought`The forked bone of a fowl'
+Merrythought`The forked bone of a fowl's breast;
 Mesaconic`Pertaining to,
 Mesaticephalous`Mesaticephalic.
 Mesembryanthemum`A genus of herbaceous or suffruticose plants,
@@ -8132,7 +8132,7 @@ Nasally`In a nasal manner; by the nose.
 Nasion`The middle point of the nasofrontal suture.
 Nasoseptal`Of or pertaining to the internasal septum.
 Nasturtium`A genus of cruciferous plants,#Any plant of the genus Tropaeolum,
-Natalitious`Of or pertaining to one'
+Natalitious`Of or pertaining to one's birth or birthday,
 Natatorious`Adapted for swimming;
 Nathless`Nevertheless.
 Nationalism`The state of being national;#An idiom, trait, or character peculiar to any nation.#National independence; the principles of the Nationalists.
@@ -8307,7 +8307,7 @@ Northeaster`A storm, strong wind, or gale, coming from the northeast.
 Northern`Of or pertaining to the north;#In a direction toward the north;
 Northness`A tendency in the end of a magnetic needle to point to the north.
 Northwestern`Of,
-Noseband`That part of the headstall of a bridle which passes over a horse'
+Noseband`That part of the headstall of a bridle which passes over a horse's nose.
 Nosethril`Nostril.
 Nosopoetic`Producing diseases.
 Nostrums`of Nostrum
@@ -8400,7 +8400,7 @@ Obstringe`To constrain; to put under obligation.
 Obstructive`Tending to obstruct;#An obstructive person or thing.
 Obtainer`One who obtains.
 Obtending`of Obtend
-Obtrude`To thrust impertinently;#To offer with unreasonable importunity;#To thrust one'
+Obtrude`To thrust impertinently;#To offer with unreasonable importunity;#To thrust one's self upon a company or upon attention;
 Obtrusive`Disposed to obtrude;
 Obtusangular`See Obstuseangular.
 Obumbrate`To shade; to darken; to cloud.
@@ -8436,7 +8436,7 @@ Odontalgia`Toothache.
 Odontograph`An instrument for marking or laying off the outlines of teeth of gear wheels.
 Odontophore`A special structure found in the mouth of most mollusks,
 Odorament`A perfume; a strong scent.
-Ods`A corruption of God'
+Ods`A corruption of God's;
 Oeconomical`See Economical.
 Oelet`An eye, bud, or shoot, as of a plant; an oilet.
 Oenanthylidene`A colorless liquid hydrocarbon,
@@ -8702,7 +8702,7 @@ Overmoist`Excessively moist.
 Overmultiply`To multiply or increase too much; to repeat too often.
 Overoffice`To domineer over by virtue of office.
 Overpassing`of Overpass
-Overpersuade`To persuade or influence against one'
+Overpersuade`To persuade or influence against one's inclination or judgment.
 Overponderous`Too heavy.
 Overpress`To bear upon with irresistible force;#To overcome by importunity.
 Overprovident`Too provident.
@@ -8950,7 +8950,7 @@ Patchwork`Work composed of pieces sewed together,
 Patellae`of Patella
 Patent`Open;#Open to public perusal;#Appropriated or protected by letters patent;
 Paterae`of Patera
-Paternoster`The Lord'#A beadlike ornament in moldings.#A line with a row of hooks and bead/shaped sinkers.
+Paternoster`The Lord's prayer,#A beadlike ornament in moldings.#A line with a row of hooks and bead/shaped sinkers.
 Pathic`A male who submits to the crime against nature; a catamite.#Passive; suffering.
 Pathogeny`The generation,#That branch of pathology which treats of the generation and development of disease.
 Pathopoela`A speech, or figure of speech, designed to move the passion.
@@ -8991,11 +8991,11 @@ Peccavi`I have sinned;
 Pecopteris`An extensive genus of fossil ferns;
 Pectinated`Resembling the teeth of a comb.#Having very narrow,#Interlaced, like two combs.
 Pectize`To congeal; to change into a gelatinous mass.
-Pectoriloquy`The distinct articulation of the sounds of a patient'
+Pectoriloquy`The distinct articulation of the sounds of a patient's voice,
 Pecularizing`of Peculiarize
 Peculiarity`The quality or state of being peculiar;#That which is peculiar;#Exclusive possession or right.
 Pecunious`Abounding in money; wealthy; rich.
-Pedagogue`A slave who led his master'#A teacher of children;#One who by teaching has become formal,
+Pedagogue`A slave who led his master's children to school,#A teacher of children;#One who by teaching has become formal,
 Pedantical`Of or pertaining to a pedant;
 Pedarian`One of a class eligible to the office of senator,
 Peddler`One who peddles;
@@ -9303,7 +9303,7 @@ Pillorying`of Pillory
 Pilocarpine`An alkaloid extracted from jaborandi (Pilocarpus pennatifolius)
 Pilotism`Alt. of Pilotry
 Pily`Like pile or wool.
-Pimp`One who provides gratification for the lust of others;#To procure women for the gratification of others'
+Pimp`One who provides gratification for the lust of others;#To procure women for the gratification of others' lusts;
 Pimply`Pimpled.
 Pinacone`A white crystalline substance related to the glycols,
 Pinch`To press hard or squeeze between the ends of the fingers,#o seize; to grip; to bite; -- said of animals.#To plait.
@@ -9367,7 +9367,7 @@ Planer tree`A small-
 Planetical`Of or pertaining to planets.
 Planiform`Having a plane surface;
 Planipetalous`Having flat petals.
-Plank-sheer`The course of plank laid horizontally over the timberheads of a vessel'
+Plank-sheer`The course of plank laid horizontally over the timberheads of a vessel's frame.
 Plano-concave`Plane or flat on one side,
 Planometry`The art or process of producing or gauging a plane surface.
 Plantal`Belonging to plants; as, plantal life.
@@ -9488,7 +9488,7 @@ Polt`A blow or thump.#Distorted.
 Polwig`A polliwig. Holland.
 Polyacron`A solid having many summits or angular points; a polyhedron.
 Polyandric`Pertaining to,
-Polyautography`The act or practice of multiplying copies of one'
+Polyautography`The act or practice of multiplying copies of one's own handwriting,
 Polychaeta`One of the two principal groups of Chaetopoda.
 Polychromatic`Showing a variety, or a change, of colors.
 Polycotyledon`A plant that has many,
@@ -9859,7 +9859,7 @@ Prosopocephala`Same as Scaphopoda.
 Prospective`Of or pertaining to a prospect;#Looking forward in time;#Being within view or consideration,
 Prospering`of Prosper
 Prosternation`Dejection; depression.
-Prostitution`The act or practice of prostituting or offering the body to an indiscriminate intercourse with men;#The act of setting one'
+Prostitution`The act or practice of prostituting or offering the body to an indiscriminate intercourse with men;#The act of setting one's self to sale,
 Prostyle`Having columns in front.#A prostyle portico or building.
 Protandrous`Proterandrous.
 Protecting`of Protect
@@ -10455,7 +10455,7 @@ Resembler`One who resembles.
 Resentful`Inclined to resent; easily provoked to anger; irritable.
 Reservation`The act of reserving,#Something withheld,#A tract of the public land reserved for some special use,
 Reservist`A member of a reserve force of soldiers or militia.
-Reship`To ship again;#To engage one'
+Reship`To ship again;#To engage one's self again for service on board of a vessel after having been discharged.
 Residency`Residence.#A political agency at a native court in British India,
 Residing`of Reside
 Resignation`The act of resigning or giving up,#The state of being resigned or submissive;
@@ -10474,7 +10474,7 @@ Respersion`The act of sprinkling or scattering.
 Respire`To take breath again; hence, to take rest or refreshment.#To breathe;#To breathe in and out;
 Resplendency`The quality or state of being resplendent;
 Respondency`The act of responding;
-Responsible`Liable to respond;#Able to respond or answer for one'#Involving responsibility;
+Responsible`Liable to respond;#Able to respond or answer for one's conduct and obligations;#Involving responsibility;
 Restagnate`To stagnate; to cease to flow.
 Rested`of Rest
 Restiness`The quality or state of being resty; sluggishness.
@@ -10504,7 +10504,7 @@ Retiring`of Retire#Reserved;#Of or pertaining to retirement;
 Retorting`of Retort
 Retractable`Capable of being retracted; retractile.
 Retractive`Serving to retract; of the nature of a retraction.#That which retracts, or withdraws.
-Retreat`The act of retiring or withdrawing one'#The place to which anyone retires;#The retiring of an army or body of men from the face of an enemy,
+Retreat`The act of retiring or withdrawing one's self,#The place to which anyone retires;#The retiring of an army or body of men from the face of an enemy,
 Retrenchment`The act or process of retrenching;#A work constructed within another,
 Retrieval`The act retrieving.
 Retro-`A prefix or combining form signifying backward,
@@ -11059,7 +11059,7 @@ Seignioralty`The territory or authority of a seignior, or lord.
 Seintuary`Sanctuary.
 Seismographic`Of or pertaining to a seismograph;
 Seity`Something peculiar to one's self.
-Seizure`The act of seizing,#Retention within one'#That which is seized,
+Seizure`The act of seizing,#Retention within one's grasp or power;#That which is seized,
 Selachian`One of the Selachii. See Illustration in Appendix.
 Seld`Rare; uncommon; unusual.#Rarely; seldom.
 Selected`of Select
@@ -11074,20 +11074,20 @@ Self-centering`Alt. of Self-centring
 Self-communicative`Imparting or communicating by its own powers.
 Self-confidence`The quality or state of being self-confident; self-reliance.
 Self-contained`Having self-#Having all the essential working parts connected by a bedplate or framework,
-Self-deceit`The act of deceiving one'
-Self-delusion`The act of deluding one'
+Self-deceit`The act of deceiving one's self,
+Self-delusion`The act of deluding one's self,
 Self-destructive`Destroying,
 Self-diffusive`Having power to diffuse itself; diffusing itself.
 Self-evidence`The quality or state of being self-evident.
-Self-exposure`The act of exposing one'
-Self-help`The act of aiding one'
+Self-exposure`The act of exposing one's self;
+Self-help`The act of aiding one's self,
 Self-imposture`Imposture practiced on one's self; self-deceit.
 Self-kindled`Kindled of itself, or without extraneous aid or power.
 Self-motion`Motion given by inherent power,
 Self-opinion`Opinion,
 Self-praise`Praise of one's self.
 Self-renunciation`The act of renouncing,
-Self-reproved`Reproved by one'
+Self-reproved`Reproved by one's own conscience or one's own sense of guilt.
 Self-reverence`A reverent respect for one's self.
 Self-seeker`One who seeks only his own interest, advantage, or pleasure.
 Self-taught`Taught by one's own efforts.
@@ -11257,7 +11257,7 @@ Shimmer`To shine with a tremulous or intermittent light;#A faint, tremulous ligh
 Shine`To emit rays of light;#To be bright by reflection of light;#To be effulgent in splendor or beauty.
 Shingling`of Shingle#The act of covering with shingles;#The process of expelling scoriae and other impurities by hammering and squeezing,
 Shinplaster`Formerly,
-Shipboard`A ship'
+Shipboard`A ship's side;
 Shipload`The load, or cargo, of a ship.
 Shippen`A stable; a cowhouse.
 Shipwrecking`of Shipwreck
@@ -11298,7 +11298,7 @@ Shrovetide`The days immediately preceding Ash Widnesday,
 Shrubby`Full of shrubs.#Of the nature of a shrub; resembling a shrub.
 Shuck`A shock of grain.#A shell,#The shell of an oyster or clam.
 Shude`The husks and other refuse of rice mills,
-Shug`To writhe the body so as to produce friction against one'#Hence, to crawl; to sneak.
+Shug`To writhe the body so as to produce friction against one's clothes,#Hence, to crawl; to sneak.
 Shunter`A person employed to shunt cars from one track to another.
 Shuttlecock`A cork stuck with feathers,#To send or toss to and fro;
 Shyster`A trickish knave;
@@ -11587,7 +11587,7 @@ Sorcery`Divination by the assistance,
 Sordine`See Damper, and 5th Mute.
 Sorehon`Formerly,
 Sorgo`Indian millet and its varieties. See Sorghum.
-Sororicide`The murder of one'
+Sororicide`The murder of one's sister;
 Sorriness`The quality or state of being sorry.
 Sort`Chance; lot; destiny.#A kind or species;#Manner; form of being or acting.
 Sortie`The sudden issuing of a body of troops,
@@ -11846,9 +11846,9 @@ Stench`To stanch.#A smell; an odor.#An ill smell; an offensive odor; a stink.
 Stenoderm`Any species of bat belonging to the genus Stenoderma,
 Stenographist`A stenographer.
 Stentor`A herald,#Any species of ciliated Infusoria belonging to the genus Stentor and allied genera,#A howling monkey, or howler.
-Stepbrother`A brother by the marriage of one'
+Stepbrother`A brother by the marriage of one's father with the mother of another,
 Stepladder`A portable set of steps.
-Stepsister`A daughter of one'
+Stepsister`A daughter of one's stepfather or stepmother by a former marriage.
 Stercorarian`A Stercoranist.
 Stere`A unit of cubic measure in the metric system,#To stir.#A rudder. See 5th Steer.
 Stereochromic`Pertaining to the art of stereochromy;
@@ -12169,7 +12169,7 @@ Suppurating`of Suppurate
 Supra-angular`See Surangular.
 Suprabranchial`Situated above the branchiae;
 Supracostal`Situated above, or on the outside of, the ribs.
-Supralapsarian`One of that class of Calvinists who believed that God'#Of or pertaining to the Supralapsarians, or their doctrine.
+Supralapsarian`One of that class of Calvinists who believed that God's decree of election determined that man should fall,#Of or pertaining to the Supralapsarians, or their doctrine.
 Supramaxillary`Situated over the lower jaw; as, the supramaxillary nerve.#Of or pertaining to the upper jaw.
 Supraorbitar`Situated above the orbit of the eye.
 Suprasphenoidal`Situated above the sphenoidal bone;
@@ -12316,7 +12316,7 @@ Taconic`Designating,
 Tactility`The quality or state of being tactile;
 Taenia`A genus of intestinal worms which includes the common tapeworms of man.#A band;#The fillet,
 Taenioid`Ribbonlike; shaped like a ribbon.#Like or pertaining to Taenia.
-Taffrail`The upper part of a ship'
+Taffrail`The upper part of a ship's stern,
 Tagging`of Tag
 Tagtail`A worm which has its tail conspicuously colored.#A person who attaches himself to another against the will of the latter;
 Tail-bay`One of the joists which rest one end on the wall and the other on a girder;#The part of a canal lock below the lower gates.
@@ -12332,7 +12332,7 @@ Talkative`Given to much talking.
 Tallier`One who keeps tally.
 Tallowing`of Tallow#The act,
 Tallymen`of Tallyman
-Talon`The claw of a predaceous bird or animal,#One of certain small prominences on the hind part of the face of an elephant'#A kind of molding,
+Talon`The claw of a predaceous bird or animal,#One of certain small prominences on the hind part of the face of an elephant's tooth.#A kind of molding,
 Tamability`The quality or state of being tamable; tamableness.
 Tamarisk`Any shrub or tree of the genus Tamarix,
 Tamburin`See Tambourine.
@@ -12401,7 +12401,7 @@ Tectly`Covertly; privately; secretly.
 Tedded`of Ted
 Tedium`Irksomeness; wearisomeness; tediousness.
 Teemer`One who teems, or brings forth.
-Teens`The years of one'
+Teens`The years of one's age having the termination -
 Teetered`of Teeter
 Teetotally`Entirely; totally.
 Tegmental`Of or pertaining to a tegument or tegmentum;
@@ -12906,7 +12906,7 @@ Trottoir`Footpath; pavement; sidewalk.
 Troubling`of Trouble
 Troupe`A company or troop,
 Trout-colored`White,
-Trowel`A mason'#A gardener'#A tool used for smoothing a mold.
+Trowel`A mason's tool,#A gardener's tool,#A tool used for smoothing a mold.
 Troyounce`See Troy ounce, under Troy weight, above, and under Ounce.
 Trubtall`A short, squat woman.
 Truck`A small wheel,#A low,#A swiveling carriage,
@@ -13309,7 +13309,7 @@ Ushership`The office of an usher; usherdom.
 Ustorious`Having the quality of burning.
 Usurary`Usurious.
 Usurpation`The act of usurping,#Use; usage; custom.
-Ut`The first note in Guido'
+Ut`The first note in Guido's musical scale,
 Uti possidetis`The basis or principle of a treaty which leaves belligerents mutually in possession of what they have acquired by their arms during the war.#A species of interdict granted to one who was in possession of an immovable thing,
 Utilization`The act of utilizing, or the state of being utilized.
 Utopian`Of or pertaining to Utopia;#An inhabitant of Utopia;
@@ -13692,7 +13692,7 @@ Wharp`A kind of fine sand from the banks of the Trent,
 Whatsoever`Whatever.
 Wheaten`Made of wheat; as, wheaten bread.
 Wheel`A circular frame turning about an axis;#Any instrument having the form of,#A spinning wheel.  See under Spinning.
-Wheelhouse`A small house on or above a vessel'#A paddle box.  See under Paddle.
+Wheelhouse`A small house on or above a vessel's deck,#A paddle box.  See under Paddle.
 Wheen`A quantity; a goodly number.
 Whelky`Having whelks,#Shelly.
 Whenas`Whereas; while

@@ -47,6 +47,7 @@ void editDefinition(Trie& trie, BinarySearchTree& wordMap) {
         int index;
         std::cout << "Enter the index of the definition to remove: ";
         std::cin >> index;
+        --index;
         std::cin.ignore();  // Ignore the newline character
         if (index >= 0 && index < hashMapNode->data.definitions.size()) {
             hashMapNode->data.definitions.erase(hashMapNode->data.definitions.begin() + index);
