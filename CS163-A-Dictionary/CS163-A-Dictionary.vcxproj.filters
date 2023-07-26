@@ -15,6 +15,7 @@
     <ClCompile Include="Functions\Utilities\VectorFunctions\VectorFunctions.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Functions\Features\ViewFavoriteList\ViewFavoriteList.cpp" />
+    <ClCompile Include="Functions\Features\EditDefinition\EditDefinition.cpp" />
     <ClCompile Include="Class_Struct\KMP\KMP.cpp" />
     <ClCompile Include="Functions\Features\SearchForDefinition\SearchForDefinition.cpp" />
   </ItemGroup>
@@ -33,6 +34,7 @@
     <ClInclude Include="Functions\Utilities\OpenFile\OpenFile.h" />
     <ClInclude Include="Functions\Utilities\VectorFunctions\VectorFunctions.h" />
     <ClInclude Include="Functions\Features\ViewFavoriteList\ViewFavoriteList.h" />
+    <ClInclude Include="Functions\Features\EditDefinition\EditDefinition.h" />
     <ClInclude Include="Class_Struct\KMP\KMP.h" />
     <ClInclude Include="Class_Struct\Queue\Queue.h" />
     <ClInclude Include="Functions\Features\SearchForDefinition\SearchForDefinition.h" />
