@@ -13,8 +13,22 @@ bool addNewWord(Trie& trie, BinarySearchTree& wordMap) {
         return false;
     }
 
-    // Input definition
-    std::cout << "Please enter the definitions you want to add: \n";
+    //std::cout << "Enter the definitions: \n";
+    //std::string definition;
+    //while (getline(std::cin, definition)) {
+    //    if (definition.empty())
+    //        break;
+
+    //    // Check for invalid characters in the definition
+    //    if (definition.find('`') != std::string::npos || definition.find('#') != std::string::npos) {
+    //        std::cout << "Invalid definition. Definitions cannot contain '`' or '#'.\n";
+    //        return false;
+    //    }
+
+    //    definitions.push_back(definition);
+    //}
+
+    std::cout << "Enter the definition: \n";
     std::string definition;
     getline(std::cin, definition);
 
