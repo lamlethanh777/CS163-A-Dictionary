@@ -21,10 +21,12 @@
   <ItemGroup>
     <ClCompile Include="Class_Struct\Dictionary\Dictionary.cpp" />
     <ClCompile Include="Class_Struct\HashMap\HashMap.cpp" />
+    <ClCompile Include="Class_Struct\KMP\KMP.cpp" />
     <ClCompile Include="Class_Struct\Trie\Trie.cpp" />
     <ClCompile Include="Functions\Features\AddNewWord\AddNewWord.cpp" />
     <ClCompile Include="Functions\Features\EditDefinition\EditDefinition.cpp" />
     <ClCompile Include="Functions\Features\QuizFeature\Quiz.cpp" />
+    <ClCompile Include="Functions\Features\SearchForDefinition\SearchForDefinition.cpp" />
     <ClCompile Include="Functions\Features\ViewFavoriteList\ViewFavoriteList.cpp" />
     <ClCompile Include="Functions\Features\ViewRandomWord\ViewRandomWord.cpp" />
     <ClCompile Include="Functions\Features\ViewSearchHistory\ViewSearchHistory.cpp" />
@@ -39,10 +41,13 @@
     <ClInclude Include="Class_Struct\Dictionary\Dictionary.h" />
     <ClInclude Include="Class_Struct\HashMap\HashMap.h" />
     <ClInclude Include="Class_Struct\HashMod\HashMod.h" />
+    <ClInclude Include="Class_Struct\KMP\KMP.h" />
+    <ClInclude Include="Class_Struct\Queue\Queue.h" />
     <ClInclude Include="Class_Struct\Trie\Trie.h" />
     <ClInclude Include="Functions\Features\AddNewWord\AddNewWord.h" />
     <ClInclude Include="Functions\Features\EditDefinition\EditDefinition.h" />
     <ClInclude Include="Functions\Features\QuizFeature\Quiz.h" />
+    <ClInclude Include="Functions\Features\SearchForDefinition\SearchForDefinition.h" />
     <ClInclude Include="Functions\Features\ViewFavoriteList\ViewFavoriteList.h" />
     <ClInclude Include="Functions\Features\ViewRandomWord\ViewRandomWord.h" />
     <ClInclude Include="Functions\Features\ViewSearchHistory\ViewSearchHistory.h" />

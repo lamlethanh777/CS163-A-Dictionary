@@ -8,7 +8,8 @@
 #include "Features/SearchWord/SearchWord.h"
 #include "Features/QuizFeature/Quiz.h"
 #include "Features/ViewRandomWord/ViewRandomWord.h"
-#include "Features/ViewFavoriteList/ViewFavoriteList.h"
+#include"Features/ViewFavoriteList/ViewFavoriteList.h"
+#include "Features/SearchForDefinition/SearchForDefinition.h"
 
 void menu();
 

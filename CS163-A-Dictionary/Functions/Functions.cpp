@@ -143,7 +143,7 @@ void chooseFeature(int& commandNumber, int& currentDatasetNumber, std::string& c
 
         case 3: {
             std::cout << "3. Search for a definition\n";
-            // 3. Search for a definition
+            searchForDefinition(*(currentDictionary.definitionsList));
             break;
         }
 
