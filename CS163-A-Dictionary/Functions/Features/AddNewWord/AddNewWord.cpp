@@ -46,6 +46,7 @@ bool addNewWord(Trie& trie, BinarySearchTree& wordMap) {
     }
     else if (flag == 0) {
         std::cout << "The word has been in the dictionary already!\n";
+        return false;
     }
 
     // Insert in BSTMap
