@@ -1,12 +1,12 @@
-#ifndef ADD-REMOVE-FAVORITE-WORD
-#define ADD-REMOVE-FAVORITE-WORD
+#ifndef ADD_REMOVE_FAVORITE_WORD
+#define ADD_REMOVE_FAVORITE_WORD
 
-#include "../SearchWord/SearchWord.h"
-#include "../../Utilities/VectorFunctions/VectorFunctions.h"
-#include <string>
-#include <vector>
+#include "../../../Class_Struct/Trie/Trie.h"
+#include<vector>
+#include <algorithm>
 
-void AddFavoriteWord(Trie& wordsList, std::vector<std::string>& favoriteList);
-void RemoveFavoriteWord( std::vector<std::string>& favoriteList);
+void addFavoriteWord(Trie& wordsList, std::vector<std::string>& favoriteList);
+void removeFavoriteWord( std::vector<std::string>& favoriteList);
+void add_removeFariteWord(Trie& wordsList, std::vector<std::string>& favoriteList);
 
-#endif // !ADD-REMOVE-FAVORITE-WORD
+#endif // !ADD_REMOVE_FAVORITE_WORD

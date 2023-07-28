@@ -9,6 +9,7 @@
 #include "Features/ViewRandomWord/ViewRandomWord.h"
 #include"Features/ViewFavoriteList/ViewFavoriteList.h"
 #include "Features/SearchForDefinition/SearchForDefinition.h"
+#include "Features/Add-RemoveFavoriteWord/AddRemoveFavoriteWord.h"
 
 void menu();
 
