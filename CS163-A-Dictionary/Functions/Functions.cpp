@@ -167,7 +167,7 @@ void chooseFeature(int& commandNumber, int& currentDatasetNumber, std::string& c
 		
 	    case 7: {
             std::cout << "7. Remove a word from the dictionary\n";
-            // 7. Remove a word from the dictionary
+            deleteWord(*(currentDictionary.wordsList), *(currentDictionary.definitionsList));
             break;
         }
 		
@@ -192,7 +192,7 @@ void chooseFeature(int& commandNumber, int& currentDatasetNumber, std::string& c
 
         case 11: {
             std::cout << "11. Remove/add word from your favorite list\n";
-            // 11. Remove/add word from your favorite list
+            deleteWord(*(currentDictionary.wordsList), *(currentDictionary.definitionsList));
             break;
         }
 
