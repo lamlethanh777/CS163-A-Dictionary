@@ -191,7 +191,7 @@ void chooseFeature(int& commandNumber, int& currentDatasetNumber, std::string& c
 
         case 11: {
             std::cout << "11. Remove/add word from your favorite list\n";
-            add_removeFariteWord(*(currentDictionary.wordsList), currentDictionary.favoriteList);
+            addFavoriteWord(*(currentDictionary.wordsList), currentDictionary.favoriteList);
             break;
         }
 

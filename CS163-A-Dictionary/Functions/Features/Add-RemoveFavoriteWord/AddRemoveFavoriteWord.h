@@ -7,6 +7,5 @@
 
 void addFavoriteWord(Trie& wordsList, std::vector<std::string>& favoriteList);
 void removeFavoriteWord( std::vector<std::string>& favoriteList);
-void add_removeFariteWord(Trie& wordsList, std::vector<std::string>& favoriteList);
 
 #endif // !ADD_REMOVE_FAVORITE_WORD

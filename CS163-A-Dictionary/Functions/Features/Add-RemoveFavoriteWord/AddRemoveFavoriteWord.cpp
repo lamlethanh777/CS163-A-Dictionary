@@ -1,6 +1,10 @@
 #include"AddRemoveFavoriteWord.h"
 #include<iostream>
 
+bool compareStrings(const std::string& a, const std::string& b) {
+    return a > b;
+}
+
 void addFavoriteWord(Trie& wordsList, std::vector<std::string>& favoriteList) {
     std::string word;
     std::cout << "Please type in the word you want to add to your favorite list: ";
@@ -13,14 +17,14 @@ void addFavoriteWord(Trie& wordsList, std::vector<std::string>& favoriteList) {
     }
     else {
         favoriteList.push_back(word);
-        std::sort(favoriteList.begin(), favoriteList.end());
+        std::sort(favoriteList.begin(), favoriteList.end(), compareStrings);
         std::cout << "The word :" << word << " is added to your favorite list!\n";
     }
 }
 
 void removeFavoriteWord(std::vector<std::string>& favoriteList) {
-    std::string word;
     std::cout << "Please type in the word you want to remove form favorite list: ";
+    std::string word;
     getline(std::cin, word);
 
         
@@ -32,24 +36,4 @@ void removeFavoriteWord(std::vector<std::string>& favoriteList) {
         }
     }
     std::cout << "Your favorite list doesn't contain the word :" << word<<'\n';
-}
-void add_removeFariteWord(Trie& wordsList, std::vector<std::string>& favoriteList) {
-    std::cout << "What do you want to do?\n"
-        << "1. Add new word to your favorite list\n"
-        << "2. Remove word form your favourite list\n";
-    int commandNumber;
-    std::cin >> commandNumber;
-    switch (commandNumber) 
-    {
-        case 1: {
-            addFavoriteWord(wordsList, favoriteList);
-        }
-        case 2: {
-            removeFavoriteWord(favoriteList);
-        }
-        default: {
-            std::cout << "Invalid option! Please try again!\n\n";
-            break;
-        }
-    }
 }
