@@ -10,6 +10,12 @@ void addFavoriteWord(Trie& wordsList, std::vector<std::string>& favoriteList) {
     std::cout << "Please type in the word you want to add to your favorite list: ";
     getline(std::cin, word);
 
+    for (int i = 0; i < favoriteList.size(); i++) {
+        if (word.compare(favoriteList[i]) == 0) {
+            std::cout << "The word : " << word << " is already in your favorite list\n";
+            return;
+        }
+    }
  
     long long hashIndex = wordsList.searchWord(word);
     if (hashIndex == -1) {
@@ -36,4 +42,36 @@ void removeFavoriteWord(std::vector<std::string>& favoriteList) {
         }
     }
     std::cout << "Your favorite list doesn't contain the word :" << word<<'\n';
+}
+
+void add_removeFavoriteWord(std::string& currentDatasetName,Trie& wordsList, std::vector<std::string>& favoriteList) {
+    int commandNumber;
+    do {
+        std::cout << "\nWhat do you want to do?\n"
+            << "1. Add new word to your favorite list\n"
+            << "2. Remove a word form your favorite list\n";
+        std::string buffer;
+        std::cout << "Your choice: ";
+        getline(std::cin, buffer);
+
+        if (buffer.size() > 1 || buffer[0] < '0' || buffer[0] > '2') {
+            std::cout << "\033[2J\033[1;1H";
+            std::cout << "Invalid option! Please try again!\n\n"
+                      << "***** Current dataset: " << currentDatasetName << " dictionary *****\n\n"
+                      << "11. Remove/add word from your favorite list\n";
+            commandNumber = 0;
+            continue;
+        }else commandNumber = std::stoi(buffer);
+
+        switch (commandNumber) {
+            case 1: {
+                addFavoriteWord(wordsList, favoriteList);
+                break;
+            }
+            case 2: {
+                removeFavoriteWord(favoriteList);
+                break;
+            }
+        }
+    } while (commandNumber == 0);
 }
