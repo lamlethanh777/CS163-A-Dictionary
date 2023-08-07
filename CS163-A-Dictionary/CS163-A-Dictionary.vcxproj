@@ -23,6 +23,7 @@
     <ClCompile Include="Class_Struct\HashMap\HashMap.cpp" />
     <ClCompile Include="Class_Struct\KMP\KMP.cpp" />
     <ClCompile Include="Class_Struct\Trie\Trie.cpp" />
+    <ClCompile Include="Functions\Display\Display.cpp" />
     <ClCompile Include="Functions\Features\AddNewWord\AddNewWord.cpp" />
     <ClCompile Include="Functions\Features\DeleteWord\DeleteWord.cpp" />
     <ClCompile Include="Functions\Features\EditDefinition\EditDefinition.cpp" />
@@ -45,6 +46,7 @@
     <ClInclude Include="Class_Struct\KMP\KMP.h" />
     <ClInclude Include="Class_Struct\Queue\Queue.h" />
     <ClInclude Include="Class_Struct\Trie\Trie.h" />
+    <ClInclude Include="Functions\Display\Display.h" />
     <ClInclude Include="Functions\Features\AddNewWord\AddNewWord.h" />
     <ClInclude Include="Functions\Features\DeleteWord\DeleteWord.h" />
     <ClInclude Include="Functions\Features\EditDefinition\EditDefinition.h" />
