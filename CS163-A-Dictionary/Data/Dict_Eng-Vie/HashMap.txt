@@ -20,7 +20,7 @@
 36715427340120 o'`(viet tat) cua of#(viet tat) cua on
 37103744393826 pa`(thong tuc),  (viet tat) cua papa ba, bo
 37113726837366 pk`vt cua Park (cong vien; nhat la tren ban do)
-37455126406434 qv`<
+37455126406434 qv`<vt>
 37771569866652 rh`vt cua right hand tay phai
 38111971191366 sr`(Sr) ba xo; nu tu su; ni co (Sister)#(Sr) Gia, Bo (Sen)
 38767817731944 um`interj#hum (chi y nghi ngo; do du)
@@ -145,7 +145,7 @@
 8978370229874725 nourishment`su nuoi, su nuoi duong#do an, thuc pham
 8979217293868528 thoroughbred`thuan chung (ngua)#(nghia bong) dung cam, hang hai, day dung khi (nguoi)#ngua thuan chung
 9095169064867640 cagoule`ao khong tham nuoc va co mu che dinh lien
-9105346341990647 law lord`<
+9105346341990647 law lord`<chtri>
 9212175950499373 radiometry`phep do phong xa
 9255720968140170 remittent`tung con#(y hoc) sot tung con
 9351629559963118 rabbitry`noi nhot tho, chuong tho
@@ -464,7 +464,7 @@
 22552239246548937 mumpish`hon doi, phung phiu#cau nhau, can nhan
 22616070627723521 cluster bar graph`(Tech) do thi thanh tap hop
 22663920017131741 mightily`manh me, manh liet, du doi#(thong tuc) cuc ky, rat, het suc
-22807589142399763 softball`<
+22807589142399763 softball`<My>
 22894666858731572 demureness`ve nghiem trang, ve tu ton; ve kin dao#tinh lam ra ve nghiem trang;
 22909966567640340 incommode`lam phien, quay ray, lam kho chiu#ngan tro, can tr
 23048339076201200 camaraderie`tinh ban, su than thiet
@@ -548,7 +548,7 @@
 28285434660767495 fascize`phat xit hoa
 28335814716551706 kuomintang`Trung Hoa Quoc Dan Dang (do Ton Trung Son sang lap)
 28498662208824778 anisotropism`xem anisotropic
-28503542425027452 trivially`tam thuong, khong dang ke, it quan trong#khong co tai can gi, tam thuong, vo gia tri (nguoi)#<
+28503542425027452 trivially`tam thuong, khong dang ke, it quan trong#khong co tai can gi, tam thuong, vo gia tri (nguoi)#<sinh>
 28504371424063384 convoke`trieu tap, doi den, moi den
 28530897944158019 drowse`giac ngu lo mo, con ngu ga ngu gat#ngu lo mo, ngu ga ngu gat#ue oai, tho than
 28533440684825412 varicoloured`co nhieu mau sac khac nhau#khac nhau ve mau
@@ -606,7 +606,7 @@
 33019102055437303 saurian`(thuoc) loai than lan#dong vat loai than lan
 33031556695723367 northwardly`bac#(nhu) northwards
 33073673240798256 genomic`thuoc he gen; bo gen
-33108067616692742 special student`<
+33108067616692742 special student`<My>
 33110181181234901 apologist`nguoi bien ho, nguoi bien giai cho ton giao
 33131368372611883 anomalous`(Tech) di thuong, bat thuong#bat thuong, di thuong; khong co quy tac#di thuong, bat thuong
 33157152083517358 deep-mined`(noi ve than) khai thac tu long dat sau
@@ -2476,7 +2476,7 @@
 181551321576990804 shod`giay#sat bi mong (ngua...)#mieng bit (mieng sat bi chan ban, ghe)
 181650505357091215 penny pincher`nguoi bun xin; nguoi keo kiet
 181656726198329664 sice`(ly thuyet tro choi) sau diem, mat luc (suc sac)#mat sau, mat luc (cua con suc sac)#nguoi giu ngua
-181659372544112118 sikh`nguoi theo dao Sikh <
+181659372544112118 sikh`nguoi theo dao Sikh <ton>
 181660038373096236 simm`mo dun nho mot hang chan
 181662343319309622 site`noi, cho, vi tri#dat xay dung#dat, de, dinh vi tri
 181672292658998326 colorimetrically`xem colorimeter
@@ -3428,7 +3428,7 @@
 253754227334041099 polygamous`nhieu vo; (tu hiem,nghia hiem) nhieu chong#(dong vat hoc) nhieu cai#(thuc vat hoc)
 253967431774982707 inflective`(ngon ngu hoc) bien cach
 254273825378670871 gesturer`nguoi bieu dien bang dieu bo
-254314351619094129 value added tax`<
+254314351619094129 value added tax`<vt>
 254323101723064546 exanimate`chet, bat dong#khong hoat dong, khong co tinh than, do dan
 254508588037581729 header`nguoi dong day thung#(thong tuc) cai nhay lao dau xuong truoc#(dien hoc) colecto, cai gop dien
 254534064828816170 ablepsia`tat mu; chung mu
@@ -4203,7 +4203,7 @@
 315538443003740745 entrain`cho (quan doi...) len xe lua#len xe lua (quan doi...)
 315573583154329088 amuck`nhu mot nguoi dien cuong len
 315614274691036440 changeless`khong thay doi, bat di bat dich
-315622455968826565 barnstorming`su di bieu dien lang thang#<
+315622455968826565 barnstorming`su di bieu dien lang thang#<My>
 315645516290245300 swimming-pool`ath)#be boi
 315682824282703768 degression`su giam xuong, su ha (thue)
 315734666684795241 trifolium`hinh ba la
@@ -4574,7 +4574,7 @@
 343877757816947588 impel`day, day ve phia truoc#thuc ep, buoc toi, bat buoc
 343994992697394575 data-in`so lieu vao
 344087850301039568 cross-over`su cat nhau, su giao nhau; cho cat nhau, cho giao nhau#su tap giao, su lai giong
-344158788058811799 shea tree`<
+344158788058811799 shea tree`<thuc>
 344285991961674369 siamang`(dong vat hoc)
 344286847548094454 sluff`xem slough
 344377908130871851 apobiotic`song hap hoi; chet sinh ly
@@ -4644,7 +4644,7 @@
 349248959527377256 editing subprogram`(Tech) chuong trinh con de bien soan
 349269479264547769 hibernate`ngu dong (dong vat)#nghi dong o vung am ap (nguoi)#khong hoat dong, khong lam gi, nam li
 349408909533220610 resentfulness`su phan uat buc boi, su khong bang long, su phat y
-349444544158331853 water-rat`<
+349444544158331853 water-rat`<dong>
 349451814061994818 finger-post`bang chi duong
 349528966940704341 phagocytise`Cach viet khac : phagocytize 
 349596608956477170 platotude`nhan xet,
@@ -5567,7 +5567,7 @@
 423730351835425133 parole`loi hua danh du (cua tu nhan, tu binh... de duoc tha)#(quan su) khau lenh#tha theo loi hua danh du
 423736826751002212 uncollected`khong tap hop, khong tap trung, khong thu gop lai#khong tap trung tu tuong; khong binh tinh, boi roi#khong thu (thue)
 423793113240372134 untin`bo lop thiec trang#mo hop
-423869084732487534 tide-mark`ngan thuy trieu (dau vet do thuy trieu o muc cao nhat cua no de lai tren bo bien )#<#<dua> vet do nuoc ban de lai trong bon tam, nha tam
+423869084732487534 tide-mark`ngan thuy trieu (dau vet do thuy trieu o muc cao nhat cua no de lai tren bo bien )#<dua>#<dua> vet do nuoc ban de lai trong bon tam, nha tam
 423905206356219746 palmatipartite`(sinh vat hoc) co gan chan vit
 424053873922863668 free living`loi song an choi phong tung, su che chen lu bu
 424149300320971157 oversmoke`hut qua nhieu
@@ -5756,7 +5756,7 @@
 438526683046147123 divorced`da ly di
 438532606544066999 book-shelf`gia de sach, ke sach
 438592011218444663 persic`nguoi Ba tu, tieng Batu#thuoc Batu
-438625327786205031 townie`<#<thgt> dan thanh pho (mu tit ve nhung viec o nong thon)
+438625327786205031 townie`<ngon ngu nha truong>#<thgt> dan thanh pho (mu tit ve nhung viec o nong thon)
 438686437860933779 song-fest`xem singsong
 438758949653041803 defeater`xem defeat
 438811411352032907 peruke`bo toc gia
@@ -6210,7 +6210,7 @@
 473173135488695827 lollop`tha than, la ca#buoc le di, di keo le
 473177485764559824 pleasure`niem vui thich,#khoai lac, hoan lac; su an choi truy lac#y muon, y thich
 473247561815492406 unbearable`khong the chiu noi
-473323741929885875 wee-wee`<#<thgt> dai
+473323741929885875 wee-wee`<thgt>#<thgt> dai
 473623593408006179 commensurability`tinh co the so duoc voi nhau#(toan hoc) tinh thong uoc#tinh thong uoc
 473691104838066232 gadgetry`bo do dung, bo do vat
 473773789037579937 underclerk`phu ta
@@ -7351,7 +7351,7 @@
 566448337759124470 flood-plane`mat nuoc lu
 566520612740818782 steam train`tau hoa chay bang hoi nuoc
 566606525470620858 pseudospherical`gia xoan oc
-566762841220895466 turgidly`cuong, sung, phong len#<
+566762841220895466 turgidly`cuong, sung, phong len#<bong>
 566806678542024902 unbuilt-on`de khong, chua cat nha (dat)
 566828495444431959 flash-card`to phieu co tranh, chu, so de hoc cho nhanh
 566897148552101366 throstle-frame`may keo chi ((cung) throstle)
@@ -7590,7 +7590,7 @@
 587929548854156126 antiesonance`phan cong huong
 587990055319485938 assoil`(tu co,nghia co) tha toi, xa toi#chuoc (toi)
 588076528699664692 impostume`nhot, ung, nhot ((nghia den) & (nghia bong))
-588090230311018972 quizzes`<#cuoc thi do (o dai phat thanh, dai truyen hinh)#nguoi hay treu gheo che nhao
+588090230311018972 quizzes`<My>#cuoc thi do (o dai phat thanh, dai truyen hinh)#nguoi hay treu gheo che nhao
 588241951146463175 self-restraint`su tu kien che
 588274187731370144 lunatical`nguoi dien, nguoi mat tri#dien cuong, dien ro, dien dai, mat tri#nhung nguoi hang hai qua khich nhat trong mot phong trao
 588366477262378250 gunman`<My><thgt> ke cuop co sung; gangxto
@@ -8233,7 +8233,7 @@
 637851730914242873 dudish`(tu My,nghia My),  (tu long) cong tu bot, an dien
 637869400585458984 drag`(Tech) bam keo#cai bua lon, cai bua nang#xe truot (san dat, cho do nang...)
 637873679351913898 extroversion`su huong ngoai
-637898386032897410 prostheses`<ngon> su them tien to#<
+637898386032897410 prostheses`<ngon> su them tien to#<y>
 637919109893746476 disentail`(phap luat) tuoc bo quyen thua ke#su tuoc bo quyen thua ke
 637991390369542129 delectable`ngon lanh, thu vi, khoai tra
 638020001742708956 unexceptionableness`tinh khong the che trach duoc, tinh khong the bat be duoc#(phap ly) tinh chat khong the bac duoc
@@ -10855,7 +10855,7 @@
 845636490600132070 strephon`nguoi yeu say dam
 845823377582722099 bromeliad`(thuc vat) ho dua
 845836631907927528 sepiabone`mai muc
-845957389621383070 clicksee`Ten goi tat cua phan mem dich truc tiep Just Click'
+845957389621383070 clicksee
 846113570459079419 planar`co mat phang#hai chieu#phang
 846114892134604115 planer`tho bao#may bao
 846115712505241767 Average total cost`(Econ) Tong chi phi binh quan
@@ -11079,7 +11079,7 @@
 864095665461120338 hundredfold`gap tram lan#mot tram lan hon
 864138448327670845 reseda`(thuc vat hoc) co moc te
 864158666263385924 incalculably`hang ha sa so, vo so ke
-864284268522083371 sellanders`<#su ban dat hang, su ban chay nhu tom tuoi#buoi bieu dien ban het ve
+864284268522083371 sellanders`<My>#su ban dat hang, su ban chay nhu tom tuoi#buoi bieu dien ban het ve
 864476177072801373 evangelistic`(thuoc) tac gia Phuc am#(thuoc) nguoi truyen ba Phuc am#(nhu) evangelical
 864546715741817900 data translation`(Tech) su chuyen dich du lieu
 864578570270372029 resile`bat nay; co gian, co tinh dan hoi
@@ -11226,7 +11226,7 @@
 874556581582429454 Kantorovich, Leonid`(Econ) (1912-1986)
 874587995853334411 vinegarette`xem vinaigrette
 874630177912833866 downbeat`nhip dau cua mot kho nhac#chan chuong, u sau
-874706667838319110 upbeat`<#lac quan, vui ve
+874706667838319110 upbeat`<nhac>#lac quan, vui ve
 874824615156156008 electromyographic`thuoc dien do co
 874846881131846099 pugilism`quyen Anh; thuat dau quyen Anh
 874870857922257400 pneumatolysis`(dia chat) tac dung khi tao thanh (khoang vat)
@@ -11638,7 +11638,7 @@
 906712480325439339 emulsin`(hoa hoc) emunsin (enzym)
 906729841204803126 controvertst`nguoi tranh luan, nguoi luan chien; nguoi but chien
 906779482913025728 salacity`tinh tuc tiu, tinh dam o
-906814692027009878 technicolour`<
+906814692027009878 technicolour`<thgt>
 907068435323473851 grass snake`loai ran nho khong doc
 907098345423014089 cruise missile`ten lua dau dan hat nhan tam thap
 907369948738099523 picker`nguoi hai#nguoi nhat#do mo, do nay (o khoa)
@@ -11815,7 +11815,7 @@
 920688098936636800 numary`(thuoc) tien#bang tien
 920711916217951551 macaw`(dong vat hoc) vet duoi dai (Nam-My)#cay co
 920714221164164937 macho`(thuoc) dai truong phu; (thuoc) bac nam nhi#dai truong phu; bac nam nhi
-920717525352976677 macro`lon, khong lo (ve kich thuoc, kha nang...)#<
+920717525352976677 macro`lon, khong lo (ve kich thuoc, kha nang...)#<tin>
 920857750614909961 tyrolian`Cach viet khac : tyrolean 
 920908627139364188 cryotronics`(Tech) ky thuat ong sieu han
 920997727693585369 unpeople`lam giam bot so dan
@@ -12118,7 +12118,7 @@
 940381290384279126 cylindricality`xem cylindrical
 940431771344748118 resister`nguoi chong lai
 940466477508697326 concordant`(+ with) hop voi, phu hop voi#(am nhac) hoa am#phu hop
-940534197072374071 vibrato`<
+940534197072374071 vibrato`<nhac>
 940701576332282712 merovingian`(thuoc)
 940763375433219929 corporally`ve than the, ve the xac
 940772335972390503 unknowably`xem unknowable
@@ -12245,7 +12245,7 @@
 948566455642842154 pastorate`chuc muc su#gioi muc su
 948849834930737541 ambler`ngua di nuoc kieu#nguoi buoc di nhe nhang thong tha
 948878726370920594 disseisin`su tuoc doat quyen so huu, su chiem doat
-948971672320286501 wise guy`<
+948971672320286501 wise guy`<thgt>
 949063961063350822 catena`(Tech) xau chuoi, ket bo (d)#day, loat, day
 949191638657607211 hot dog`(tu My,nghia My),  (thong tuc) xuc xich nong kep vao banh mi
 949320647685423974 accost`den gan#bat chuyen#ga gam; niu, keo, bam sat (noi ve gai diem)
@@ -12331,7 +12331,7 @@
 955597600463097052 lecherousness`su phong dang; su dam dang
 955605860376972030 dog-trick`doc ke#chuyen ngu ngoc
 955627026160264156 hard-mouthed`kho kim bang ham thiec (ngua)#(nghia bong) buong binh, cung dau cung co, kho kiem che
-955639327339599153 recognisance`<#tien bao chung (cho viec cam ket)
+955639327339599153 recognisance`<phap>#tien bao chung (cho viec cam ket)
 955648594226656635 dead-point`(ky thuat) diem chet ((cung) dead_centre)
 955807388622171648 inebriate`say#nguoi say ruou#nguoi nghien ruou
 956098914521594129 matronymic`dat theo ten me (ba) (ten)#ten dat theo ten me (ba)

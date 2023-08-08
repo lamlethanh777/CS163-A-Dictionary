@@ -67,7 +67,8 @@ void chooseDataset(int& currentDatasetNumber, std::string& currentDatasetName) {
 		displayAllDatasets();
 
         if (!inputAndValidateUserChoice(currentDatasetNumber)) {
-            clearScreen();
+            //clearScreen();
+            system("CLS");
             std::cout << "Invalid option! Please try again!\n\n";
             currentDatasetNumber = 0;
             continue;
@@ -160,13 +161,13 @@ void chooseFeature(int& commandNumber, int& currentDatasetNumber, std::string& c
 
         case 6: {
             std::cout << "6. Edit the definition of existing word\n";
-            // 6. Edit the definition of existing word
+            editDefinition(*(currentDictionary.wordsList), *(currentDictionary.definitionsList));
             break;
         }
 		
 	    case 7: {
             std::cout << "7. Remove a word from the dictionary\n";
-            // 7. Remove a word from the dictionary
+            deleteWord(*(currentDictionary.wordsList), *(currentDictionary.definitionsList));
             break;
         }
 		

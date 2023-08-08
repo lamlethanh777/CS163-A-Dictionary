@@ -1466,7 +1466,7 @@ barium meal`<y> chat can tia X quang
 barley`lua mach
 barman`nguoi phuc vu o quan ruou
 barn-stormer`dien vien xoang; nghe si lang thang#(tu My,
-barnstorming`su di bieu dien lang thang#<
+barnstorming`su di bieu dien lang thang#<My>
 barometrically`xem barometer
 barong`dao to ban dung o Philippin
 barrack`((thuong) so nhieu) trai linh, doanh trai#noi o tap trung dong nguoi#nha kho xau xi
@@ -2369,7 +2369,7 @@ clencher`ly le vung chac, ly le danh thep
 clerical`(thuoc) cong viec bien chep, (thuoc) van phong#(thuoc) tang lu#muc su
 clerkdom`xem clerk
 clevis`cai moc hinh chu U
-clicksee`Ten goi tat cua phan mem dich truc tiep Just Click'
+clicksee`
 cliental`xem client
 cliffsman`nguoi co tai leo nui
 climatic test`(Tech) thu khi hau
@@ -6692,7 +6692,7 @@ laundress`chi tho giat
 laureate`duoc giai thuong#nguoi trung giai thuong
 lavation`su rua
 laverock`(tho ca) chim chien chien
-law lord`<
+law lord`<chtri>
 law-monger`thay co, luat su toi
 lawless`khong co phap luat#khong hop phap#lon xon, vo trat tu, hon loan
 lawn tennis`(the duc,the thao) quan vot san c
@@ -6968,7 +6968,7 @@ machicolated`co lo chau mai
 machine`may moc, co gioi#nguoi may; nguoi lam viec nhu cai may#(tu My,
 machine-wound`quan bang may
 macho`(thuoc) dai truong phu; (thuoc) bac nam nhi#dai truong phu; bac nam nhi
-macro`lon, khong lo (ve kich thuoc, kha nang...)#<
+macro`lon, khong lo (ve kich thuoc, kha nang...)#<tin>
 macroclimatic`(thuoc) khi hau o mot khu vuc lon
 macroevolution`(sinh vat hoc) dai tien hoa
 macronuclei`so nhieu cua macronucleus
@@ -9040,7 +9040,7 @@ prosiphon`pheu nuoc; ong hut truoc#xifon truoc
 prosodically`xem prosody
 prospector`nguoi dieu tra, nguoi tham do (quang, vang...)
 prostate`(giai phau) tuyen tien liet
-prostheses`<ngon> su them tien to#<
+prostheses`<ngon> su them tien to#<y>
 prostomia`so nhieu#xem prostomium
 prot`vt cua Protestant (nguoi theo dao tin lanh)
 protandry`tinh nhi chin truoc, tinh duc chin truoc
@@ -9265,10 +9265,10 @@ quirk`loi gieu cot, loi cham biem#loi thoai thac; muu thoai thac, loi noi nuoc d
 quitclaim`tu bo quyen#su tu bo quyen
 quiverful`bao ten (day)#dua cot) gia dinh dong con
 quixotry`tinh hao hiep vien vong
-quizzes`<#cuoc thi do (o dai phat thanh, dai truyen hinh)#nguoi hay treu gheo che nhao
+quizzes`<My>#cuoc thi do (o dai phat thanh, dai truyen hinh)#nguoi hay treu gheo che nhao
 quoit`cai vong (de nem thi vao dan vit...)#(so nhieu) tro choi nem vong#(tu hiem,nghia hiem) nem nhu mot cai vong
 quotative`(thuoc) su trich dan; de trich dan#thich trich dan
-qv`<
+qv`<vt>
 rabbet-plane`cai bao duong xoi
 rabbinist`nguoi theo dao Do Thai
 rabbitry`noi nhot tho, chuong tho
@@ -9401,7 +9401,7 @@ recirculation`(ky thuat) su tuan hoan khep kin; su quay vong#(may tinh) su ghi l
 reckless`khong lo lang, khong de y toi; coi thuong#thieu than trong, khinh suat, lieu linh, tao bao
 reclaimation`su cai tao, su giac ngo#(nong nghiep)#su thuan hoa (thu rung); su khai hoa
 reclusion`su an dat; tinh trang an dat#tinh trang biet giam; tinh trang cam co
-recognisance`<#tien bao chung (cho viec cam ket)
+recognisance`<phap>#tien bao chung (cho viec cam ket)
 recognize`cong nhan, thua nhan, chap nhan#nhin nhan#nhan ra
 recollection`su nho lai, su hoi tuong lai; ky uc, hoi uc#((thuong)
 recommendable`dang men (nguoi)#co gia tri (vat)#co the gioi thieu, co the tien cu (nguoi, vat...)
@@ -10125,7 +10125,7 @@ self-sufficing`ufficing)#tu tuc, tu cung cap, khong phu thuoc, doc lap#tu phu, t
 self-taught`tu hoc
 self-willed`cung dau cung co, buong binh
 selfless`khong ich ky, quen minh, vi tha, vi nguoi
-sellanders`<#su ban dat hang, su ban chay nhu tom tuoi#buoi bieu dien ban het ve
+sellanders`<My>#su ban dat hang, su ban chay nhu tom tuoi#buoi bieu dien ban het ve
 sellotape`(Sellotape)#dan bang dinh len (cai gi); va, gan (cai gi) bang bang dinh
 selves`so nhieu cua self
 semaphorist`nguoi danh tin hieu
@@ -10243,7 +10243,7 @@ shaster`kinh; sach giao huan
 shattery`de vo
 shaving`su cao#su bao#(so nhieu) vo bao (go, kim loai)
 shaving-stick`tick)#xa phong cao rau
-shea tree`<
+shea tree`<thuc>
 shear-deformation`bien dang cat, bien dang truot
 shearwater`(dong vat hoc) chim hai au
 sheathy`giong nhu vo
@@ -10347,7 +10347,7 @@ signalize`danh tin hieu#lam cho duoc chu y, lam noi bat; de cao
 signature`(dai so) ky so#s. of a quadratic form ky so cua mot dang toan phuong #chu ky
 significant`co nghia, co y nghia, dang ke#day y nghia, co tinh chat goi y#quan trong, trong dai, dang chu y
 signless`khong co dau
-sikh`nguoi theo dao Sikh <
+sikh`nguoi theo dao Sikh <ton>
 silently`yen lang, am tham
 silicic`(hoa hoc) (thuoc) silic,  silixic
 silicone`(hoa hoc) silicon
@@ -10559,7 +10559,7 @@ soft porn`sach bao khieu dam loai it lo lieu, it du doi
 soft-bound`dong bia mem (sach)
 soft-furnishing`vat dem ban ghe giuong
 soft-leaved`(thuc vat) co la mem
-softball`<
+softball`<My>
 softness`tinh mem deo#tinh diu dang#tinh nhu nhuoc, tinh uy mi, tinh eo la
 soggy`dam nuoc, sung nuoc; am
 soilborne`chua o trong dat
@@ -10657,7 +10657,7 @@ spavin`benh dau khop (cua ngua)
 speak-easy`(tu My,nghia My),  (tu long) hang ban ruou lau
 spear`cai giao, cai mac, cai thuong#cai xien (dam ca)#(tho ca) (nhu) spearman
 spec`(thong tuc) su dau co, su kinh doanh dau co
-special student`<
+special student`<My>
 specialize`chuyen mon hoa#lam thanh dac trung#thay doi; han che (y kien...)
 specific`dac diem, dac trung, dac thu#dut khoat, ranh mach, ro rang#(thuoc) loai
 specify`chi ro, ghi ro, dinh ro, ghi chu vao phan chi tiet ky thuat#chuyen mon hoa; chi tiet hoa; dinh ro, ghi ro
@@ -11368,7 +11368,7 @@ tear-gland`(giai phau) tuyen nuoc mat
 tease`chong gheo, treu tuc, treu choc, chong#quay ray#thao, rut soi (soi vai); go roi (chi)
 teazle`(thuc vat hoc) cay tuc doan#ban chai len; may chai len#chai (len, da)
 technical`(thuoc) ky thuat#(thuoc) ky thuat, chuyen mon
-technicolour`<
+technicolour`<thgt>
 technolator`nguoi ham thich ky thuat
 tectonics`(dia ly,dia chat) kien tao hoc
 tedious`chan ngat, te, nhat nheo, thieu hap dan, lam buon te
@@ -11504,7 +11504,7 @@ tick`tieng tich tac (cua dong ho)#than mat) chut, lat, khoanh khac, giay lat#dau
 ticket-holder`nguoi co ve
 tickler`nguoi cu; cai long de cu#(nghia bong) van de kho giai quyet, van de hac bua#(tu My,
 tidal`(thuoc)#xe lua cho ca tuoi#song con, song trieu dang; (nghia bong) phong trao, cao trao
-tide-mark`ngan thuy trieu (dau vet do thuy trieu o muc cao nhat cua no de lai tren bo bien )#<#<dua> vet do nuoc ban de lai trong bon tam, nha tam
+tide-mark`ngan thuy trieu (dau vet do thuy trieu o muc cao nhat cua no de lai tren bo bien )#<dua>#<dua> vet do nuoc ban de lai trong bon tam, nha tam
 tideless`khong co thuy trieu
 tie-beam`ram noi
 tie-on`co the buoc duoc (ve mot nhan hieu )
@@ -11609,7 +11609,7 @@ tow-bath`con duong doc theo bo song hoac con kenh (truoc day duoc dung cho ngua 
 towel`khan lau; khan tam#(the duc,the thao) dau hang, chiu thua#(tu long) dan
 towered`co thap#cao vuot len nhu thap
 town council`hoi dong thanh pho
-townie`<#<thgt> dan thanh pho (mu tit ve nhung viec o nong thon)
+townie`<ngon ngu nha truong>#<thgt> dan thanh pho (mu tit ve nhung viec o nong thon)
 toxaemia`(y hoc) chung doc huyet
 toxicology`khoa chat doc
 toxophily`su ban cung#su ham thich ban cung, su ham me ban cung
@@ -11735,7 +11735,7 @@ tritheist`nguoi theo thuyet ba ngoi phan biet
 trituration`su nghien, su tan nho#(duoc hoc) bot nghien
 triumvirate`chuyen chinh tay ba#(su hoc) chuc tam hung; che do tam hung
 trivia`(su hoc)
-trivially`tam thuong, khong dang ke, it quan trong#khong co tai can gi, tam thuong, vo gia tri (nguoi)#<
+trivially`tam thuong, khong dang ke, it quan trong#khong co tai can gi, tam thuong, vo gia tri (nguoi)#<sinh>
 trochanteral`thuoc dot chuyen
 trochoidal`(thuoc) trocoit
 trojan horse`con ngua thanh Troa (nguoi hay do vat dung de lam hai mot doi thu hay ke thu,
@@ -11793,7 +11793,7 @@ turbo`co tinh nhanh, co tinh toc do
 turbo-supercharger`may tang ap kieu tuabin, may nen khi kieu tuabin
 turbulently`hon loan, thay doi bat thuong (ve khong khi, nuoc)#nao loan,#bat an, khong kiem soat duoc
 turfary`mo than bun, dam lay than bun
-turgidly`cuong, sung, phong len#<
+turgidly`cuong, sung, phong len#<bong>
 turkey red`mau dieu
 turkish coffee`(Turkish coffee) kieu ca phe den pha rat dac thuong rat ngot
 turmoil`su nao dong, su roi loan
@@ -12355,7 +12355,7 @@ unwoven`bi thao ra (vat d  dan, d  det, d  ket)
 unyielding`cung, khong oan, khong cong#khong chiu khuat phuc, khong chiu nhuong bo; cung coi
 up`o tren, len tren, len#day, dung len, dung day#den,
 up-stream`nguoc dong#trang tu
-upbeat`<#lac quan, vui ve
+upbeat`<nhac>#lac quan, vui ve
 upcast`su phong len, su nem len#(nganh mo) gieng thong gio#(dia ly,dia chat) phay nghich
 upgrade`dua len cap bac cao hn, nang cap
 upholder`cai tru, cai chong, cai do#nguoi ung ho, nguoi tan thanh#nguoi giu vung,
@@ -12405,7 +12405,7 @@ validate`lam cho co gia tri,
 vallecula`ranh nho, hoc nho
 valorise`(thuong nghiep) binh on gia (hang hoa...)
 valuable`co gia tri lon, quy gia#co the danh gia duoc, co the dinh gia duoc#((thuong) so nhieu) do quy gia
-value added tax`<
+value added tax`<vt>
 valve`(ky thuat); (giai phau) van#radio den dien tu#(thuc vat hoc); (dong vat hoc) manh vo (qua dau, vo so...)
 valviform`hinh van
 vamp`mui giay#mieng va (de lam cho co ve moi)#(am nhac) phan dem ung tac
@@ -12495,7 +12495,7 @@ vexingly`xem vex
 vial`lo nho (bang thuy tinh de dung thuoc nuoc)#trut gian; tra thu
 viaticum`(su hoc) tien an duong; do an dem di duong (khi di cong can)#(ton giao) banh thanh ban cho nguoi hap hoi#ban tho mang di duoc
 vibraphone`dan tang rung (nhac cu giong nhu moc cam nhu ng co bo phan cong huong bang dien dat duoi thanh kim loai gay ra tac dung ngan vang)
-vibrato`<
+vibrato`<nhac>
 vibrometer`may do chan dong
 vicarial`(ton giao) (thuoc) cha so
 vice`thoi xau, net xau, thoi hu tat xau#su truy lac, su doi bai#chung, tat (ngua)
@@ -12649,7 +12649,7 @@ water-gas`hoi nuoc; hoi
 water-jump`noi con ngua phai nhay qua nuoc (mot hang rao co nuoc ben canh  trong nhay bieu dien,
 water-melon`qua dua hau#(thuc vat hoc) cay dua hau
 water-plane`(hang hai) mat phang ngan nuoc (o thanh tau)
-water-rat`<
+water-rat`<dong>
 water-skis`(the duc, the thao) van luot (tren nuoc)
 water-supply`viec cung cap nuoc#he thong cung cap nuoc#khoi nuoc tru de cung cap
 water-wall`de, dap
@@ -12681,7 +12681,7 @@ web-wheel`luoi cua dia
 wedded`(thuoc) vo chong; co vo, co chong#(nghia bong) ket hop, hoa hop#trung thanh voi, rang buoc chat che, gan bo voi
 wedding-feast`tiec cuoi
 wedge-shaped`hinh nem, hinh V
-wee-wee`<#<thgt> dai
+wee-wee`<thgt>#<thgt> dai
 weeding`su nho co; su giay co; su lam co#su loai bo#(tu My,  (tu long)) su an cap vat
 week-long`suot mot tuan; trong thoi han mot tuan
 weep`khoc#co canh ru xuong (cay)#chy nuoc, ua nuoc
@@ -12778,7 +12778,7 @@ wire-brush`ban chi sat
 wire-mat`cai thm chui chan bang luoi sat
 wiredraw`(ky thuat) keo (kim loai) thanh soi#(nghia bong)
 wirepuller`(chinh tri) nguoi giat day
-wise guy`<
+wise guy`<thgt>
 wishbone`chac xuong don (xuong chac nam khoang giua co va nguc cua gia cam)
 wistaria`(thuc vat hoc) cay dau tia
 witch-doctor`phu thuy lang bam, thay mo

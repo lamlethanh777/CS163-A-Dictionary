@@ -10,7 +10,7 @@
 25873495411326 Ne`Not; never.#Nor.
 26204912536854 Of`In a general sense,#Denoting that from which anything proceeds;#Denoting possession or ownership,
 26216891469102 Or`A particle that marks an alternative;#Ere; before; sooner than.#Yellow or gold color,
-28201401244854 Ut`The first note in Guido'
+28201401244854 Ut`The first note in Guido's musical scale,
 54582957843651 Prepossessor`One who possesses, or occupies, previously.
 243569848577658 Submitted`of Submit
 340006211673102 Balistraria`A narrow opening,
@@ -91,7 +91,7 @@
 7066252992294386 Cockering`of Cocker
 7085521641588682 Conversed`of Converse
 7099479156318057 Pimply`Pimpled.
-7119584546629524 A 1`A registry mark given by underwriters (as at Lloyd'
+7119584546629524 A 1`A registry mark given by underwriters (as at Lloyd's)
 7126334545747475 Soullessly`In a soulless manner.
 7143770010838236 Air`The fluid which we breathe,#Symbolically: Something unsubstantial, light, or volatile.#A particular state of the atmosphere,
 7145429092954584 Any`One indifferently,#Some,#To any extent; in any degree; at all.
@@ -172,7 +172,7 @@
 8564247768715740 Ney`A fabric of twine,#Anything designed or fitted to entrap or catch;#Anything wrought or woven in meshes;
 8565560460041250 Nip`A sip or small draught;#To catch and inclose or compress tightly between two surfaces,#To remove by pinching,
 8569529479592754 Nut`The fruit of certain trees and shrubs (as of the almond,#A perforated block (usually a small piece of metal)#The tumbler of a gunlock.
-8673280010037036 Ods`A corruption of God'
+8673280010037036 Ods`A corruption of God's;
 8674925116732428 Oil`Any one of a great variety of unctuous combustible substances,#To smear or rub over with oil;
 8675578966784298 Oke`A Turkish and Egyptian weight, equal to about 2/ pounds.#An Hungarian and Wallachian measure,
 8677231061190168 Ope`Open.#To open.
@@ -269,7 +269,7 @@
 13397675720689145 Hyloism`Same as Hylotheism.
 13482036321344937 Catchword`Among theatrical performers,#The first word of any page of a book after the first,#A word or phrase caught up and repeated for effect;
 13577384084651083 Feldspathic`Alt. of Feldspathose
-13760528795911074 Pedagogue`A slave who led his master'#A teacher of children;#One who by teaching has become formal,
+13760528795911074 Pedagogue`A slave who led his master's children to school,#A teacher of children;#One who by teaching has become formal,
 13834367296659491 Triradiated`Having three rays.
 14004606503105603 Scurrility`The quality or state of being scurrile or scurrilous;#That which is scurrile or scurrilous;
 14025110597045879 Synostosis`Same as Synosteosis.
@@ -388,7 +388,7 @@
 21266539640909989 Albumin`A thick,
 21311264106516779 Baccare`Alt. of Backare
 21358319408861544 Shad`Any one of several species of food fishes of the Herring family.
-21364930781218086 Shug`To writhe the body so as to produce friction against one'#Hence, to crawl; to sneak.
+21364930781218086 Shug`To writhe the body so as to produce friction against one's clothes,#Hence, to crawl; to sneak.
 21407859037822635 Chiropody`The art of treating diseases of the hands and feet.
 21429952560150065 Recoct`To boil or cook again;
 21431927087482277 Recoil`To start,#To draw back,#To turn or go back; to withdraw one's self; to retire.
@@ -692,7 +692,7 @@
 41226696018624549 Obolize`See Obelize.
 41292708594583395 Great-hearted`High-spirited; fearless.#Generous; magnanimous; noble.
 41486301361173398 Unbarrel`To remove or release from a barrel or barrels.
-41534349004809867 Harness cask`A tub lashed to a vessel'
+41534349004809867 Harness cask`A tub lashed to a vessel's deck and containing salted provisions for daily use;
 41616634149372248 Electrolytic`Alt. of Electrolytical
 41657830355844705 Huttonian`Relating to what is now called the Plutonic theory of the earth,
 41760649759815619 Sternite`The sternum of an arthropod somite.
@@ -1022,7 +1022,7 @@
 66082177488029688 Importer`One who imports;
 66083213666376271 Ditty`A saying or utterance;#A song; a lay; a little poem intended to be sung.#To sing; to warble a little tune.
 66134024591153638 Scrappy`Consisting of scraps;
-66134880022564057 Humiliate`To reduce to a lower position in one'
+66134880022564057 Humiliate`To reduce to a lower position in one's own eyes,
 66232960792557153 Margent`A margin; border; brink; edge.#To enter or note down upon the margin of a page; to margin.
 66247435284377742 Inductometer`An instrument for measuring or ascertaining the degree or rate of electrical induction.
 66277294645391980 Exfoliated`of Exfoliate
@@ -1196,7 +1196,7 @@
 79196274976740728 Oculus`An eye; (Bot.) a leaf bud.#A round window, usually a small one.
 79282536432376133 Tristfully`In a tristful manner; sadly.
 79328708814440858 Jesuitic`Alt. of Jesuitical
-79335889448648946 Degenerate`Having become worse than one'#To be or grow worse than one'#To fall off from the normal quality or the healthy structure of its kind;
+79335889448648946 Degenerate`Having become worse than one's kind,#To be or grow worse than one's kind,#To fall off from the normal quality or the healthy structure of its kind;
 79355544798751228 Barbermonger`A fop.
 79511180671126777 Bee-eater`A bird of the genus Merops,#An African bird of the genus Rhinopomastes.
 79542532548961004 Explanation`The act of explaining,#That which explains or makes clear;#The meaning attributed to anything by one who explains it;
@@ -1488,7 +1488,7 @@
 97289922111307644 Bandbox`A light box of pasteboard or thin wood,
 97459452749329756 Recreant`Crying for mercy,#Apostate; false; unfaithful.#One who yields in combat,
 97559413702055850 Phonologic`Alt. of Phonological
-97648848220172568 Responsible`Liable to respond;#Able to respond or answer for one'#Involving responsibility;
+97648848220172568 Responsible`Liable to respond;#Able to respond or answer for one's conduct and obligations;#Involving responsibility;
 97705088813484365 Nostrums`of Nostrum
 97749061292788608 Lechering`of Lecher
 97812719817920032 Sphagnum`A genus of mosses having white leaves slightly tinged with red or green and found growing in marshy places;
@@ -1544,7 +1544,7 @@
 101357589665587233 Taking-off`Removal; murder. See To take off (c), under Take, v. t.
 101358029592480549 Poorly`In a poor manner or condition;#With little or no success;#Meanly; without spirit.
 101480452577279780 Oulachan`Same as Eulachon.
-101482277651437877 Deathbird`Tengmalm'
+101482277651437877 Deathbird`Tengmalm's or Richardson's owl (Nyctale Tengmalmi)
 101580313013589677 Spectroscopical`Of or pertaining to a spectroscope, or spectroscopy.
 101604473951428881 Pepsin`An unorganized proteolytic ferment or enzyme contained in the secretory glands of the stomach.
 101608359822701145 Vitellary`Vitelline.
@@ -1694,7 +1694,7 @@
 111362315732161105 Trudge`To walk or march with labor; to jog along; to move wearily.
 111376819146544831 Nitromethane`A nitro derivative of methane obtained as a mobile liquid;
 111380355218402562 Carminative`Expelling wind from the body; warming; antispasmodic.#A substance,
-111401835138199096 Plank-sheer`The course of plank laid horizontally over the timberheads of a vessel'
+111401835138199096 Plank-sheer`The course of plank laid horizontally over the timberheads of a vessel's frame.
 111477156575968297 Anserine`Pertaining to,#Pertaining to the Anseres.
 111481987238783428 Rhabarbarine`Chrysophanic acid.
 111498199766049446 Efflorescent`That effloresces,#Covered with an efflorescence.
@@ -2199,7 +2199,7 @@
 151086458219225239 Laminary`Laminar.
 151157126736861108 Disbelieve`Not to believe;
 151165678960224914 Attesting`of Attest
-151232321580519523 Hypogene`Formed or crystallized at depths the earth'
+151232321580519523 Hypogene`Formed or crystallized at depths the earth's surface;
 151354213892967631 Collying`of Colly
 151357515249821178 Earth shine`See Earth light, under Earth.
 151407469416313288 Recollect`To recover or recall the knowledge of;#Reflexively,#A friar of the Strict Observance,
@@ -2255,7 +2255,7 @@
 155614345994345832 Shardy`Having, or consisting of, shards.
 155640187888099868 Coddle`To parboil, or soften by boiling.#To treat with excessive tenderness; to pamper.
 155723539065062521 Stumpiness`The state of being stumpy.
-155812131830982839 Autograph`That which is written with one'#In one'
+155812131830982839 Autograph`That which is written with one's own hand;#In one's own handwriting;
 156006830573248013 Semioxygenated`Combined with oxygen only in part.
 156376065885705236 Cyclic`Alt. of Cyclical
 156512945679070328 Strictly`In a strict manner; closely; precisely.
@@ -2300,7 +2300,7 @@
 158949098442250629 Ricebird`The Java sparrow.#The bobolink.
 158958404125558438 Tubicolae`A division of annelids including those which construct,
 159021082270689738 Oscinine`Of or pertaining to the Oscines.
-159110517174202435 Self-exposure`The act of exposing one'
+159110517174202435 Self-exposure`The act of exposing one's self;
 159228799048016143 Unguentous`Unguentary.
 159270349809069817 Dayspring`The beginning of the day,
 159324672738588058 Obvolute`Alt. of Obvoluted
@@ -3200,7 +3200,7 @@
 223304908557057656 Extempore`Without previous study or meditation;#Done or performed extempore.#Speaking or writing done extempore.
 223309541614226855 Notaries`of Notary
 223330729684679934 Hydrometric`Alt. of Hydrometrical
-223362045683216063 Taffrail`The upper part of a ship'
+223362045683216063 Taffrail`The upper part of a ship's stern,
 223407301863135976 Reinduce`To induce again.
 223526582553896233 Fellowlike`Like a companion;
 223585047736620305 Limped`of Limp
@@ -3858,7 +3858,7 @@
 268447848136035297 Impersuadable`Not to be persuaded; obstinate; unyielding; impersuasible.
 268542639229417170 Harquebus`Alt. of Harquebuse
 268801867578276771 Synchronism`The concurrence of events in time; simultaneousness.#The tabular arrangement of historical events and personages,#A representation,
-268840423893282697 Domestic`Of or pertaining to one'#Of or pertaining to a nation considered as a family or home,#Remaining much at home;
+268840423893282697 Domestic`Of or pertaining to one's house or home,#Of or pertaining to a nation considered as a family or home,#Remaining much at home;
 269007796267806348 Burnstickle`A stickleback (Gasterosteus aculeatus).
 269023042547349628 Synchrony`The concurrence of events in time; synchronism.
 269050229954355522 Three-leafed`Alt. of Three-leaved
@@ -3951,7 +3951,7 @@
 275384733035987884 Croton bug`A small,
 275414913905586661 Bonce`A boy's game played with large marbles.
 275595108027655849 Rumorer`A teller of news; especially, one who spreads false reports.
-275726374507635826 Retreat`The act of retiring or withdrawing one'#The place to which anyone retires;#The retiring of an army or body of men from the face of an enemy,
+275726374507635826 Retreat`The act of retiring or withdrawing one's self,#The place to which anyone retires;#The retiring of an army or body of men from the face of an enemy,
 275766109768655824 Impeached`of Impeach
 275779308328620946 Nearsighted`Seeing distinctly at short distances only; shortsighted.
 275851746633141415 Borax`A white or gray crystalline salt,
@@ -3988,7 +3988,7 @@
 277685648674501283 Scorbutical`Of or pertaining to scurvy;
 277710763139242507 Cobia`An oceanic fish of large size (Elacate canada)
 277742018904723542 Arterialize`To transform,
-277769460389691910 Obtrude`To thrust impertinently;#To offer with unreasonable importunity;#To thrust one'
+277769460389691910 Obtrude`To thrust impertinently;#To offer with unreasonable importunity;#To thrust one's self upon a company or upon attention;
 277807852638286613 Microphone`An instrument for intensifying and making audible very feeble sounds.
 277822114302198145 Cocoa`Alt. of Cocoa palm#A preparation made from the seeds of the chocolate tree,
 277834920135591696 Kalendarial`See Calendarial.
@@ -4105,7 +4105,7 @@
 284668050370275743 Ladinos`of Ladino
 284886909615902474 Builder`One who builds;
 284943581273679605 Suavifying`of Suavify
-285142059255241997 Coshering`A feudal prerogative of the lord of the soil entitling him to lodging and food at his tenant'
+285142059255241997 Coshering`A feudal prerogative of the lord of the soil entitling him to lodging and food at his tenant's house.
 285168605558366195 Satisfiable`That may be satisfied.
 285187669105183797 Flanches`of Flanch
 285276603482284494 Femalist`A gallant.
@@ -4360,7 +4360,7 @@
 305559024749547875 Penwoman`A female writer; an authoress.
 305603975247811432 Cooperation`The act of cooperating,#The association of a number of persons for their benefit.
 305649099473409393 Mannide`A white amorphous or crystalline substance,
-305667528532054644 Detonation`An explosion or sudden report made by the instantaneous decomposition or combustion of unstable substances'
+305667528532054644 Detonation`An explosion or sudden report made by the instantaneous decomposition or combustion of unstable substances' as,
 305738190028436787 Perspicuous`Capable of being through;#Clear to the understanding;
 305783853407084907 Penitence`The quality or condition of being penitent;
 306017821782771274 Anientise`To frustrate; to bring to naught; to annihilate.
@@ -4461,7 +4461,7 @@
 311711206906241122 Pantheistic`Alt. of Pantheistical
 311988662717839278 Monomaniac`A person affected by monomania.#Alt. of Monomaniacal
 311990177104143250 Emarginately`In an emarginate manner.
-312014785831401885 Self-deceit`The act of deceiving one'
+312014785831401885 Self-deceit`The act of deceiving one's self,
 312026007587750507 Acquest`Acquisition; the thing gained.#Property acquired by purchase,
 312143125986397215 Phyllophagan`One of a group of marsupials including the phalangists.#One of a tribe of beetles which feed upon the leaves of plants,
 312175421596113183 Ghastness`Ghastliness.
@@ -4640,7 +4640,7 @@
 325691578935249686 Polyp`One of the feeding or nutritive zooids of a hydroid or coral.#One of the Anthozoa.#Same as Anthozoa. See Anthozoa, Madreporaria, Hydroid.
 325719961466239750 Aristophanic`Of or pertaining to Aristophanes, the Athenian comic poet.
 325796971577656298 Pomme`Having the ends terminating in rounded protuberances or single balls;
-325854514904033876 Cimeliarch`A superintendent or keeper of a church'
+325854514904033876 Cimeliarch`A superintendent or keeper of a church's valuables;
 325923979016526816 Cytogenous`Producing cells;
 325928426769651807 Hot-livered`Of an excitable or irritable temperament; irascible.
 326043194312452124 Cliffy`Having cliffs; broken; craggy.
@@ -4705,7 +4705,7 @@
 329908359312657488 Marsdenia`A genus of plants of the Milkweed family,
 329989039545577341 Didine`Like or pertaining to the genus Didus, or the dodo.
 330042027088883918 Tail-bay`One of the joists which rest one end on the wall and the other on a girder;#The part of a canal lock below the lower gates.
-330139452467542291 Supralapsarian`One of that class of Calvinists who believed that God'#Of or pertaining to the Supralapsarians, or their doctrine.
+330139452467542291 Supralapsarian`One of that class of Calvinists who believed that God's decree of election determined that man should fall,#Of or pertaining to the Supralapsarians, or their doctrine.
 330161727305483855 Historiographership`The office of an historiographer.
 330351547835206286 Way shaft`A rock shaft.#An interior shaft, usually one connecting two levels.
 330367380991557166 Depressing`of Depress
@@ -4724,7 +4724,7 @@
 331693835606293184 Roach`A cockroach.#A European fresh-#An American chub (Semotilus bullaris); the fallfish.
 331770864869708857 Mangoldwurzel`See Mangel-wurzel.
 331827988360418299 Slip-on`A kind of overcoat worn upon the shoulders in the manner of a cloak.
-331884302404884750 Seizure`The act of seizing,#Retention within one'#That which is seized,
+331884302404884750 Seizure`The act of seizing,#Retention within one's grasp or power;#That which is seized,
 331914222005303180 Roche`Rock.
 331947623801516412 Hydrogalvanic`Pertaining to,
 331999063898802668 Liquefy`To convert from a solid form to that of a liquid;#To become liquid.
@@ -4948,7 +4948,7 @@
 347936823628792907 Buffeting`of Buffet#A striking with the hand.#A succession of blows;
 348134042700446782 Rettery`A place or establishment where flax is retted. See Ret.
 348197674832258786 Voted`of Vote
-348297677511066155 Isotherm`A line connecting or marking points on the earth'
+348297677511066155 Isotherm`A line connecting or marking points on the earth's surface having the same temperature.
 348395926676407194 Chaetopoda`A very extensive order of Annelida,
 348413172012070522 Gurgling-ly`In a gurgling manner.
 348498204148330276 Inirritative`Not accompanied with excitement; as, an inirritative fever.
@@ -5211,7 +5211,7 @@
 367441718864689962 Acne`A pustular affection of the skin,
 367457043569067762 Kieserite`Hydrous sulphate of magnesia found at the salt mines of Stassfurt,
 367527006597072392 Moulting`of Moult
-367555052540932644 Adze`A carpenter'
+367555052540932644 Adze`A carpenter's or cooper's tool,
 367596133090051472 Procrusteanized`of Procrusteanize
 367596171276292355 Ramble`To walk,#To talk or write in a discursive, aimless way.#To extend or grow at random.
 367675760069165552 Lecanomancy`divination practiced with water in a basin,
@@ -5281,7 +5281,7 @@
 371272686172759831 Foreprize`To prize or rate beforehand.
 371323033182329033 Undifferentiated`Not differentiated;
 371367939656382168 Avocate`To call off or away;
-371396049560257361 Expropriate`To put out of one'
+371396049560257361 Expropriate`To put out of one's possession;
 371405722805254868 Enharmonic`Alt. of Enharmonical
 371467079082517982 Disglory`Dishonor.
 371501810000752076 Spaed`of Spae
@@ -5664,7 +5664,7 @@
 399037000581742563 Shingling`of Shingle#The act of covering with shingles;#The process of expelling scoriae and other impurities by hammering and squeezing,
 399108787358453748 Figuline`A piece of pottery ornamented with representations of natural objects.
 399189924805589187 Drench`To cause to drink;#To steep in moisture;#A drink;
-399352623909616338 Self-help`The act of aiding one'
+399352623909616338 Self-help`The act of aiding one's self,
 399373109487257282 Infile`To arrange in a file or rank; to place in order.
 399438373837454328 Bramah press`A hydrostatic press of immense power,
 399504757550797562 Gamekeeper`One who has the care of game,
@@ -5781,7 +5781,7 @@
 404967066442552090 Teredos`of Teredo
 405060609141165316 Blow valve`See Snifting valve.
 405244442734160651 Reinthrone`See Reenthrone.
-405278978201056932 Brag`To talk about one'#To boast of.#A boast or boasting;
+405278978201056932 Brag`To talk about one's self,#To boast of.#A boast or boasting;
 405278991178233534 Brat`A coarse garment or cloak;#A coarse kind of apron for keeping the clothes clean; a bib.#A child;
 405285593566390890 Brun`Same as Brun, a brook.
 405389519606579308 Priestcraft`Priestly policy;
@@ -5819,7 +5819,7 @@
 408244579100364095 Amalgama`Same as Amalgam.
 408393241509040135 Certificate`A written testimony to the truth of any fact;#A written declaration legally authenticated.#To verify or vouch for by certificate.
 408443041386000140 Altercated`of Altercate
-408502847105809007 Coistril`An inferior groom or lad employed by an esquire to carry the knight'#A mean, paltry fellow; a coward.
+408502847105809007 Coistril`An inferior groom or lad employed by an esquire to carry the knight's arms and other necessaries.#A mean, paltry fellow; a coward.
 408574699561805902 Catechisation`The act of catechising.
 408634662801166377 Whiffet`A little whiff or puff.
 408914512789134243 Hollowness`State of being hollow.#Insincerity; unsoundness; treachery.
@@ -5913,7 +5913,7 @@
 415092633349579419 Brevetcies`of Brevetcy
 415106056801563421 Stevedore`One whose occupation is to load and unload vessels in port;
 415173567142790202 Deservedly`According to desert (whether good or evil); justly.
-415324421545206620 Natalitious`Of or pertaining to one'
+415324421545206620 Natalitious`Of or pertaining to one's birth or birthday,
 415485690845978795 Anarchical`Pertaining to anarchy;
 415493632929795614 Krems`A variety of white lead. See Krems lead, under Lead, n.
 415542488815630851 Flatfish`Any fish of the family Pleuronectidae;
@@ -6339,7 +6339,7 @@
 443719438273239291 Parodies`of Parody
 443744592033889129 Reservist`A member of a reserve force of soldiers or militia.
 443803360259008980 Shield`A broad piece of defensive armor,#Anything which protects or defends;#Figuratively, one who protects or defends.
-443925150443845981 Aplustre`An ornamental appendage of wood at the ship'
+443925150443845981 Aplustre`An ornamental appendage of wood at the ship's stern,
 443930042850468558 High-flown`Elevated; proud.#Turgid;
 443936008972935638 Grammarianism`The principles, practices, or peculiarities of grammarians.
 444330679592952891 Barology`The science of weight or gravity.
@@ -6530,7 +6530,7 @@
 459011629865352673 Opinionator`An opinionated person; one given to conjecture.
 459101174561666898 Slimed`of Slime
 459130286364854503 Speculating`of Speculate
-459242902850012696 Cardinal`Of fundamental importance;#One of the ecclesiastical princes who constitute the pope'#A woman's short cloak with a hood.
+459242902850012696 Cardinal`Of fundamental importance;#One of the ecclesiastical princes who constitute the pope's council,#A woman's short cloak with a hood.
 459339601959306100 Diarrhetic`Alt. of Diarrhoetic
 459354906864775850 Cardioid`An algebraic curve,
 459358930609927993 Gastrohysterotomy`Caesarean section. See under Caesarean.
@@ -6549,7 +6549,7 @@
 460206527333272657 Bullbeggar`Something used or suggested to produce terror,
 460355355605206795 Privities`of Privity
 460365414661698170 Muconate`A salt of muconic acid.
-460451605965869159 Noseband`That part of the headstall of a bridle which passes over a horse'
+460451605965869159 Noseband`That part of the headstall of a bridle which passes over a horse's nose.
 460509996017383399 Homely`Belonging to,#Plain;#Of plain or coarse features;
 460609853482663841 Stout-hearted`Having a brave heart; courageous.
 460756792662426307 Emblematist`A writer or inventor of emblems.
@@ -6784,7 +6784,7 @@
 477319030039154778 Individable`Indivisible.
 477325347798296236 Canicule`Canicula.
 477352913341438608 Doab`A tongue or tract of land included between two rivers;
-477353583163400142 Dock`A genus of plants (Rumex)#The solid part of an animal'#A case of leather to cover the clipped or cut tail of a horse.
+477353583163400142 Dock`A genus of plants (Rumex)#The solid part of an animal's tail,#A case of leather to cover the clipped or cut tail of a horse.
 477353906594570838 Dodd`Alt. of Dod
 477355574660886372 Doit`A small Dutch coin,#A thing of small value; as, I care not a doit.
 477358878849698112 Dost`of Do.
@@ -6883,7 +6883,7 @@
 483338376824214530 Centos`of Cento
 483388309495912177 Medina epoch`A subdivision of the Niagara period in the American upper Silurian,
 483519186863399606 Mendacious`Given to deception or falsehood;#False;
-483690478262510534 Overpersuade`To persuade or influence against one'
+483690478262510534 Overpersuade`To persuade or influence against one's inclination or judgment.
 483818521398677514 Systemic`Of or relating to a system;#Of or pertaining to the general system,
 483870446717192235 Precautional`Precautionary.
 483938782003643938 Gyromancy`A kind of divination performed by drawing a ring or circle,
@@ -7025,7 +7025,7 @@
 493874266508467057 Reingratiate`To ingratiate again or anew.
 494004213313760473 Theave`A ewe lamb of the first year; also, a sheep three years old.
 494045677359225317 Jointress`A woman who has a jointure.
-494410789019587542 Hall-mark`The official stamp of the Goldsmiths'
+494410789019587542 Hall-mark`The official stamp of the Goldsmiths' Company and other assay offices,
 494753330073029999 Flysch`A name given to the series of sandstones and schists overlying the true nummulitic formation in the Alps,
 494845704881992622 Breastwheel`A water wheel,
 494855162504146899 Subdelegate`A subordinate delegate, or one with inferior powers.#To appoint to act as subdelegate,
@@ -7634,7 +7634,7 @@
 535415428791879055 Zabian`See Sabian.
 535485592915310737 Muharram`The first month of the Mohammedan year.#A festival of the Shiah sect of the Mohammedans held during the first ten days of the month Mohurrum.
 535594483428900035 Interleaves`of Interleaf
-535620599426561693 Sororicide`The murder of one'
+535620599426561693 Sororicide`The murder of one's sister;
 535624907105643737 Redemand`To demand back; to demand again.#A demanding back; a second or renewed demand.
 535736440832298733 Pistareen`An old Spanish silver coin of the value of about twenty cents.
 535770755743941690 Described`of Describe
@@ -7972,7 +7972,7 @@
 558086382311913470 Reclaimable`That may be reclaimed.
 558155774853933590 Pulvilli`of Pulvillus
 558451709602270714 Epiblastic`Of or relating to, or consisting of, the epiblast.
-558461298043692641 Paternoster`The Lord'#A beadlike ornament in moldings.#A line with a row of hooks and bead/shaped sinkers.
+558461298043692641 Paternoster`The Lord's prayer,#A beadlike ornament in moldings.#A line with a row of hooks and bead/shaped sinkers.
 558496157421476689 Intentation`Intention.
 558570633849634651 Forealleged`of Foreallege
 558734053452243680 Panslavism`A scheme or desire to unite all the Slavic races into one confederacy.
@@ -8015,11 +8015,11 @@
 561385976362811779 Fratricelli`The name which St.#A sect which seceded from the Franciscan Order,
 561387315838508638 Vestlet`Any one of several species of actinians belonging to the genus Cerianthus.
 561417463558172221 Awned`Furnished with an awn, or long bristle-shaped tip; bearded.
-561597126279692682 Defamation`Act of injuring another'
+561597126279692682 Defamation`Act of injuring another's reputation by any slanderous communication,
 561621177067958283 Improvvisatrice`A female improvvisatore.
 561706688215853918 Sheetful`Enough to fill a sheet; as much as a sheet can hold.
 561874582479673087 Bavian`A baboon.
-561927857205714320 Butler`An officer in a king'
+561927857205714320 Butler`An officer in a king's or a nobleman's household,
 561981013004262449 Impulsively`In an impulsive manner.
 562040137630950796 Rhynchobdellea`A suborder of leeches including those that have a protractile proboscis,
 562064558373294181 Double-charge`To load with a double charge, as of gunpowder.#To overcharge.
@@ -8488,7 +8488,7 @@
 599580569934770440 Stelliferous`Having, or abounding with, stars.
 599771966538059594 Conjugality`The conjugal state; sexual intercourse.
 599880935978141689 Discorrespondent`Incongruous.
-599882719177653359 Reship`To ship again;#To engage one'
+599882719177653359 Reship`To ship again;#To engage one's self again for service on board of a vessel after having been discharged.
 600037651832071530 Buddhist`One who accepts the teachings of Buddhism.#Of or pertaining to Buddha, Buddhism, or the Buddhists.
 600160644260955785 Battered`of Batter
 600270671136757865 Irenical`Fitted or designed to promote peace;
@@ -8816,7 +8816,7 @@
 622158592132251921 Emblazoning`of Emblazon#The act or art of heraldic decoration;
 622159666822104828 Hoit`To leap; to caper; to romp noisily.
 622160663069970120 Holy`Set apart to the service or worship of God;#Spiritually whole or sound;
-622160973523964214 Home`See Homelyn.#One'#One'
+622160973523964214 Home`See Homelyn.#One's own dwelling place;#One's native land;
 622161303942845388 Hone`To pine; to lament; to long.#A kind of swelling in the cheek.#A stone of a fine grit,
 622161309932311512 Honk`The cry of a wild goose.
 622161640351192686 Hook`A piece of metal,#That part of a hinge which is fixed to a post,#An implement for cutting grass or grain;
@@ -9598,7 +9598,7 @@
 680709463904531659 Midrashim`of Midrash
 680862333080731490 Meditance`Meditation.
 681052683806322577 Rosarian`A cultivator of roses.
-681071437520909693 Polyautography`The act or practice of multiplying copies of one'
+681071437520909693 Polyautography`The act or practice of multiplying copies of one's own handwriting,
 681175842268672489 Interjoining`of Interjoin
 681326207986378721 Decastich`A poem consisting of ten lines.
 681381495461176906 Emptying`of Empty#The act of making empty.#The lees of beer, cider, etc.; yeast.
@@ -9626,7 +9626,7 @@
 683094340265002828 Dichotomist`One who dichotomizes.
 683193037597138449 Pteridologist`One who is versed in pteridology.
 683515610356491219 Oxyhaemoglobin`Alt. of Oxyhemoglobin
-683636487764760666 Accede`To approach; to come forward; -- opposed to recede.#To enter upon an office or dignity; to attain.#To become a party by associating one'
+683636487764760666 Accede`To approach; to come forward; -- opposed to recede.#To enter upon an office or dignity; to attain.#To become a party by associating one's self with others;
 683745577918075117 Snooze`A short sleep; a nap.#To doze; to drowse; to take a short nap; to slumber.
 683945006194014321 Updraw`To draw up.
 683972987240021969 Paradisiacal`Of or pertaining to paradise;
@@ -10045,7 +10045,7 @@
 719649132534242948 Completely`In a complete manner; fully.
 719695228770377212 Herdman`Alt. of Herdsman
 719741080552488803 Whereout`Out of which.
-720071092960307433 Stepsister`A daughter of one'
+720071092960307433 Stepsister`A daughter of one's stepfather or stepmother by a former marriage.
 720073005422927425 Quadratrix`A curve made use of in the quadrature of other curves;
 720073368267927405 Retinoid`Resinlike,
 720158846338921926 Mussulman`A Mohammedan; a Moslem.
@@ -10065,11 +10065,11 @@
 720971715283908428 Boyish`Resembling a boy in a manners or opinions;
 721186007536289881 Oenothionic`Pertaining to an acid now called sulphovinic,
 721196644063973391 Virgated`Striped; streaked.
-721213350153243779 Autoptical`Seen with one'
+721213350153243779 Autoptical`Seen with one's own eyes;
 721235121546235125 Typhomania`A low delirium common in typhus fever.
 721249002740327777 Moneyed`Supplied with money; having money; wealthy; as, moneyey men.#Converted into money; coined.#Consisting in, or composed of, money.
 721347407522623244 Knowingness`The state or quality of being knowing or intelligent;
-721365598786132181 Gunwale`The upper edge of a vessel'
+721365598786132181 Gunwale`The upper edge of a vessel's or boat's side;
 721405822812104691 Stylohyal`A segment in the hyoidean arch between the epihyal and tympanohyal.
 721590421979582171 Bezzled`of Bezzle
 721619776897806342 Silurian`Of or pertaining to the country of the ancient Silures;#The Silurian age.
@@ -10585,7 +10585,7 @@
 762222173260781362 Grimaced`Distorted; crabbed.
 762361256540503670 Bombolo`A thin spheroidal glass retort or flask,
 762571105922214198 Pseudobranchiae`of Pseudobranchia
-762716720337352213 Merrythought`The forked bone of a fowl'
+762716720337352213 Merrythought`The forked bone of a fowl's breast;
 762909241896269936 Omiletical`Homiletical.
 762933234045411022 Flourishes`of Flourish
 763046598778132727 Servantry`A body of servants; servants, collectively.
@@ -10700,7 +10700,7 @@
 770006743389713540 Semipellucidity`The qualiti or state of being imperfectly transparent.
 770052686338286654 Finable`Liable or subject to a fine;
 770106616010112791 Icteroid`Of a tint resembling that produced by jaundice;
-770161431674154424 Prostitution`The act or practice of prostituting or offering the body to an indiscriminate intercourse with men;#The act of setting one'
+770161431674154424 Prostitution`The act or practice of prostituting or offering the body to an indiscriminate intercourse with men;#The act of setting one's self to sale,
 770190038505742069 Right-handed`Using the right hand habitually,#Having the same direction or course as the movement of the hands of a watch seen in front;#Having the whorls rising from left to right;
 770411843477165764 Growthead`A lazy person; a blockhead.
 770554440482694132 Spooneye`of Spooney
@@ -11352,7 +11352,7 @@
 815040308482414745 Screw-driver`A tool for turning screws so as to drive them into their place.
 815094397692919926 Pyramidoid`A solid resembling a pyramid; -- called also pyramoid.
 815169759041842793 Discolorate`To discolor.
-815285087226836160 Apperception`The mind'
+815285087226836160 Apperception`The mind's perception of itself as the subject or actor in its own states;
 815739570028706542 Assoilzie`Alt. of Assoilyie
 815845935529508088 Turtle-shell`The turtle cowrie.
 815991966219571416 Notified`of Notify
@@ -11381,7 +11381,7 @@
 817090414180728010 Deprovincialize`To divest of provincial quality or characteristics.
 817245345222750792 Arrhizal`Alt. of Arrhizous
 817267467537568296 Tableed`of Table
-817269873672846777 Cognovit`An instrument in writing whereby a defendant in an action acknowledges a plaintiff'
+817269873672846777 Cognovit`An instrument in writing whereby a defendant in an action acknowledges a plaintiff's demand to be just.
 817287062377548355 Uncautelous`Incautious.
 817333077454936442 Panch`See Paunch.
 817342698304711207 Drugging`of Drug
@@ -11590,7 +11590,7 @@
 831473297957811861 Painty`Unskillfully painted,
 831539218683225758 Moderatrix`A female moderator.
 831540190011526880 Tales`Persons added to a jury,#The writ by which such persons are summoned.
-831543489209116850 Talon`The claw of a predaceous bird or animal,#One of certain small prominences on the hind part of the face of an elephant'#A kind of molding,
+831543489209116850 Talon`The claw of a predaceous bird or animal,#One of certain small prominences on the hind part of the face of an elephant's tooth.#A kind of molding,
 831571011849670214 Annotative`Characterized by annotations; of the nature of annotation.
 831603336149236730 Unswathe`To take a swathe from;
 831645893829013554 Opining`of Opine#Opinion.
@@ -11649,7 +11649,7 @@
 834905899987863414 Mamgabey`Any one of several African monkeys of the genus Cercocebus,
 834985150841778848 Ached`of Ache
 835097498252599778 Acini`of Acinus
-835125027160454159 Pectoriloquy`The distinct articulation of the sounds of a patient'
+835125027160454159 Pectoriloquy`The distinct articulation of the sounds of a patient's voice,
 835159933710532560 Womanliness`The quality or state of being womanly.
 835329814235049304 Nonbituminous`Containing no bitumen; not bituminous.
 835336526737104848 Babble`To utter words indistinctly or unintelligibly;#To talk incoherently; to utter unmeaning words.#To talk much; to chatter; to prate.
@@ -11704,7 +11704,7 @@
 838811869906098974 Production`The act or process or producing,#That which is produced,#The act of lengthening out or prolonging.
 838900756062134642 Place-proud`Proud of rank or office.
 839072031256513418 Nursed`of Nurse
-839123550507458571 Stepbrother`A brother by the marriage of one'
+839123550507458571 Stepbrother`A brother by the marriage of one's father with the mother of another,
 839363813566446282 Nock`A notch.#The upper fore corner of a boom sail or of a trysail.#To notch;
 839364475402452984 Noel`Same as Nowel.
 839365790090267202 Noie`To annoy. See Noy.
@@ -11813,7 +11813,7 @@
 846201516642073792 Pectinated`Resembling the teeth of a comb.#Having very narrow,#Interlaced, like two combs.
 846295064293048807 Multivalence`Quality,
 846303657157441865 Computable`Capable of being computed, numbered, or reckoned.
-846318470591376932 Clubhaul`To put on the other tack by dropping the lee anchor as soon as the wind is out of the sails (which brings the vessel'
+846318470591376932 Clubhaul`To put on the other tack by dropping the lee anchor as soon as the wind is out of the sails (which brings the vessel's head to the wind)
 846458263573116081 Anthesis`The period or state of full expansion in a flower.
 846518465777467529 Vulpinite`A scaly granular variety of anhydrite of a grayish white color,
 846605293584708533 Suggillation`A livid, or black and blue, mark; a blow; a bruise.
@@ -12182,7 +12182,7 @@
 871896414159975591 Deporting`of Deport
 872003448122309314 Limicolae`A group of shore birds,
 872043208500200085 Kingston valve`A conical valve,
-872049071282998878 Self-reproved`Reproved by one'
+872049071282998878 Self-reproved`Reproved by one's own conscience or one's own sense of guilt.
 872089526202553826 Lobelin`A yellowish green resin from Lobelia,
 872093991197906544 Flitches`of Flitch
 872234521135943380 Disbar`To expel from the bar,
@@ -12284,7 +12284,7 @@
 879484982238705669 Cymbling`A scalloped or "pattypan" variety of summer squash.
 879545439473408191 Rifleman`of Rifleman#A soldier armed with a rifle.
 879602114941535357 Emperished`Perished; decayed.
-879613194896184666 Shipboard`A ship'
+879613194896184666 Shipboard`A ship's side;
 879696773260356988 Affrayment`Affray.
 879794788603315312 Whisked`of Whisk
 880106706864006714 Incensation`The offering of incense.
@@ -12475,7 +12475,7 @@
 894262778292340556 Troupe`A company or troop,
 894339134922027448 Detect`Detected.#To uncover;#To inform against; to accuse.
 894467160706914465 Guardfish`The garfish.
-894477887971695308 Trowel`A mason'#A gardener'#A tool used for smoothing a mold.
+894477887971695308 Trowel`A mason's tool,#A gardener's tool,#A tool used for smoothing a mold.
 894587957178767140 Comradery`The spirit of comradeship; comradeship.
 894713489721038895 Phoronis`A remarkable genus of marine worms having tentacles around the mouth.
 894810578940269708 Hoyden`Same as Hoiden.
@@ -12546,7 +12546,7 @@
 899188013722399835 Cookies`of Cooky
 899326638377848523 Soloist`One who sings or plays a solo.
 899503746875565165 Zoophyte`Any one of numerous species of invertebrate animals which more or less resemble plants in appearance,#Any one of the Zoophyta.
-899560727231221062 Aquarian`Of or pertaining to an aquarium.#One of a sect of Christian in the primitive church who used water instead of wine in the Lord'
+899560727231221062 Aquarian`Of or pertaining to an aquarium.#One of a sect of Christian in the primitive church who used water instead of wine in the Lord's Supper.
 899580847144264964 Granulite`A whitish,
 899825493660719963 Parturifacient`A medicine tending to cause parturition,
 899932827584721177 Cloudland`Dreamland.
@@ -12685,7 +12685,7 @@
 910500072217460940 Illicium`A genus of Asiatic and American magnoliaceous trees,
 910520449600604353 Disengaging`of Disengage#Loosing; setting free; detaching.
 910541380357255454 Excito-nutrient`Exciting nutrition;
-910546762312627017 Wheelhouse`A small house on or above a vessel'#A paddle box.  See under Paddle.
+910546762312627017 Wheelhouse`A small house on or above a vessel's deck,#A paddle box.  See under Paddle.
 910551267779864331 Groundling`A fish that keeps at the bottom of the water, as the loach.#A spectator in the pit of a theater,
 910556024819037878 Bedel`Alt. of Bedell
 910576449256510483 Enlightener`One who enlightens or illuminates;
@@ -12704,7 +12704,7 @@
 911108987909525952 Pial`Pertaining to the pia mater.
 911111744438949883 Squire`A square; a measure; a rule.#A shield-bearer or armor-bearer who attended a knight.#A title of dignity next in degree below knight,
 911112635494395468 Pily`Like pile or wool.
-911112956929077456 Pimp`One who provides gratification for the lust of others;#To procure women for the gratification of others'
+911112956929077456 Pimp`One who provides gratification for the lust of others;#To procure women for the gratification of others' lusts;
 911113933212055668 Pipa`The Surinam toad (Pipa Americana)
 911113957169920164 Pipy`Like a pipe; hollow-stemmed.
 911114605030505910 Pirl`To spin, as a top.#To twist or twine, as hair in making fishing lines.
@@ -12725,7 +12725,7 @@
 911869449492372821 Inseparableness`The quality or state of being inseparable; inseparability.
 911880835435259567 Monologist`One who soliloquizes;
 912087842759183126 Bergh`A hill.
-912092138204638388 Berth`Convenient sea room.#A room in which a number of the officers or ship'#The place where a ship lies when she is at anchor,
+912092138204638388 Berth`Convenient sea room.#A room in which a number of the officers or ship's company mess and reside.#The place where a ship lies when she is at anchor,
 912093318733719900 Pray`See Pry.#To make request with earnestness or zeal,#To address earnest request to;
 912093794292021674 Beryl`A mineral of great hardness,
 912095942119882212 Prie`The plant privet.#To pry.
@@ -12890,7 +12890,7 @@
 923851043419946574 Appealing`of Appeal#That appeals; imploring.
 923864998502533646 Dijucating`of Dijudicate
 923876862360913831 Abscesses`of Abscess
-923932183242685610 Embezzle`To appropriate fraudulently to one'#To misappropriate; to waste; to dissipate in extravagance.
+923932183242685610 Embezzle`To appropriate fraudulently to one's own use,#To misappropriate; to waste; to dissipate in extravagance.
 924004905485620417 Apoplectic`Alt. of Apoplectical#One liable to, or affected with, apoplexy.
 924189267651879243 Polyneme`Any one of numerous species of tropical food fishes of the family Polynemidae.
 924208280792027210 Osteocolla`A kind of glue obtained from bones.#A cellular calc tufa,
@@ -13027,7 +13027,7 @@
 933872589850064660 Carouser`One who carouses; a reveler.
 933893211084088128 Friese`Same as Friesic, n.
 933931120698194362 Shattered`of Shatter
-934146757886443934 Geognosy`That part of geology which treats of the materials of the earth'
+934146757886443934 Geognosy`That part of geology which treats of the materials of the earth's structure,
 934171318462074606 Yernut`An earthnut, or groundnut.  See Groundnut (d).
 934261600633000881 Mephitis`Noxious,#A genus of mammals, including the skunks.
 934379835207146306 Hexad`An atom whose valence is six,
@@ -13297,7 +13297,7 @@
 952524489930824136 Pastime`That which amuses,#To sport; to amuse one's self.
 952652592363663895 Ostentatious`Fond of,
 952801258889011990 Pyjama`In India and Persia,
-953087649445527482 Self-delusion`The act of deluding one'
+953087649445527482 Self-delusion`The act of deluding one's self,
 953196916597752332 Infallible`Not fallible;#Not liable to fail,#Incapable of error in defining doctrines touching faith or morals.
 953296224024804421 Placenta`The vascular appendage which connects the fetus with the parent,#The part of a pistil or fruit to which the ovules or seeds are attached.
 953359008490202618 Overreaching`of Overreach
@@ -13610,7 +13610,7 @@
 975407517384425586 Sylvatic`Sylvan.
 975465575875918052 Blubbering`of Blubber#The act of weeping noisily.
 975519959593936079 Kokoon`The gnu.
-975581675394995744 Teens`The years of one'
+975581675394995744 Teens`The years of one's age having the termination -
 975608932293796324 Verdant`Covered with growing plants or grass;#Unripe in knowledge or judgment;
 975611201151277736 Unalloyed`Not alloyed;
 975667264469174556 Spilled`of Spill

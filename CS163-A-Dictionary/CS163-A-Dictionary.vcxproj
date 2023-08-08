@@ -25,6 +25,8 @@
     <ClCompile Include="Class_Struct\Trie\Trie.cpp" />
     <ClCompile Include="Functions\Features\Add-RemoveFavoriteWord\AddRemoveFavoriteWord.cpp" />
     <ClCompile Include="Functions\Features\AddNewWord\AddNewWord.cpp" />
+    <ClCompile Include="Functions\Features\DeleteWord\DeleteWord.cpp" />
+    <ClCompile Include="Functions\Features\EditDefinition\EditDefinition.cpp" />
     <ClCompile Include="Functions\Features\QuizFeature\Quiz.cpp" />
     <ClCompile Include="Functions\Features\SearchForDefinition\SearchForDefinition.cpp" />
     <ClCompile Include="Functions\Features\ViewFavoriteList\ViewFavoriteList.cpp" />
@@ -46,6 +48,8 @@
     <ClInclude Include="Class_Struct\Trie\Trie.h" />
     <ClInclude Include="Functions\Features\Add-RemoveFavoriteWord\AddRemoveFavoriteWord.h" />
     <ClInclude Include="Functions\Features\AddNewWord\AddNewWord.h" />
+    <ClInclude Include="Functions\Features\DeleteWord\DeleteWord.h" />
+    <ClInclude Include="Functions\Features\EditDefinition\EditDefinition.h" />
     <ClInclude Include="Functions\Features\QuizFeature\Quiz.h" />
     <ClInclude Include="Functions\Features\SearchForDefinition\SearchForDefinition.h" />
     <ClInclude Include="Functions\Features\ViewFavoriteList\ViewFavoriteList.h" />
